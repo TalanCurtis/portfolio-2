@@ -1,0 +1,21 @@
+@import 'reset';
+@import 'variables';
+@import 'extensions';
+@import 'globals';
+
+// app
+@import '../_App.scss';
+
+// Components
+// @import '../components/Header/_Header.scss';
+@import '../components/Header/_Header.scss';
+@import '../components/Footer/_Footer.scss';
+@import '../components/About/_About.scss';
+@import '../components/Intro/_Intro.scss';
+@import '../components/Contact/_Contact.scss';
+@import '../components/Portfolio/_Portfolio.scss';
+@import '../components/Skills/_Skills.scss';
+
+// Views
+// @import '../views/ATestSecretArea/_ATestSecretArea.scss';
+
