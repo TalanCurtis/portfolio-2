@@ -6,4 +6,12 @@
   grid-template-columns: repeat(3, 1fr); 
   justify-items: center;
   align-items: center;
+  .logo {
+    padding-left: 10px;
+    justify-self: flex-start;
+  }
+  .nav {
+    padding-right: 10px;
+    justify-self: flex-end;
+  }
 } 

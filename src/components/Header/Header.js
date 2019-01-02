@@ -4,7 +4,7 @@ import LogoSvg from '../../images/LogoSvg';
 const Header = () => {
   return (
     <div className = "Header">
-      <LogoSvg size = "60"/>
+      <LogoSvg className = "logo" size = "60"/>
       <div>Alan Curtis</div>
       <div className = "nav">
         <button>Intro</button>
