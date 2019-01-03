@@ -1,7 +1,11 @@
 import React from 'react';
 
 const BurgerSvg = (props) => {
-  const {className, height, width, fill , stroke, strokeWidth, onClick } = props
+  let {className, size, height, width, fill , stroke, strokeWidth, onClick } = props;
+  if(size){
+    height = size;
+    width = size;
+  }
   return (
     <svg id="burger" viewBox="0 0 32 32" className={className} height={height} width={width} fill={fill} stroke={stroke} strokeWidth={strokeWidth} onClick={onClick}>
       <path

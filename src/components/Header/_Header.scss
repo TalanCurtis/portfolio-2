@@ -3,15 +3,18 @@
   width: 100vw;
   height: 80px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(2, auto); 
   justify-items: center;
   align-items: center;
-  .logo {
-    padding-left: 10px;
-    justify-self: flex-start;
-  }
   .nav {
     padding-right: 10px;
     justify-self: flex-end;
   }
-} 
+  .title {
+    display: flex;
+    justify-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+}

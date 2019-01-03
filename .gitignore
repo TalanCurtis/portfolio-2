@@ -24,3 +24,4 @@ yarn-error.log*
 
 # SASS 
 src/**/*.css
+designs/portfolio_mockup.xd

@@ -7,14 +7,14 @@ import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
-import Intro from './components/Intro/Intro';
+// import Intro from './components/Intro/Intro';
 
 class App extends Component {
   render() {
     return (
       <div className="App"> 
         <Header />
-        <Intro />
+        {/* <Intro /> */}
         <About />
         <Skills />
         <Portfolio />

@@ -9,28 +9,53 @@ body {
   align-items: center;
 }
 
-// Headers
+// Font sizes
 .h1 {
-  font-size: 4rem;
+  font-size: 2.9rem;
 }
 
 .h2 {
-  font-size: 3rem;
+  font-size: 2.1rem;
 }
 
 .h3 {
-  font-size: 2.5rem;
+  font-size: 1.4rem;
 }
 
 .h4 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
-.h5 {
-  font-size: 1.5rem;
+
+// buttons 
+button { 
+  margin: 5px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
-.h6 {
-  font-size: 1.2rem;
+// display hide and show screen size 
+
+.d-m-hide {
+  @media (max-width: 500px) {
+    display: none;
+  }
+}   
+.d-m-show {
+  @media (min-width: 500px) {
+    display: none;
+  }
+}
+
+.d-t-hide {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}   
+.d-t-show {
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
 
