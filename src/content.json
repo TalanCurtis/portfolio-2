@@ -1,0 +1,123 @@
+{
+    "projects":{},
+    "skills": {
+        "programming": {
+            "cards": [
+                {
+                    "id": 0,
+                    "image": "JavaScript-Icon.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "id": 1,
+                    "image": "NodeJs-Icon.png",
+                    "title": "NodeJs"
+                },
+                {
+                    "id": 2,
+                    "image": "Css3-Icon.png",
+                    "title": "CSS3"
+                },
+                {
+                    "id": 3,
+                    "image": "Html5-Icon.png",
+                    "title": "Html 5"
+                },
+                {
+                    "id": 4,
+                    "image": "PostgreSQL-Icon.png",
+                    "title": "PostgreSQL"
+                },
+                {
+                    "id": 5,
+                    "image": "Express-Icon.png",
+                    "title": "Express"
+                },
+                {
+                    "id": 6,
+                    "image": "Python-Icon.png",
+                    "title": "Python"
+                },
+                {
+                    "id": 7,
+                    "image": "React-Icon.png",
+                    "title": "React"
+                },
+                {
+                    "id": 8,
+                    "image": "CSharp-Icon.png",
+                    "title": "CSharp"
+                },
+                {
+                    "id": 9,
+                    "image": "Git-Icon.png",
+                    "title": "Git"
+                },
+                {
+                    "id": 10,
+                    "image": "GreenSock-Icon.png",
+                    "title": "GreenSock"
+                },
+                {
+                    "id": 11,
+                    "image": "Sass-Icon.png",
+                    "title": "Sass"
+                },
+                {
+                    "id": 12,
+                    "image": "Redux-Icon.png",
+                    "title": "Redux"
+                },
+                {
+                    "id": 13,
+                    "image": "Unity-Icon.png",
+                    "title": "Unity"
+                },
+                {
+                    "id": 14,
+                    "image": "UnrealEngine-Icon.png",
+                    "title": "Unreal 4"
+                }
+            ]
+        },
+        "art": {
+            "cards": [
+                {
+                    "id": 0,
+                    "image": "AdobePhotoshop-Icon.png",
+                    "title": "Photoshop"
+                },
+                {
+                    "id": 1,
+                    "image": "AbobeIllustrator-Icon.png",
+                    "title": "Illustrator"
+                },
+                {
+                    "id": 2,
+                    "image": "AdobeAfterEffects-Icon.png",
+                    "title": "AfterEffects"
+                },
+                {
+                    "id": 3,
+                    "image": "Maya-Icon.png",
+                    "title": "Maya"
+                },
+                {
+                    "id": 4,
+                    "image": "ZBrush-Icon.png",
+                    "title": "ZBrush"
+                },
+                {
+                    "id": 3,
+                    "image": "SubstanceDesigner-Icon.png",
+                    "title": "Designer"
+                },
+                {
+                    "id": 4,
+                    "image": "SubstancePainter-Icon.png",
+                    "title": "Painter"
+                }
+            ]
+        }
+    }
+}
