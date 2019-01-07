@@ -1,3 +1,33 @@
 .About {
-  background-color: red;
+  max-width: 768px;
+  display: grid;
+  justify-items: center;
+  .skill-cards {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    .skill-card {  
+      width: 250px;
+      display: grid;
+      justify-items: center;
+      text-align: center;
+    }
+  }
+  .me {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    .photo {
+      grid-column:  1;
+      justify-self: center;
+    }
+    .h3 {
+      justify-self: center;
+
+    }
+    p {
+      justify-self: center;
+      text-align: center;
+    }
+  }
 } 
