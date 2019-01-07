@@ -19,22 +19,22 @@ const About = () => {
 
       <div className="skill-cards">
         <div className="skill-card">
-          <AnimatorSvg size="50px" />
+          <AnimatorSvg size="60px" />
           <div className="h3"> Animator </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis possimus animi veniam cum voluptate, similique minus facilis laborum error at labore illo. Earum quas dolorum alias unde non.</p>
         </div>
         <div className="skill-card">
-          <ArtistSvg size="50px" />
+          <ArtistSvg size="60px" />
           <div className="h3"> Artist </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis possimus animi veniam cum voluptate, similique minus facilis laborum error at labore illo. Earum quas dolorum alias unde non.</p>
         </div>
         <div className="skill-card">
-          <EngineerSvg size="50px" />
+          <EngineerSvg size="60px" />
           <div className="h3"> Engineer </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis possimus animi veniam cum voluptate, similique minus facilis laborum error at labore illo. Earum quas dolorum alias unde non.</p>
         </div>
       </div>
-     <hr style={{width:"100%"}}/>
+     <hr style={{width:"98%"}}/>
     </div>
   )
 }
