@@ -1,5 +1,24 @@
 {
-    "projects":{},
+    "projects":[
+        {
+            "title": "project 1",
+            "image": "local path",
+            "link": "url to site",
+            "tags": ["react", "redux", "css"]
+        },
+        {
+            "title": "project 2",
+            "image": "local path",
+            "link": "url to site",
+            "tags": ["react", "html", "css"]
+        },
+        {
+            "title": "project 3",
+            "image": "local path",
+            "link": "url to site",
+            "tags": ["css"]
+        }
+    ],
     "skills": {
         "programming": {
             "cards": [

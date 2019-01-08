@@ -24,11 +24,13 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
       justify-self: center;
+      grid-gap: 5px;
       .skill-card {
         display: grid;
         justify-content: center;
         justify-items: center;
         text-align: center;
+        grid-gap: 5px;
       }
     }
   }
