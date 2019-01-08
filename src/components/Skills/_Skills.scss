@@ -1,17 +1,35 @@
 .Skills {
   max-width: 768px;
+  width: 80%;
   display: grid;
   justify-items: center;
+  .title {
+    margin: 15px 0 0 0;
+  }
   .skill-section {
+    width: 100%;
     display: grid;
     grid-template-rows: auto 1fr;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns:1fr;
     .sub-header {
       display: flex;
       width: 100%;
       align-items: center;
       grid-row: 1;
       grid-column: 1/ -1;
+      margin: 10px 0 10px 0;
+    }
+    .skill-cards {
+      width: 90%;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      justify-self: center;
+      .skill-card {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+      }
     }
   }
 } 

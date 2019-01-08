@@ -1,5 +1,6 @@
 .About {
   max-width: 768px;
+  padding: 0px 15px 0px 15px;
   display: grid;
   justify-items: center;
   .skill-cards {
@@ -28,6 +29,8 @@
     p {
       justify-self: center;
       text-align: center;
+      margin: 10px 0 10px 0;
+      
     }
   }
 } 
