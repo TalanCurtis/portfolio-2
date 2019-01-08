@@ -1,22 +1,34 @@
 {
     "projects":[
         {
-            "title": "project 1",
-            "image": "local path",
-            "link": "url to site",
+            "id":0,
+            "title": "Paint Your Pixture",
+            "contentImages": ["PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg"],
+            "coverImage": "PaintYourPixture_cover.JPG",
+            "link": "https://paint.alancurtisdev.com/",
+            "gitHub": "https://github.com/TalanCurtis/front-end-paint-01",
+            "description": "This was a challenge to take a static images from designer to functional site.",
             "tags": ["react", "redux", "css"]
         },
         {
-            "title": "project 2",
-            "image": "local path",
-            "link": "url to site",
-            "tags": ["react", "html", "css"]
+            "id":1,
+            "title": "Akrasia",
+            "contentImages": ["PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg"],
+            "coverImage": "Akrasia.JPG",
+            "link": "https://paint.alancurtisdev.com/",
+            "gitHub": "https://github.com/TalanCurtis/front-end-paint-01",
+            "description": "This was a challenge to take a static images from designer to functional site.",
+            "tags": ["react", "redux", "css"]
         },
         {
-            "title": "project 3",
-            "image": "local path",
-            "link": "url to site",
-            "tags": ["css"]
+            "id":2,
+            "title": "O Captain",
+            "contentImages": ["PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg"],
+            "coverImage": "OCaptain.JPG",
+            "link": "https://paint.alancurtisdev.com/",
+            "gitHub": "https://github.com/TalanCurtis/front-end-paint-01",
+            "description": "This was a challenge to take a static images from designer to functional site.",
+            "tags": ["react", "redux", "css"]
         }
     ],
     "skills": {

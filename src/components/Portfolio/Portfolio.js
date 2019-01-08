@@ -6,12 +6,14 @@ const Portfolio = () => {
     let projects = content.projects.map((x,i)=>{
       return (
               <div key={i} className="project-card">
-                  <img src={`/images/icons/${x.image}`}  style={{width:"60px"}}alt={x.image}/>
-                  <div className="h4">{x.title}</div>
+                  <img src={`/images/projects/${x.coverImage}`} alt={x.coverImage}/>
+                  <div className="header">
+                    <div className="h3">{x.title}</div>
+                  </div>                  
               </div>
       )
     })  
-    
+
   return (
     <div className = "Portfolio">
       <div className="title">
