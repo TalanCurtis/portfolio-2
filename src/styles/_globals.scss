@@ -29,8 +29,10 @@ body {
 
 // buttons 
 button { 
+  // background-color: blue;
+  padding:8px;
   margin: 5px;
-  &:hover {
+    &:hover {
     cursor: pointer;
   }
 }

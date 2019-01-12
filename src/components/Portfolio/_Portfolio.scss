@@ -3,8 +3,10 @@
   width: 80%;
   display: grid;
   justify-items: center;
-  .title {
-    margin: 15px 0 0 0;
+  .title{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
   }
   .project-container {
     display: grid;

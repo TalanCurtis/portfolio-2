@@ -3,6 +3,11 @@
   padding: 0px 15px 0px 15px;
   display: grid;
   justify-items: center;
+  .title{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
   .skill-cards {
     display: grid;
     width: 100%;

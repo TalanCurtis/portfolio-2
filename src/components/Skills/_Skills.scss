@@ -3,17 +3,20 @@
   width: 80%;
   display: grid;
   justify-items: center;
-  .title {
-    margin: 15px 0 0 0;
+  .title{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
   }
   .skill-section {
-    width: 100%;
+    width: 80%;
     display: grid;
     grid-template-rows: auto 1fr;
     grid-template-columns:1fr;
+    justify-items: center;
     .sub-header {
       display: flex;
-      width: 100%;
+      width: 90%;
       align-items: center;
       grid-row: 1;
       grid-column: 1/ -1;

@@ -26,13 +26,28 @@ class Contact extends Component{
   render(){
     return (
       <div className = "Contact">
-        <label htmlFor="">Name</label>
-        <input type="text" className="name" title="name" onChange={this.handleInput}/>
-        <label htmlFor="">Email</label>
-        <input type="text" className="email"  title="email" onChange={this.handleInput}/>
-        <label htmlFor="">Message</label>
-        <textarea className="message"  title="message" name="message" rows="10" cols="30" onChange={this.handleInput}></textarea>
-        <button onClick={this.sendEmail}>Send Email</button>
+        <div className="title">
+          <div className="h2">Contact</div>
+          <hr style={{width:"98%"}}/>
+        </div>
+          <div className="h3">Lets Work Together!</div>
+          <div className="h4">Leave your name and email with a message and I will get back to you.</div>
+        <div className="content">
+          <div className="name h3">
+            <label htmlFor="">Name</label>
+            <input type="text"  title="name" onChange={this.handleInput}/>
+          </div>
+          <div className="email h3">
+            <label htmlFor="">Email</label>
+            <input type="text"  title="email" onChange={this.handleInput}/>
+          </div>
+          <div className="message h3">
+            <label htmlFor="">Message</label>
+            <textarea className="message"  title="message" name="message" rows="10"  onChange={this.handleInput}></textarea>
+          </div>
+          <button className="h3" onClick={this.sendEmail}>Send Email</button>
+
+        </div>
       </div>
     )
   }

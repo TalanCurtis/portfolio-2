@@ -1,3 +1,49 @@
 .Contact {
-  background-color: red;
+  max-width: 768px;
+  width: 80%;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  .title{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    width: 80%;
+    grid-gap: 10px;
+    justify-items: center;
+    text-align: center;
+    margin-top: 10px;
+    .name {
+      grid-column: 1 / 2;
+      label {
+        margin:10px;
+      }
+      input {
+        width: 100%;
+      }
+    }
+    .email {
+      grid-column: 2 / 3;
+      label {
+        margin:10px;
+      }
+      input {
+        width: 100%;
+      }
+    }
+    .message {
+      grid-column: 1 / -1;
+      width: 100%;
+      label {
+        margin:10px;
+      }
+    }
+    button {
+      grid-column: 2 / -1;
+    }
+  }
 } 
