@@ -1,4 +1,9 @@
 .App {
-  display : grid;
-  justify-items: center;
+  width: 100%;
+  .grid-container {
+    width: 100%; 
+    display : grid;
+    justify-items: center;
+    justify-content: center;
+  }
 }

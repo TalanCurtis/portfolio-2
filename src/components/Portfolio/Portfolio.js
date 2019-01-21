@@ -1,16 +1,12 @@
 import React from 'react';
 import content from '../../content.json';
+import PortfolioCard from '../PortfolioCard/PortfolioCard';
 
 const Portfolio = () => {
 
     let projects = content.projects.map((x,i)=>{
       return (
-              <div key={i} className="project-card">
-                  <img src={`/images/projects/${x.coverImage}`} alt={x.coverImage}/>
-                  <div className="header">
-                    <div className="h3">{x.title}</div>
-                  </div>                  
-              </div>
+        <PortfolioCard  key={i} item={x} index={i} />
       )
     })  
 
