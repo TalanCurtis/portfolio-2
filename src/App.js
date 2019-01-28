@@ -12,14 +12,15 @@ import About from './components/About/About';
 class App extends Component {
   render() {
     return (
-      <div className="App"> 
+      <div className="App">
+        <Header />
         <div className="grid-container">
-          <Header />
+         
           {/* <Intro /> */}
           <About />
           <Skills />
-          {/* <Portfolio /> */}
-          {/* <Contact /> */}
+          <Portfolio />
+          <Contact />
           {/* <Footer /> */}
         </div>
       </div>

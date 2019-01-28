@@ -1,6 +1,6 @@
 .Contact {
   max-width: 768px;
-  width: 80%;
+  width: 100%;
   display: grid;
   justify-items: center;
   text-align: center;
@@ -47,3 +47,25 @@
     }
   }
 } 
+
+@media (max-width: 550px) {
+  .Contact {
+    .content{
+      grid-template-columns:  1fr;
+      .name {
+        grid-column: 1;
+      }
+      .email {
+        grid-column: 1;
+      }
+      .message {
+        grid-column: 1 ;
+      }
+      button {
+        grid-column: 1;
+      }
+
+      }
+    }
+  }
+  

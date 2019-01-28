@@ -1,7 +1,13 @@
 .About {
+  max-width: 768px;
   width: 100%;
   display: grid;
   justify-items: center;
+  .title{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
   .grid {
     display: grid;
     justify-items: center;
