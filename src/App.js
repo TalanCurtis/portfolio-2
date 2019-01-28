@@ -7,9 +7,21 @@ import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
+import { connect } from 'react-redux';
+import { showModal } from './redux/reducers/modal/modalActions';
+import Modal from './components/Modal/Modal';
+
 // import Intro from './components/Intro/Intro';
 
 class App extends Component {
+  handleShowModal = () => {
+    this.props.showModal(true)
+  }
+
+  handleCloseModal = () => {
+    this.props.showModal(false)
+  }
+
   render() {
     return (
       <div className="App">
@@ -23,9 +35,24 @@ class App extends Component {
           <Contact />
           {/* <Footer /> */}
         </div>
+        <button onClick={()=>console.log(this.props)}>LOG</button>
+        <button onClick={this.handleShowModal}>show</button>
+        <button onClick={this.handleCloseModal}>close</button>
+        <Modal />
+
       </div>
     );
   }
 }
 
-export default App;
+const outputActions = {
+  showModal
+}
+
+function mapStateToProps (state) {
+  return {
+    modal:state.modal
+  }
+}
+
+export default connect(mapStateToProps, outputActions)(App);
