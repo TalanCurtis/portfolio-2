@@ -27,7 +27,7 @@ class PortfolioCard extends Component {
 
   return (
     <div className={`PortfolioCard PortfolioCard${this.props.index}`} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} onClick={this.handleOnClick}>
-      <img src={`/images/projects/${this.props.item.coverImage}`} alt={this.props.item.coverImage}/>
+      <img src={`/images/projects/${this.props.item.directory}/${this.props.item.coverImage}`} alt={this.props.item.coverImage}/>
       <div className="header">
         <div className="h3">{this.props.item.title}</div>
       </div>               

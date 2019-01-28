@@ -3,6 +3,7 @@
         {
             "id":0,
             "title": "Paint Your Pixture",
+            "directory":"PaintYourPixture",
             "contentImages": ["PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg"],
             "coverImage": "PaintYourPixture_cover.JPG",
             "link": "https://paint.alancurtisdev.com/",
@@ -13,6 +14,7 @@
         {
             "id":1,
             "title": "Akrasia",
+            "directory":"Akrasia",
             "contentImages": ["PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg"],
             "coverImage": "Akrasia.JPG",
             "link": "https://paint.alancurtisdev.com/",
@@ -23,6 +25,7 @@
         {
             "id":2,
             "title": "O Captain",
+            "directory":"OCaptain",
             "contentImages": ["PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg"],
             "coverImage": "OCaptain.JPG",
             "link": "https://paint.alancurtisdev.com/",
