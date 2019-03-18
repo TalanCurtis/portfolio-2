@@ -6,8 +6,10 @@
             "directory":"PaintYourPixture",
             "contentImages": ["PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg","PaintYourPixture.jpg"],
             "coverImage": "PaintYourPixture_cover.JPG",
-            "link": "https://paint.alancurtisdev.com/",
-            "gitHub": "https://github.com/TalanCurtis/front-end-paint-01",
+            "links": [
+                {"title": "site", "link": "www.google.com"},
+                {"title": "github", "link": "www.google.com"}
+            ],
             "description": "This was a challenge to take a static images from designer to functional site.",
             "tags": ["react", "redux", "css"]
         },
