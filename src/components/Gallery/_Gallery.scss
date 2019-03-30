@@ -1,0 +1,56 @@
+.Gallery {
+  background-color: green;
+  width: 728px;
+  height: 100%; 
+  .carousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    grid-column:  1 / -1;
+    grid-row: 1 ;
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+  .btn{
+    height: 50px;
+    width: 50px;
+    background-color:green;
+  }
+  .button-left {
+     grid-column: 1;
+     grid-row: 1;
+  }
+  .button-right {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: flex-end;
+  }
+  .tick-container {
+    grid-column: 1 / -1;
+    background-color: purple;
+    display:flex;
+    justify-content: center;
+    .tick {
+      margin: 5px;
+      width: 10px;
+      height: 10px;
+      background-color: grey; 
+      &.active {
+        background: orange;
+      }
+    }
+
+  }
+}
