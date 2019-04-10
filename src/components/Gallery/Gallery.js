@@ -11,17 +11,12 @@ class Gallery extends Component {
     }
     this.tl = new TimelineLite();
   }
-  componentDidMount(){
-    console.log("I mounted")
-  }
-  componentWillUnmount(){
-    console.log("I unmounted")
-  }
+
   componentDidUpdate(prevProps){
     console.log("i updated", prevProps, this.props)
     if (this.props.modal.directory !== prevProps.modal.directory){
       this.setState({index:0})
-      this.tl.to(".slider", .5, {x:"0%",  ease:Power0.easeNone})
+      this.tl.set(".slider", {x:"0%",  ease:Power0.easeNone})
     }
   }
 
