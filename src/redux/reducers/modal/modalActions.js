@@ -15,10 +15,7 @@ export function showModal(bool, modalObj) {
     tl.to(".Modal", 0 , {display:'none'})
   }
 
-  const payload = {showModal: bool }
+  const payload = {showModal: bool, ...modalObj }
   const type = SHOW_MODAL
   return {type, payload};
 }
-
-
-

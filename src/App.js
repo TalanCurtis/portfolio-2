@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import "./styles/main.css";
 
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
-import Test from './components/Test/Test';
+// import Test from './components/Test/Test';
 import { connect } from 'react-redux';
 import { showModal } from './redux/reducers/modal/modalActions';
 import Modal from './components/Modal/Modal';
@@ -26,20 +26,24 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <div>
+        <button onClick={()=>console.log(this.props)}>LOG</button>
+        <button onClick={this.handleShowModal}>show</button>
+        <button onClick={this.handleCloseModal}>close</button>
+      </div>
+
         <Header />
         <div className="grid-container">
          
           {/* <Intro /> */}
-          <Test />
+          {/* <Test /> */}
           <About />
           <Skills />
           <Portfolio />
           <Contact />
           {/* <Footer /> */}
         </div>
-        <button onClick={()=>console.log(this.props)}>LOG</button>
-        <button onClick={this.handleShowModal}>show</button>
-        <button onClick={this.handleCloseModal}>close</button>
+
         <Modal />
 
       </div>

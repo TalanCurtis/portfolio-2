@@ -12,16 +12,13 @@ class PortfolioCard extends Component {
   }
 
    handleMouseEnter = () => {
-    console.log("mouse enter");
     TweenMax.to(`.PortfolioCard${this.props.index}`, .25, {scale:1.03 , zIndex:100, boxShadow:"5px 5px red , -5px -5px  red,  5px -5px  red,  -5px 5px  red"});
   }
    handleMouseLeave = () => {
-    console.log("mouse Leave");
     TweenMax.to(`.PortfolioCard${this.props.index}`, .25, {scale:1 ,zIndex:1, boxShadow:"0px 0px 0px none"});
   }
    handleOnClick = () => {
-    console.log("on click", this.props);
-    this.props.showModal(true);
+    this.props.showModal(true, this.props.item);
   }
   render() {
 

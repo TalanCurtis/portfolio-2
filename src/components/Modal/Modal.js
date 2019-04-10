@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import { showModal } from '../../redux/reducers/modal/modalActions';
+import _ from 'lodash';
+import Gallery from '../Gallery/Gallery';
 
 class Modal extends Component {
   constructor(props){
@@ -17,44 +19,33 @@ class Modal extends Component {
     this.props.showModal(false)
   }
 
+  handleContentClick = (e) => {
+    e.stopPropagation();
+  }
+
   render(){
-    let body = this.props.modal.body.map((x,i)=>{
-      if (x.includes(".mp4")){
-        return(
-        <video width="320" height="240" controls>
-          <source src={`./images/projects/${this.props.modal.activeProject}/${x}`} type="video/mp4" />
-           Your browser does not support the video tag.
-        </video> 
-        )  
-      } else {
-        return(
-          <div key={i} style={{}}>
-            <img style={{maxHeight:"100%", maxWidth:"100%"}} src={`./images/projects/${this.props.modal.activeProject}/${x}`} alt=""/>
-          </div>
-        )
-      }
-    })
-
-    let footer =  this.props.modal.footer.map((x,i)=>{return(
-      <div key={i}>
-        {x.title}: {x.link}
-      </div>
-    )})
-
+    let links = _.map(this.props.modal.links, (x,i)=>{
+      return(
+        <div key={i} >
+          <div>{x.title}</div>
+          <div>{x.link}</div>
+        </div>
+      );
+    });
 
     return(
         <div className="Modal" onClick={this.handleCloseModal}>
-          <div className="content">
+          <div className="content" onClick={this.handleContentClick}>
             <div className="header">
-              {this.props.modal.header}
+              {this.props.modal.title}
               <button onClick={this.handleCloseModal}>X</button>
             </div>
-            <div className="body">
-              {body[0]}
+            <div className="body" style={{width:"100%"}}>
+              <Gallery />
             </div>
             <div className="footer">
               <div>{this.props.modal.description}</div>
-              {footer}
+              {links}
             </div>
           </div>
         </div>
