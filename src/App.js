@@ -27,15 +27,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <div>
-        <button onClick={()=>console.log(this.props)}>LOG</button>
-        <button onClick={this.handleShowModal}>show</button>
-        <button onClick={this.handleCloseModal}>close</button>
-      </div>
-
         <Header />
         <div className="grid-container">
-         
           {/* <Intro /> */}
           {/* <Test /> */}
           <About />
