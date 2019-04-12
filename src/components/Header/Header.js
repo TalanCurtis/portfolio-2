@@ -18,7 +18,7 @@ const Header = () => {
         <button className = "h3" >Portfolio</button>
         <button className = "h3 " >Contact</button>
       </div>
-      <BurgerSvg className = "d-t-show" size = "60"/>
+      <BurgerSvg className = "d-t-show" size = "50"/>
     </div>
   )
 }
