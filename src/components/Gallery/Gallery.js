@@ -20,12 +20,16 @@ class Gallery extends Component {
     }
   }
 
-
   handleLeft=()=>{
     console.log("handleLeft", this.state)
     if (this.state.index > 0){
       this.tl.to(".slider", .5, {x:"+=100%",  ease:Power0.easeNone})
       this.setState({index: this.state.index - 1 })
+    }
+    if (this.state.index === 0){
+      let totalOffset = (this.props.modal.contentImages.length -1) * 100;
+      this.tl.to(".slider", .5, {x:`-=${totalOffset}%`,  ease:Power0.easeNone})
+      this.setState({index: this.props.modal.contentImages.length -1 }) 
     }
   }
 
@@ -34,6 +38,11 @@ class Gallery extends Component {
     if (this.state.index < this.props.modal.contentImages.length -1){
       this.tl.to(".slider", .5, {x:"-=100%", ease:Power0.easeNone})
       this.setState({index: this.state.index + 1})
+    }
+    if ( this.state.index === this.props.modal.contentImages.length -1){
+      console.log("the end");
+      this.tl.to(".slider", .5, {x:"0%", ease:Power0.easeNone})
+      this.setState({index: 0})
     }
   }
   
