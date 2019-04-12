@@ -36,5 +36,13 @@
     .body {
       background-color: purple;
     }
+    .footer {
+      .links{
+        display: flex;
+        div {
+          margin-left: 5px;
+        }
+      }
+    }
   }
 }

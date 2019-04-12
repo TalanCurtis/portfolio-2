@@ -52,11 +52,11 @@ class Gallery extends Component {
         <div className="carousel">
             {images}
         </div>
-        <div>
-        <button onClick={this.handleLeft} >Left</button>
-        <button onClick={this.handleRight} >Right</button>
+        <div className="nav">
+          <button onClick={this.handleLeft} >{"<"}</button>
+          <div> {`${this.state.index + 1} of ${this.props.modal.contentImages.length}`}</div>
+          <button onClick={this.handleRight} >{">"}</button>
         </div>
-
       </div>
     )
   }

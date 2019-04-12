@@ -17,9 +17,16 @@
       display: grid;
       justify-items: center;
       align-content: center;
+      transition: height 2s; 
       img {
         max-width: 90%;
       }
+
     }
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

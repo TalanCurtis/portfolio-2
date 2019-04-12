@@ -7,8 +7,8 @@
             "contentImages": ["PaintYourPixture.jpg","PaintYourPixture_cover.jpg","PaintYourPixture.jpg","PaintYourPixture_cover.jpg"],
             "coverImage": "PaintYourPixture_cover.JPG",
             "links": [
-                {"title": "site", "link": "www.google.com"},
-                {"title": "github", "link": "www.google.com"}
+                {"title": "site", "link": "https://www.google.com/"},
+                {"title": "github", "link": "https://www.google.com/"}
             ],
             "description": "This was a challenge to take a static images from designer to functional site.",
             "tags": ["react", "redux", "css"]
@@ -19,8 +19,10 @@
             "directory":"Akrasia",
             "contentImages": ["Akrasia.jpg","Akrasia.jpg","Akrasia.jpg"],
             "coverImage": "Akrasia.JPG",
-            "link": "https://paint.alancurtisdev.com/",
-            "gitHub": "https://github.com/TalanCurtis/front-end-paint-01",
+            "links": [
+                {"title": "site", "link": "https://www.google.com/"},
+                {"title": "github", "link": "https://www.google.com/"}
+            ],
             "description": "This was a challenge to take a static images from designer to functional site.",
             "tags": ["react", "redux", "css"]
         },
@@ -30,8 +32,10 @@
             "directory":"OCaptain",
             "contentImages": ["OCaptain.jpg","OCaptain.jpg","OCaptain.jpg","OCaptain.jpg"],
             "coverImage": "OCaptain.JPG",
-            "link": "https://paint.alancurtisdev.com/",
-            "gitHub": "https://github.com/TalanCurtis/front-end-paint-01",
+            "links": [
+                {"title": "site", "link": "https://www.google.com/"},
+                {"title": "github", "link": "https://www.google.com/"}
+            ],
             "description": "This was a challenge to take a static images from designer to functional site.",
             "tags": ["react", "redux", "css"]
         }

@@ -26,9 +26,9 @@ class Modal extends Component {
   render(){
     let links = _.map(this.props.modal.links, (x,i)=>{
       return(
-        <div key={i} >
+        <div key={i} className="links">
           <div>{x.title}</div>
-          <div>{x.link}</div>
+          <div> <a href={x.link} target="_blank" >{x.link}</a></div>
         </div>
       );
     });
