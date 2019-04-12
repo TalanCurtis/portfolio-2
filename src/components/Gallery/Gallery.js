@@ -44,11 +44,24 @@ class Gallery extends Component {
   
   render(){
     let images = _.map(this.props.modal.contentImages, (x,i)=>{
-      return (
-        <div key={i} className="slider">
-          <img src={`./images/projects/${this.props.modal.directory}/${x}`} alt={x}/>
-        </div>
-      );
+      let fileType = x.split(".");
+      fileType = fileType[1];
+      if (fileType === "jpg"){
+        return (
+          <div key={i} className="slider">
+            <img src={`./images/projects/${this.props.modal.directory}/${x}`} alt={x}/>
+          </div>
+        );
+      } else if ( fileType === "mp4"){
+        return (
+          <div key={i} className="slider">
+            <video controls >
+              <source src={`./images/projects/${this.props.modal.directory}/${x}`} type="video/mp4" />
+            </video>
+          </div>
+        );
+      }
+
     });
 
     return (

@@ -4,7 +4,7 @@
             "id":0,
             "title": "Paint Your Pixture",
             "directory":"PaintYourPixture",
-            "contentImages": ["PaintYourPixture.jpg","PaintYourPixture_cover.jpg","PaintYourPixture.jpg","PaintYourPixture_cover.jpg"],
+            "contentImages": ["kronk.mp4","PaintYourPixture_cover.jpg","PaintYourPixture.jpg","PaintYourPixture_cover.jpg"],
             "coverImage": "PaintYourPixture_cover.JPG",
             "links": [
                 {"title": "site", "link": "https://www.google.com/"},
