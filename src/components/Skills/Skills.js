@@ -27,7 +27,9 @@ const Skills = () => {
       <div className="skill-section">
         <div className="sub-header">
           <div className="h3">Programming</div> 
-           <hr style={{width:"98%"}}/>
+          <div className="hr-container">
+           <hr />
+          </div>
         </div>
         <div className="skill-cards"> 
           {programming} 
@@ -36,7 +38,10 @@ const Skills = () => {
       <div className="skill-section">
         <div className="sub-header">
           <div className="h3">Art</div> 
-           <hr style={{width:"98%"}}/>
+          <div className="hr-container">
+            <hr />
+          </div>
+          
         </div>
         <div className="skill-cards"> 
           {art} 

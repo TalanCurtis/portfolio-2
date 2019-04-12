@@ -1,4 +1,6 @@
 .About {
+  // margin top to account for header.
+  margin-top: 80px;
   max-width: 768px;
   width: 100%;
   display: grid;
@@ -16,6 +18,9 @@
       display:grid;
       justify-items: center;
       text-align: center;
+      .photo {
+        margin: 10px 0px;
+      }
     }
     .skill-cards {
       display: grid;
