@@ -28,7 +28,7 @@ class Modal extends Component {
       return(
         <div key={i} className="links">
           <div>{x.title}</div>
-          <div> <a href={x.link} target="_blank" >{x.link}</a></div>
+          <div> <a href={x.link} target="_blank" rel="noopener noreferrer">{x.link}</a></div>
         </div>
       );
     });
