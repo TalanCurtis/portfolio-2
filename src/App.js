@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./styles/main.css";
 
 import Header from './components/Header/Header';
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Skills from './components/Skills/Skills';
@@ -35,8 +35,8 @@ class App extends Component {
           <Skills />
           <Portfolio />
           <Contact />
-          {/* <Footer /> */}
         </div>
+        <Footer />
 
         <Modal />
 

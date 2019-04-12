@@ -1,7 +1,10 @@
 .App {
   width: 100%;
+  background-color: grey;
   .grid-container {
+    background-color: white;
     width: 100%; 
+    max-width: 1200px;
     display : grid;
     justify-items: center;
     justify-content: center;
