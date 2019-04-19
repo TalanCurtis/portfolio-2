@@ -13,24 +13,26 @@ class SearchBar extends Component {
         }
       })
     })
-    console.log(tags)
     let tagList = _.map(tags, (x,i)=>{
       return(
-        <div key={i}>
+        <div key={i} value={x} onClick={()=>this.handleFilter(x)} style={{margin:'10px'}}>
           {x}
         </div>
       )
     })
-    console.log(tagList)
     return tagList;
+  }
+
+  handleFilter(e){
+    console.log(e)
+    this.props.handleFilter(e);
   }
 
   render(){
     console.log(content)
     
     return(
-      <div>
-        SearchBar
+      <div style={{display:'flex'}}>
         {this.getAllTags()}
       </div>
     )

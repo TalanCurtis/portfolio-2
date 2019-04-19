@@ -11,7 +11,7 @@
                 {"title": "github", "link": "https://www.google.com/"}
             ],
             "description": "This was a challenge to take a static images from designer to functional site.",
-            "tags": ["react", "redux", "css"]
+            "tags": ["react", "redux"]
         },
         {
             "id":1,
@@ -24,7 +24,7 @@
                 {"title": "github", "link": "https://www.google.com/"}
             ],
             "description": "This was a challenge to take a static images from designer to functional site.",
-            "tags": ["react", "redux", "css"]
+            "tags": [ "css"]
         },
         {
             "id":2,
@@ -37,7 +37,7 @@
                 {"title": "github", "link": "https://www.google.com/"}
             ],
             "description": "This was a challenge to take a static images from designer to functional site.",
-            "tags": ["react", "redux", "css"]
+            "tags": ["react", "css"]
         }
     ],
     "skills": {
