@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import content from '../../content.json';
 import _ from 'lodash';
 
-class SearchBar extends Component {
+class Filter extends Component {
 
   getAllTags =()=>{
     let tags = [];
@@ -39,4 +39,4 @@ class SearchBar extends Component {
   }
 }
 
-export default SearchBar;
+export default Filter;

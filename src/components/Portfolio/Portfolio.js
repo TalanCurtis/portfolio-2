@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import content from '../../content.json';
 import PortfolioCard from '../PortfolioCard/PortfolioCard';
-import SearchBar from '../SearchBar/SearchBar';
+import Filter from '../Filter/Filter';
 import _ from 'lodash';
 
 class Portfolio extends Component {
@@ -54,7 +54,7 @@ class Portfolio extends Component {
           <div className="h2">Portfolio</div>
           <hr style={{width:"98%"}}/>
         </div>
-        <SearchBar handleFilter={this.handleFilter}/>
+        <Filter handleFilter={this.handleFilter}/>
         <div className="project-container">
           {projects}
         </div>
