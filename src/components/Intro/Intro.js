@@ -135,8 +135,8 @@ class Intro extends Component {
 
   render(){
     return (
-      <div className = "Intro" id="Intro">
-        <canvas className="canvas" style={{backgroundColor:"blue", height:"100%", width:"100%" }}></canvas>
+      <div className = "Intro" id="Intro" style={{backgroundColor:"blue", height:"100%", width:"100%", marginTop:"60px" }}>
+        <canvas className="canvas" style={{backgroundColor:"yellow", height:"100%", width:"100%" }}></canvas>
       </div>
     )
   }
