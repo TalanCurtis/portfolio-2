@@ -7,13 +7,18 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 const About = () => {
   return (
     <div className = "About" id="About">
+      <SectionHeader title="About"/>
       <div className="grid">
-        <SectionHeader title="About"/>
         <div className="me">
-          <div className="h3"> Hello, I am Alan. </div>
-          <div className="photo" style={{backgroundColor:'grey', height:'250px', width:'250px'}}> my photo </div> 
-          <p className="h4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti porro atque repudiandae nulla libero magni omnis, aspernatur adipisci molestiae molestias accusantium iste explicabo rem optio voluptatem. Rem impedit quia ipsa, unde vero odit explicabo ab nemo perspiciatis maiores ipsam veritatis. Dolores voluptatem, quo ipsum, a eos pariatur doloremque totam, explicabo ab deleniti cum labore quasi blanditiis quae adipisci vero?
-          </p>
+          {/* <div className="photo" style={{backgroundColor:'grey', height:'250px', width:'250px'}}> my photo </div>  */}
+          <img src="./images/assets/Alan_01.jpg" alt="profile"/>
+          <div className="text">
+            <div className="h2 title"> Hello, I am Alan. </div>
+            <div className="h5 subtitle">Web Developer | Technical Artist</div>
+            <div className="separator"></div>
+            <p className="h4 info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti porro atque repudiandae nulla libero magni omnis, aspernatur adipisci molestiae molestias accusantium iste explicabo rem optio voluptatem. Rem impedit quia ipsa, unde vero odit explicabo ab nemo perspiciatis maiores ipsam veritatis. Dolores voluptatem, quo ipsum, a eos pariatur doloremque totam, explicabo ab deleniti cum labore quasi blanditiis quae adipisci vero?
+            </p>
+          </div>
         </div>
 
         <div className="skill-cards">

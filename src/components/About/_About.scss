@@ -1,6 +1,30 @@
 .About {
   // margin top to account for header.
   margin-top: 60px;
+  .grid {
+    .me {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      justify-content: center;
+      align-items: flex-end;
+      img {
+        margin: 20px;
+      }
+      .text {
+        margin-bottom: 20px;
+        margin-right: 20px;
+        .title {
+          margin-bottom: 8px;
+        }
+        .subtitle {
+          margin-bottom: 6px;
+        }
+        .info {
+          margin-top: 6px;
+        }
+      }
+    }
+  }
   // max-width: 768px;
   // width: 100%;
   // display: grid;

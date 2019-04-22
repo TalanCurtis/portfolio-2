@@ -21,6 +21,12 @@ body {
   align-items: center;
 }
 
+.separator{
+  width: 100%;
+  height: 2px;
+  background-color: $greyDark;
+}
+
 // Font sizes
 .h1 {
   font-size: 2rem;
