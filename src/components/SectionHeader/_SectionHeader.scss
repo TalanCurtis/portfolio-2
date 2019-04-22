@@ -1,0 +1,22 @@
+.SectionHeader {
+  background-color: green;
+  background-image: url("/images/assets/bgImage-02.jpg");
+  background-size: 1200px 147px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid $greyDark;
+  border-top: 2px solid $greyDark;
+  hr {
+    width: 100%;
+  }
+  .title {
+    font-family: $pt-sans-narrow;
+    margin: 8px;
+    color: $white;
+    text-shadow: 2px 2px $greyDark;
+  }
+}

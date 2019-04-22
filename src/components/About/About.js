@@ -2,15 +2,13 @@ import React from 'react';
 import AnimatorSvg from '../../images/AnimatorSvg';
 import ArtistSvg from '../../images/ArtistSvg';
 import EngineerSvg from '../../images/EngineerSvg';
+import SectionHeader from '../SectionHeader/SectionHeader';
 
 const About = () => {
   return (
     <div className = "About">
       <div className="grid">
-        <div className="title">
-          <div className="h2">About</div>
-          <hr/>
-        </div>
+        <SectionHeader title="About"/>
         <div className="me">
           <div className="h3"> Hello, I am Alan. </div>
           <div className="photo" style={{backgroundColor:'grey', height:'250px', width:'250px'}}> my photo </div> 

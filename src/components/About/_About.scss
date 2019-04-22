@@ -1,50 +1,50 @@
 .About {
   // margin top to account for header.
-  margin-top: 80px;
-  max-width: 768px;
-  width: 100%;
-  display: grid;
-  justify-items: center;
-  .title{
-    width: 100%;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .grid {
-    display: grid;
-    justify-items: center;
-    padding: 10px;
-    .me {
-      display:grid;
-      justify-items: center;
-      text-align: center;
-      .photo {
-        margin: 10px 0px;
-      }
-    }
-    .skill-cards {
-      display: grid;
-      grid-template-columns: 1fr;
-      justify-items: center;
-      margin: 10px 0px;
-      .skill-card {  
-        display: grid;
-        justify-items: center;
-        text-align: center;
-      }
-    }
-  }
+  margin-top: 60px;
+  // max-width: 768px;
+  // width: 100%;
+  // display: grid;
+  // justify-items: center;
+  // .title{
+  //   width: 100%;
+  //   margin-top: 20px;
+  //   text-align: center;
+  // }
+  // .grid {
+  //   display: grid;
+  //   justify-items: center;
+  //   padding: 10px;
+  //   .me {
+  //     display:grid;
+  //     justify-items: center;
+  //     text-align: center;
+  //     .photo {
+  //       margin: 10px 0px;
+  //     }
+  //   }
+  //   .skill-cards {
+  //     display: grid;
+  //     grid-template-columns: 1fr;
+  //     justify-items: center;
+  //     margin: 10px 0px;
+  //     .skill-card {  
+  //       display: grid;
+  //       justify-items: center;
+  //       text-align: center;
+  //     }
+  //   }
+  // }
 }
 
 @media (min-width: 768px) {
 .About {
-  .grid{
-    .skill-cards {
-      grid-template-columns: 1fr 1fr 1fr;
-      .skill-card {
-        width: 80%;
-      }
-    }
-  }
+  // .grid{
+  //   .skill-cards {
+  //     grid-template-columns: 1fr 1fr 1fr;
+  //     .skill-card {
+  //       width: 80%;
+  //     }
+  //   }
+  // }
   }
 }
