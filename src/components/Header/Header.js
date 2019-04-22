@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import LogoSvg from '../../images/LogoSvg';
-import BurgerSvg from '../../images/BurgerSvg';
+// import BurgerSvg from '../../images/BurgerSvg';
 import { Power0, TimelineLite } from 'gsap';
+import _ from 'lodash';
 
 class Header extends Component {
   constructor(props){
     super(props);
     this.state = {
       isOpen: false,
+      activeButton: 'About',
+      sections:["Intro", "About", "Skills", "Portfolio", "Contact"]
     }
     this.tl = new TimelineLite();
   }
@@ -22,6 +25,21 @@ class Header extends Component {
     }
   }
 
+  handleNavSelected=(e)=>{
+   this.setState({activeButton:e.target.value})
+
+  }
+  renderButtons(){
+    let buttons = _.map( this.state.sections, (x,i)=>{
+      let isActive = x === this.state.activeButton ? "nav-active": ""
+      return(
+        <button key={i} className = { `h2 nav ${isActive}`} value={x} onClick={this.handleNavSelected}>{x}</button>
+      )
+    }
+    );
+    return buttons;
+  }
+
   render(){
     return (
       <div className = "Header">
@@ -32,19 +50,7 @@ class Header extends Component {
           </div>
         </div>
         <div className = "nav">
-          <button className = "h3" >Intro</button>
-          <button className = "h3" >About</button>
-          <button className = "h3" >Skills</button>
-          <button className = "h3" >Portfolio</button>
-          <button className = "h3 " >Contact</button>
-        </div>
-        <BurgerSvg className = "burger " size = "50" onClick={this.handleMenu}/>
-        <div className="sliding-menu ">
-          <button className = "h3" >Intro</button>
-          <button className = "h3" >About</button>
-          <button className = "h3" >Skills</button>
-          <button className = "h3" >Portfolio</button>
-          <button className = "h3 " >Contact</button>
+          {this.renderButtons()}
         </div>
       </div>
     )
