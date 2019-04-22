@@ -3,6 +3,7 @@ import content from '../../content.json';
 import PortfolioCard from '../PortfolioCard/PortfolioCard';
 import Filter from '../Filter/Filter';
 import _ from 'lodash';
+import SectionHeader from '../SectionHeader/SectionHeader';
 
 class Portfolio extends Component {
   constructor(props){
@@ -31,7 +32,6 @@ class Portfolio extends Component {
             }
           }
         }
-  
       }
     }
   
@@ -50,10 +50,7 @@ class Portfolio extends Component {
     })  
     return (
       <div className = "Portfolio">
-        <div className="title">
-          <div className="h2">Portfolio</div>
-          <hr style={{width:"98%"}}/>
-        </div>
+       <SectionHeader title="About"/>
         <Filter handleFilter={this.handleFilter}/>
         <div className="project-container">
           {projects}

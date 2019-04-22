@@ -1,50 +1,51 @@
 .Skills {
-  max-width: 768px;
   width: 100%;
-  display: grid;
-  justify-items: center;
-  .title{
-    width: 100%;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .skill-section {
-    width: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    grid-template-columns:1fr;
-    justify-items: center;
-    .sub-header {
-      display: flex;
-      flex-direction: row;
-      width: 90%;
-      align-items: center;
-      grid-row: 1;
-      grid-column: 1/ -1;
-      margin: 10px 0 10px 0;
-      justify-content: flex-end;
-      .hr-container {
-        justify-self: flex-end;
-        width: 100%;
-        display: flex;
-        hr {
-          width: 98%;
-        }
-      }
-    }
-    .skill-cards {
-      width: 90%;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-      justify-self: center;
-      grid-gap: 5px;
-      .skill-card {
-        display: grid;
-        justify-content: center;
-        justify-items: center;
-        text-align: center;
-        grid-gap: 5px;
-      }
-    }
-  }
+  // max-width: 768px;
+  
+  // display: grid;
+  // justify-items: center;
+  // .title{
+  //   width: 100%;
+  //   margin-top: 20px;
+  //   text-align: center;
+  // }
+  // .skill-section {
+  //   width: 100%;
+  //   display: grid;
+  //   grid-template-rows: auto 1fr;
+  //   grid-template-columns:1fr;
+  //   justify-items: center;
+  //   .sub-header {
+  //     display: flex;
+  //     flex-direction: row;
+  //     width: 90%;
+  //     align-items: center;
+  //     grid-row: 1;
+  //     grid-column: 1/ -1;
+  //     margin: 10px 0 10px 0;
+  //     justify-content: flex-end;
+  //     .hr-container {
+  //       justify-self: flex-end;
+  //       width: 100%;
+  //       display: flex;
+  //       hr {
+  //         width: 98%;
+  //       }
+  //     }
+  //   }
+  //   .skill-cards {
+  //     width: 90%;
+  //     display: grid;
+  //     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  //     justify-self: center;
+  //     grid-gap: 5px;
+  //     .skill-card {
+  //       display: grid;
+  //       justify-content: center;
+  //       justify-items: center;
+  //       text-align: center;
+  //       grid-gap: 5px;
+  //     }
+  //   }
+  // }
 } 

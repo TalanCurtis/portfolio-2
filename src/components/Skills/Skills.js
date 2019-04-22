@@ -1,5 +1,6 @@
 import React from 'react';
 import content from '../../content.json';
+import SectionHeader from '../SectionHeader/SectionHeader';
 
 const Skills = () => {
   let programming = content.skills.programming.cards.map((x,i)=>{
@@ -20,10 +21,7 @@ const Skills = () => {
   })
   return (
     <div className = "Skills">
-      <div className="title">
-        <div className="h2">Skills</div>
-        <hr style={{width:"98%"}}/>
-      </div>
+      <SectionHeader title="Skills"/>
       <div className="skill-section">
         <div className="sub-header">
           <div className="h3">Programming</div> 

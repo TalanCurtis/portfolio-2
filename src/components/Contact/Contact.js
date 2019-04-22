@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import SectionHeader from '../SectionHeader/SectionHeader';
 
 class Contact extends Component{
   constructor(props){
@@ -26,10 +27,7 @@ class Contact extends Component{
   render(){
     return (
       <div className = "Contact">
-        <div className="title">
-          <div className="h2">Contact</div>
-          <hr style={{width:"98%"}}/>
-        </div>
+        <SectionHeader title="Skills"/>
           <div className="h3">Lets Work Together!</div>
           <div className="h4">Leave your name and email with a message and I will get back to you.</div>
         <div className="content">
