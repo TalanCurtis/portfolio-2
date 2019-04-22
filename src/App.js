@@ -7,7 +7,7 @@ import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
-// import Intro from './components/Intro/Intro';
+import Intro from './components/Intro/Intro';
 // import Test from './components/Test/Test';
 import { connect } from 'react-redux';
 import { showModal } from './redux/reducers/modal/modalActions';
@@ -29,7 +29,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="grid-container">
-          {/* <Intro /> */}
+          <Intro />
           {/* <Test /> */}
           <About />
           <Skills />

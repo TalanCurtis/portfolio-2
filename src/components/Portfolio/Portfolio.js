@@ -49,8 +49,8 @@ class Portfolio extends Component {
       )
     })  
     return (
-      <div className = "Portfolio">
-       <SectionHeader title="About"/>
+      <div className = "Portfolio" id="Portfolio">
+       <SectionHeader title="Portfolio"/>
         <Filter handleFilter={this.handleFilter}/>
         <div className="project-container">
           {projects}

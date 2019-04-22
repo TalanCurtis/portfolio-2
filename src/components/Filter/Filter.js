@@ -29,7 +29,6 @@ class Filter extends Component {
   }
 
   render(){
-    console.log(content)
     
     return(
       <div style={{display:'flex'}}>

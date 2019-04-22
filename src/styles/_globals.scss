@@ -5,9 +5,13 @@
 $pt-sans: 'PT Sans', sans-serif;
 $pt-sans-narrow: 'PT Sans Narrow', sans-serif;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 14px;
-  font-family: $pt-sans
+  font-family: $pt-sans;
 }
 
 .App {

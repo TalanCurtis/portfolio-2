@@ -6,7 +6,7 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 
 const About = () => {
   return (
-    <div className = "About">
+    <div className = "About" id="About">
       <div className="grid">
         <SectionHeader title="About"/>
         <div className="me">
