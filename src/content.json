@@ -40,6 +40,23 @@
             "tags": ["react", "css"]
         }
     ],
+    "aboutCards":[
+        {
+            "id":0,
+            "title": "Engineer",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti porro atque repudiandae nulla libero magni omnis, aspernatur adipisci molestiae molestias accusantium iste explicabo rem optio voluptatem. Rem impedit quia ipsa, unde vero odit explicabo ab nemo perspiciatis maiores ipsam veritatis. "
+        },
+        {
+            "id":1,
+            "title": "Artist",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti porro atque repudiandae nulla libero magni omnis, aspernatur adipisci molestiae molestias accusantium iste explicabo rem optio voluptatem. Rem impedit quia ipsa, unde vero odit explicabo ab nemo perspiciatis maiores ipsam veritatis. "
+        },
+        {
+            "id":2,
+            "title": "Animator",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti porro atque repudiandae nulla libero magni omnis, aspernatur adipisci molestiae molestias accusantium iste explicabo rem optio voluptatem. Rem impedit quia ipsa, unde vero odit explicabo ab nemo perspiciatis maiores ipsam veritatis. "
+        }
+    ],
     "skills": {
         "programming": {
             "cards": [

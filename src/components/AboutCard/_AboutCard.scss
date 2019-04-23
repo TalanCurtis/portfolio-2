@@ -1,0 +1,17 @@
+.AboutCard {
+  // background-color: yellow;
+  display: grid;
+  max-width: 256px;
+  grid-template-columns: 1fr auto;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 16px;
+  margin-bottom: 20px;
+  .title {
+    font-family: $pt-sans-narrow;
+  }
+  .description {
+    margin-top: 5px;
+    grid-column: 1 / -1;
+  }
+}
