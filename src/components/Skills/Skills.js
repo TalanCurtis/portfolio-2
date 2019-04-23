@@ -1,22 +1,18 @@
 import React from 'react';
 import content from '../../content.json';
 import SectionHeader from '../SectionHeader/SectionHeader';
+import SkillCard from '../SkillCard/SkillCard';
 
 const Skills = () => {
   let programming = content.skills.programming.cards.map((x,i)=>{
     return (
-            <div key={i} className="skill-card">
-                <img src={`/images/icons/${x.image}`}  style={{width:"60px"}}alt={x.image}/>
-                <div className="h4">{x.title}</div>
-            </div>
+      <SkillCard key={i} content={x}/>
     )
   })
+
   let art = content.skills.art.cards.map((x,i)=>{
     return (
-            <div key={i} className="skill-card">
-                <img src={`/images/icons/${x.image}`}  style={{width:"60px"}}alt={x.image}/>
-                <div className="h4">{x.title}</div>
-            </div>
+      <SkillCard key={i} content={x}/>
     )
   })
   return (
@@ -24,13 +20,16 @@ const Skills = () => {
       <SectionHeader title="Skills"/>
       <div className="skill-section">
         <div className="sub-header">
-          <div className="h3">Programming</div> 
-          <div className="hr-container">
-           <hr />
+          <div className="h2">Programming</div> 
+          <div className="filters-container">
+            <div className="filters"> filters</div>
           </div>
         </div>
-        <div className="skill-cards"> 
-          {programming} 
+        <div className="separator"></div>
+        <div className="skill-cards-container"> 
+          <div className="grid">
+            {programming} 
+          </div>
         </div>
       </div>
       <div className="skill-section">

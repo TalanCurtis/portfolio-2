@@ -2,38 +2,38 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-    .me {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-      width: 100%;
-      img {
-        margin: 20px;
-        height: 250px;
-        border-radius: 10px;
+  .me {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    img {
+      margin: 20px;
+      height: 250px;
+      border-radius: 10px;
+    }
+    .text {
+      margin-bottom: 20px;
+      margin-right: 20px;
+      .title {
+        margin-bottom: 8px;
       }
-      .text {
-        margin-bottom: 20px;
-        margin-right: 20px;
-        .title {
-          margin-bottom: 8px;
-        }
-        .subtitle {
-          margin-bottom: 6px;
-        }
-        .info {
-          margin-top: 6px;
-          max-width: 500px;
-        }
+      .subtitle {
+        margin-bottom: 6px;
+      }
+      .info {
+        margin-top: 6px;
+        max-width: 500px;
       }
     }
-    .aboutCards-container {
-      display: flex;
-      justify-content: space-around;
-      .AboutCard:nth-child(odd) {
-        background: $greenAccent;
-      }
+  }
+  .aboutCards-container {
+    display: flex;
+    justify-content: space-around;
+    .AboutCard:nth-child(odd) {
+      background: $greenAccent;
     }
+  }
 }
 
 @media (max-width: 568px) {
