@@ -20,8 +20,8 @@ const About = () => {
             <div className="h2 title"> Hello, I am Alan. </div>
             <div className="h5 subtitle">Web Developer | Technical Artist</div>
             <div className="separator"></div>
-            {/* <p className="h4 info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti porro atque repudiandae nulla libero magni omnis, aspernatur adipisci molestiae molestias accusantium iste explicabo rem optio voluptatem. Rem impedit quia ipsa, unde vero odit explicabo ab nemo perspiciatis maiores ipsam veritatis. Dolores voluptatem, quo ipsum, a eos pariatur doloremque totam, explicabo ab deleniti cum labore quasi blanditiis quae adipisci vero? */}
-            {/* </p> */}
+            <p className="h4 info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti porro atque repudiandae nulla libero magni omnis, aspernatur adipisci molestiae molestias accusantium iste explicabo rem optio voluptatem. Rem impedit quia ipsa, unde vero odit explicabo ab nemo perspiciatis maiores ipsam veritatis. Dolores voluptatem, quo ipsum, a eos pariatur doloremque totam, explicabo ab deleniti cum labore quasi blanditiis quae adipisci vero?
+            </p>
           </div>
         </div>
         <div className="aboutCards-container">

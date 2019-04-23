@@ -3,11 +3,9 @@
   background-color: $greyLight;
   .grid-container {
     margin-top: 60px;
-    background-color: white;
+    background-color: $white;
     width: 100%; 
     max-width: 1200px;
     display : grid;
-    justify-items: center;
-    justify-content: center;
   }
 }
