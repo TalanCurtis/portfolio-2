@@ -13,7 +13,6 @@ const About = () => {
   return (
     <div className = "About" id="About">
       <SectionHeader title="About"/>
-      <div className="grid">
         <div className="me">
           <img src="./images/assets/Alan_01.jpg" alt="profile"/>
           <div className="text">
@@ -27,7 +26,6 @@ const About = () => {
         <div className="aboutCards-container">
           {aboutCards}
         </div>
-      </div>
     </div>
   )
 }
