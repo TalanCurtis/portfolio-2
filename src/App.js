@@ -29,8 +29,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="grid-container">
-          <Intro />
           {/* <Test /> */}
+          <Intro />
           <About />
           <Skills />
           <Portfolio />
