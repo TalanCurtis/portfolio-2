@@ -27,7 +27,7 @@ class Contact extends Component{
   render(){
     return (
       <div className = "Contact" id="Contact">
-        <SectionHeader title="Skills"/>
+        <SectionHeader title="Contact"/>
           <div className="h3">Lets Work Together!</div>
           <div className="h4">Leave your name and email with a message and I will get back to you.</div>
         <div className="content">
