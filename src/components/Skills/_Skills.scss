@@ -2,30 +2,67 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  .sub-header {
-    display: flex;
-    margin: 16px ;
-    justify-content: center;
-    align-items: center;
-    .filters-container {
+  // justify-content: center;
+  // align-items: center;
+  .container {
+    align-self: center;
+    width: 90%;
+    .sub-header {
+      display: flex;
+      margin: 16px ;
+      justify-content: center;
+      align-items: center;
+      .filters-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+      }
+    }
+    .skill-cards-container {
       width: 100%;
       display: flex;
       justify-content: center;
-      align-items: center;
-      background-color: red;
-    }
-  }
-  .skill-cards-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    .grid{    
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
+      margin: 20px 0px;
+      .grid{    
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-row-gap: 10px;
+        align-content: center;
+        justify-items: center;
+        width: 100%;
+        max-width: 690px;
+      }
+    }  
+    .art-skills {
       width: 100%;
-      max-width: 800px;
+      .info {
+        display: grid;
+        grid-template-columns: 300px auto;
+        .card {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          margin: 10px;
+          padding:10px;
+          .sub-header-art {
+            margin-bottom: 5px;
+          }
+        }
+        .bullet-points {
+          margin: 10px;
+          ol {
+            list-style-type: circle;
+            li {
+              margin: 8px;
+            }
+          }
+        }
+      }
     }
   }
+
   // max-width: 768px;
   
   // display: grid;

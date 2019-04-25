@@ -15,35 +15,67 @@ const Skills = () => {
       <SkillCard key={i} content={x}/>
     )
   })
+
+  let artSkillsList = [
+    "Web Design", "Concept Art", "Graphic Design", "2D Animation", "3D Animation", "Rigging", "Story Boarding", "Animatics", "Color Theory", "Composition"
+  ]
+  
+  let artSkills = artSkillsList.map((x,i)=>{
+    return(
+      <li className="h3">{x}</li>
+    )
+  })
   return (
     <div className = "Skills" id="Skills">
       <SectionHeader title="Skills"/>
-      <div className="skill-section">
-        <div className="sub-header">
-          <div className="h2">Programming</div> 
-          <div className="filters-container">
-            <div className="filters"> filters</div>
+      <div className="container">
+        <div className="skill-section">
+          <div className="sub-header">
+            <div className="h2">Programming</div> 
+            <div className="filters-container">
+              <div className="filters"> filters</div>
+            </div>
           </div>
-        </div>
-        <div className="separator"></div>
-        <div className="skill-cards-container"> 
-          <div className="grid">
-            {programming} 
+          <div className="separator"></div>
+          <div className="skill-cards-container"> 
+            <div className="grid">
+              {programming} 
+            </div>
           </div>
+          <div className="separator"></div>
         </div>
+        <div className="skill-section">
+          <div className="sub-header">
+            <div className="h2">Art</div> 
+            <div className="filters-container">
+              <div className="filters"> filters</div>
+            </div>
+          </div>
+          <div className="separator"></div>
+          <div className="skill-cards-container"> 
+            <div className="grid">
+              {art} 
+            </div>
+
+          </div>
+          <div className="art-skills">
+            <div className="info">
+              <div className="card">
+                <div className="sub-header-art h2">Artistic Skills</div>
+                <div className="description h4">After being a professional artist for many years you acquire a wide set of skills: From global juggernauts like Electronic Arts to freelance graphic design.</div>
+              </div>
+              <div className="bullet-points">
+                <ol>
+                  {artSkills}
+                </ol>
+
+              </div>
+            </div>
+
+          </div>
+         </div>
       </div>
-      <div className="skill-section">
-        <div className="sub-header">
-          <div className="h3">Art</div> 
-          <div className="hr-container">
-            <hr />
-          </div>
-          
-        </div>
-        <div className="skill-cards"> 
-          {art} 
-        </div>
-      </div>
+
     </div>
   )
 }
