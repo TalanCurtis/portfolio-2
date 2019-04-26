@@ -33,7 +33,7 @@ const Skills = () => {
           <div className="sub-header">
             <div className="h2">Programming</div> 
             <div className="filters-container">
-              <div className="filters"> filters</div>
+              {/* <div className="filters"> filters</div> */}
             </div>
           </div>
           <div className="separator"></div>
@@ -48,7 +48,7 @@ const Skills = () => {
           <div className="sub-header">
             <div className="h2">Art</div> 
             <div className="filters-container">
-              <div className="filters"> filters</div>
+              {/* <div className="filters"> filters</div> */}
             </div>
           </div>
           <div className="separator"></div>

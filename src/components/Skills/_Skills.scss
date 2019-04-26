@@ -6,7 +6,8 @@
     align-self: center;
     width: 90%;
     .sub-header {
-      display: flex;
+      display: grid;
+      grid-template-columns: 150px 1fr;
       margin: 16px ;
       justify-content: center;
       align-items: center;
