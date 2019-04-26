@@ -17,7 +17,7 @@ const Skills = () => {
   })
 
   let artSkillsList = [
-    "Web Design", "Concept Art", "Graphic Design", "2D Animation", "3D Animation", "Rigging", "Story Boarding", "Animatics", "Color Theory", "Composition"
+    "Web Design", "Concept Art", "Graphic Design", "2 & 3D Animation", "Digital Painting", "Rigging", "Story Boarding", "Animatics", "Color Theory", "Composition", "Texture Artist", "3D Modeler"
   ]
   
   let artSkills = artSkillsList.map((x,i)=>{
@@ -65,9 +65,11 @@ const Skills = () => {
                 <div className="description h4">After being a professional artist for many years you acquire a wide set of skills: From global juggernauts like Electronic Arts to freelance graphic design.</div>
               </div>
               <div className="bullet-points">
+                <div className="container">
                 <ol>
                   {artSkills}
                 </ol>
+                </div>
 
               </div>
             </div>

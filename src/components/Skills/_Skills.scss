@@ -2,8 +2,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
   .container {
     align-self: center;
     width: 90%;
@@ -52,63 +50,66 @@
         }
         .bullet-points {
           margin: 10px;
-          ol {
-            list-style-type: circle;
-            li {
-              margin: 8px;
+          background-color: $greyLight;
+          display: flex;
+          justify-content: center;
+          border: 2px solid $greyDark;
+          .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            ol {
+              padding-left: 20px;
+              list-style-type: circle;
+              display: grid;
+              grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+              li {
+                margin: 8px;
+              }
+            }   
+          }
+        }
+      }
+    }
+  }
+} 
+
+@media (max-width: 777px) {
+  .Skills {
+    .container {
+      .art-skills {
+        .info {
+          grid-template-columns: 1fr;
+          grid-template-rows: auto auto;
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 445px) {
+  .Skills {
+    .container {
+      .art-skills {
+        .info {
+          .bullet-points {
+            // align-items: center;
+            // justify-content: center;
+            .container {
+              display: flex;
+              justify-content: center;
+              ol {
+                grid-template-columns: 1fr;
+                // align-content: center;
+                // justify-content: center;
+                // align-items: center;
+                // justify-items: center;
+              }
             }
           }
         }
       }
     }
   }
-
-  // max-width: 768px;
-  
-  // display: grid;
-  // justify-items: center;
-  // .title{
-  //   width: 100%;
-  //   margin-top: 20px;
-  //   text-align: center;
-  // }
-  // .skill-section {
-  //   width: 100%;
-  //   display: grid;
-  //   grid-template-rows: auto 1fr;
-  //   grid-template-columns:1fr;
-  //   justify-items: center;
-  //   .sub-header {
-  //     display: flex;
-  //     flex-direction: row;
-  //     width: 90%;
-  //     align-items: center;
-  //     grid-row: 1;
-  //     grid-column: 1/ -1;
-  //     margin: 10px 0 10px 0;
-  //     justify-content: flex-end;
-  //     .hr-container {
-  //       justify-self: flex-end;
-  //       width: 100%;
-  //       display: flex;
-  //       hr {
-  //         width: 98%;
-  //       }
-  //     }
-  //   }
-  //   .skill-cards {
-  //     width: 90%;
-  //     display: grid;
-  //     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  //     justify-self: center;
-  //     grid-gap: 5px;
-  //     .skill-card {
-  //       display: grid;
-  //       justify-content: center;
-  //       justify-items: center;
-  //       text-align: center;
-  //       grid-gap: 5px;
-  //     }
-  //   }
-  // }
-} 
+}
