@@ -4,7 +4,28 @@
             "id":0,
             "title": "Paint Your Pixture",
             "directory":"PaintYourPixture",
-            "contentImages": ["kronk.mp4","PaintYourPixture_cover.jpg","PaintYourPixture.jpg","PaintYourPixture_cover.jpg"],
+            "contentImages": [
+                {
+                    "content":"kronk.mp4",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                },
+                {
+                    "content":"PaintYourPixture_cover.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                },
+                {
+                    "content":"PaintYourPixture.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                },
+                {
+                    "content":"PaintYourPixture_cover.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                }
+            ],
             "coverImage": "PaintYourPixture_cover.JPG",
             "links": [
                 {"title": "site", "link": "https://www.google.com/"},
@@ -17,7 +38,28 @@
             "id":1,
             "title": "Akrasia",
             "directory":"Akrasia",
-            "contentImages": ["Akrasia.jpg","Akrasia.jpg","Akrasia.jpg"],
+            "contentImages": [
+                {
+                    "content":"Akrasia.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                },
+                {
+                    "content":"Akrasia.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                },
+                {
+                    "content":"Akrasia.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                },
+                {
+                    "content":"Akrasia.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                }
+            ],
             "coverImage": "Akrasia.JPG",
             "links": [
                 {"title": "site", "link": "https://www.google.com/"},
@@ -30,7 +72,28 @@
             "id":2,
             "title": "O Captain",
             "directory":"OCaptain",
-            "contentImages": ["OCaptain.jpg","OCaptain.jpg","OCaptain.jpg","OCaptain.jpg"],
+            "contentImages": [
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                },
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                },
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                },
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                }
+            ],
             "coverImage": "OCaptain.JPG",
             "links": [
                 {"title": "site", "link": "https://www.google.com/"},

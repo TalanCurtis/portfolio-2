@@ -44,24 +44,33 @@ class Gallery extends Component {
   
   render(){
     let images = _.map(this.props.modal.contentImages, (x,i)=>{
-      let fileType = x.split(".");
-      fileType = fileType[1];
-      if (fileType === "jpg"){
-        return (
-          <div key={i} className="slider">
-            <img src={`./images/projects/${this.props.modal.directory}/${x}`} alt={x}/>
-          </div>
-        );
-      } else if ( fileType === "mp4"){
-        return (
-          <div key={i} className="slider">
-            <video controls >
-              <source src={`./images/projects/${this.props.modal.directory}/${x}`} type="video/mp4" />
-            </video>
-          </div>
-        );
+      if(x.content){
+        let fileType = x.content.split(".");
+        fileType = fileType[1];
+        if (fileType === "jpg"){
+          return (
+            <div key={i} className="slider">
+              <img src={`./images/projects/${this.props.modal.directory}/${x.content}`} alt={x}/>
+              <div className="description">
+                <div className="title">{x.title}</div>
+                <div className="note">{x.note}</div>
+              </div>
+            </div>
+          );
+        } else if ( fileType === "mp4"){
+          return (
+            <div key={i} className="slider">
+              <video controls >
+                <source src={`./images/projects/${this.props.modal.directory}/${x.content}`} type="video/mp4" />
+              </video>
+              <div className="description">
+                <div className="title">{x.title}</div>
+                <div className="note">{x.note}</div>
+              </div>
+            </div>
+          );
+        }
       }
-
     });
 
     return (
