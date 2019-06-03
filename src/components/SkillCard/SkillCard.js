@@ -2,7 +2,6 @@ import React from 'react';
 
 const SkillCard = (props) => {
   const {image, title} = props.content;
-  console.log(image)
   return(
     <div className="SkillCard">
         <img src={`/images/icons/${image}`}  style={{width:"60px"}}alt={image}/>

@@ -22,7 +22,7 @@ const Skills = () => {
   
   let artSkills = artSkillsList.map((x,i)=>{
     return(
-      <li className="h3">{x}</li>
+      <li key={i} className="h3">{x}</li>
     )
   })
   return (
