@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import content from '../../content.json';
 import _ from 'lodash';
+import FilterButton from '../FilterButton/FilterButton';
 
 class Filter extends Component {
 
@@ -15,8 +16,8 @@ class Filter extends Component {
     })
     let tagList = _.map(tags, (x,i)=>{
       return(
-        <div key={i} value={x} onClick={()=>this.handleFilter(x)} style={{margin:'10px'}}>
-          {x}
+        <div key={i} value={x} onClick={()=>this.handleFilter(x)} style={{margin:'5px'}}>
+          <FilterButton title={x}/>
         </div>
       )
     })
