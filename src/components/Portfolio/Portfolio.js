@@ -55,7 +55,7 @@ class Portfolio extends Component {
         <div className="sub-header">
             <div className="h2">Tech</div> 
             <div className="filters-container">
-              {/* <Filter handleFilter={this.handleFilter} filters={this.state.filters}/> */}
+              <Filter handleFilter={this.handleFilter} filters={this.state.filters}/>
             </div>
           <div className="separator"></div>
         </div>

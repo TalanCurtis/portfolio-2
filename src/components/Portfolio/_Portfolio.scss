@@ -1,80 +1,48 @@
 .Portfolio {
   width: 100%;
-  // background-color: green;
   .content {
     width: 100%;
     height: 100%;
     display: grid;
-    // .sub-header {
-    //   justify-self: center;
-    //   width: 80%;
-    //   height: 100%;
-    //   display: grid;
-    //   grid-template-columns: auto 1fr;
-    //   justify-content: center;
-    //   align-items: center;
-    //   .separator{
-    //     grid-column: 1 / -1;
-    //   }
-    //   .filters-container{
-    //     display: grid;
-    //     width: 100%;
-    //     height: 100%;
-    //     background-color: yellow;
-    //     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    //   }
-    // }
+    .sub-header {
+      justify-self: center;
+      width: 80%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      justify-content: center;
+      align-items: center;
+      .separator{
+        grid-column: 1 / -1;
+      }
+      .filters-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
     .project-container{
       justify-self: center;
       margin-top: 10px;
       width: 90%;
       display: grid;
       grid-gap: 5px;
-      background-color: blue;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
   }
-  // display: grid;
-  // justify-content: center;
-  // max-width: 768px;
-  // display: grid;
-  // justify-items: center;
-  // .title{
-  //   width: 100%;
-  //   margin-top: 20px;
-  //   text-align: center;
-  // }
-  // .project-container {
-  //   display: grid;
-  //   width: 100%;
-  //   grid-template-columns: repeat(auto-fit, 300px);
-  //   grid-gap: 5px;
-  //   justify-items: center;
-  //   justify-content: center;
-  //   .project-card {
-  //     background-color: red;
-  //     height: 200px;
-  //     width: 300px;
-  //     overflow: hidden;
-  //     position: relative;
-  //     img { 
-  //       height: 200px;
-  //       justify-self: center;
-  //     }
-  //     .header {
-  //       position: absolute;
-  //       top:0px;
-  //       height: 30px;
-  //       width: 100%;
-  //       background-color: rgba(0, 0, 0, 0.747);
-  //       text-align: center;
-  //       display: flex;
-  //       justify-content: center;
-  //       align-items: center;
-  //       .h3 {
-  //         color: white;
-  //       }
-  //     }
-  //   }
-  // }
 } 
+
+@media (max-width: 568px) {
+  .Portfolio {
+    .content {
+      .sub-header {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-top: 10px;
+      }
+      .project-container{ 
+        margin-top: 20px;
+      }
+    }
+  }
+}

@@ -31,7 +31,7 @@ class Filter extends Component {
   render(){
     
     return(
-      <div style={{display:'flex'}}>
+      <div className="Filter">
         {this.getAllTags()}
       </div>
     )
