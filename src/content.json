@@ -32,7 +32,7 @@
                 {"title": "github", "link": "https://www.google.com/"}
             ],
             "description": "This was a challenge to take a static images from designer to functional site.",
-            "tags": ["react", "redux"]
+            "tags": ["React", "CSS"]
         },
         {
             "id":1,
@@ -66,28 +66,13 @@
                 {"title": "github", "link": "https://www.google.com/"}
             ],
             "description": "This was a challenge to take a static images from designer to functional site.",
-            "tags": [ "css"]
+            "tags": ["React", "CSS", "Redux"]
         },
         {
             "id":2,
             "title": "O Captain",
             "directory":"OCaptain",
             "contentImages": [
-                {
-                    "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
-                },
-                {
-                    "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
-                },
-                {
-                    "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
-                },
                 {
                     "content":"OCaptain.jpg",
                     "title": "Kronk",
@@ -100,7 +85,140 @@
                 {"title": "github", "link": "https://www.google.com/"}
             ],
             "description": "This was a challenge to take a static images from designer to functional site.",
-            "tags": ["react", "css"]
+            "tags": ["React", "CSS", "Redux"]
+        },
+        {
+            "id":3,
+            "title": "Sims 3",
+            "directory":"Sims3",
+            "contentImages": [
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                }
+            ],
+            "coverImage": "OCaptain.JPG",
+            "links": [
+                {"title": "site", "link": "https://www.google.com/"},
+                {"title": "github", "link": "https://www.google.com/"}
+            ],
+            "description": "This was a challenge to take a static images from designer to functional site.",
+            "tags": ["Unity", "Maya", "Substance", "ZBrush", "Python", "C#"]
+        },
+        {
+            "id":4,
+            "title": "Sims 4",
+            "directory":"Sims4",
+            "contentImages": [
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                }
+            ],
+            "coverImage": "OCaptain.JPG",
+            "links": [
+                {"title": "site", "link": "https://www.google.com/"},
+                {"title": "github", "link": "https://www.google.com/"}
+            ],
+            "description": "This was a challenge to take a static images from designer to functional site.",
+            "tags": ["Unity", "Maya", "Substance", "ZBrush", "Python", "C#"]
+        },
+        {
+            "id":5,
+            "title": "Sims Mobile",
+            "directory":"SimsMobile",
+            "contentImages": [
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                }
+            ],
+            "coverImage": "OCaptain.JPG",
+            "links": [
+                {"title": "site", "link": "https://www.google.com/"},
+                {"title": "github", "link": "https://www.google.com/"}
+            ],
+            "description": "This was a challenge to take a static images from designer to functional site.",
+            "tags": ["Unity", "Maya", "Substance", "Python", "C#"]
+        },
+        {
+            "id":6,
+            "title": "Star Wars: Secrets Of The Empire",
+            "directory":"StarWarsSecretsOfTheEmpire",
+            "contentImages": [
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                }
+            ],
+            "coverImage": "OCaptain.JPG",
+            "links": [
+                {"title": "site", "link": "https://www.google.com/"},
+                {"title": "github", "link": "https://www.google.com/"}
+            ],
+            "description": "This was a challenge to take a static images from designer to functional site.",
+            "tags": ["Unreal 4", "Maya", "Substance", "ZBrush", "Python", "C#"]
+        },
+        {
+            "id":7,
+            "title": "Tropicana Tropolis",
+            "directory":"TropicanaTropolis",
+            "contentImages": [
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                }
+            ],
+            "coverImage": "OCaptain.JPG",
+            "links": [
+                {"title": "site", "link": "https://www.google.com/"},
+                {"title": "github", "link": "https://www.google.com/"}
+            ],
+            "description": "This was a challenge to take a static images from designer to functional site.",
+            "tags": ["Flash"]
+        },
+        {
+            "id":8,
+            "title": "Minions Paradise",
+            "directory":"MinionsParadise",
+            "contentImages": [
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                }
+            ],
+            "coverImage": "OCaptain.JPG",
+            "links": [
+                {"title": "site", "link": "https://www.google.com/"},
+                {"title": "github", "link": "https://www.google.com/"}
+            ],
+            "description": "This was a challenge to take a static images from designer to functional site.",
+            "tags": ["Unity", "Maya", "Photoshop", "ZBrush", "Python", "C#"]
+        },
+        {
+            "id":9,
+            "title": "Ghost Busters",
+            "directory":"GhostBusters",
+            "contentImages": [
+                {
+                    "content":"OCaptain.jpg",
+                    "title": "Kronk",
+                    "note": " This is an animation of Kronk"
+                }
+            ],
+            "coverImage": "OCaptain.JPG",
+            "links": [
+                {"title": "site", "link": "https://www.google.com/"},
+                {"title": "github", "link": "https://www.google.com/"}
+            ],
+            "description": "This was a challenge to take a static images from designer to functional site.",
+            "tags": ["Unity", "Maya", "Substance", "Photoshop", "ZBrush", "Python", "C#"]
         }
     ],
     "aboutCards":[
