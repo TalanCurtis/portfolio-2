@@ -25,7 +25,6 @@ class Filter extends Component {
   }
 
   handleFilter(e){
-    console.log(e)
     this.props.handleFilter(e);
   }
 
