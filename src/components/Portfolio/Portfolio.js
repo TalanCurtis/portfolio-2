@@ -51,10 +51,18 @@ class Portfolio extends Component {
     return (
       <div className = "Portfolio" id="Portfolio">
        <SectionHeader title="Portfolio"/>
-        <Filter handleFilter={this.handleFilter} filters={this.state.filters}/>
+       <div className="content">
+        <div className="sub-header">
+            <div className="h2">Tech</div> 
+            <div className="filters-container">
+              {/* <Filter handleFilter={this.handleFilter} filters={this.state.filters}/> */}
+            </div>
+          <div className="separator"></div>
+        </div>
         <div className="project-container">
           {projects}
         </div>
+       </div>
       </div>
     )
   }
