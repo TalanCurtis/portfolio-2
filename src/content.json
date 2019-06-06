@@ -6,6 +6,11 @@
             "directory":"PaintYourPixture",
             "contentImages": [
                 {
+                    "content":"https://www.youtube.com/embed/tgbNymZ7vqY",
+                    "title": "youtube",
+                    "note": " This is an animation of youtube"
+                },
+                {
                     "content":"kronk.mp4",
                     "title": "Kronk",
                     "note": " This is an animation of Kronk"

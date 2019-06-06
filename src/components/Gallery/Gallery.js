@@ -69,13 +69,25 @@ class Gallery extends Component {
               </div>
             </div>
           );
+        } else if (x.content.includes("youtube")){
+          return (
+            <div key={i} className="slider" style={{height:"100%", width:"100%" , backgroundColor:"green", display:"flex", flexDirection:"column"}}>
+              <div style={{height:"100%", width:"100%" , backgroundColor:"green"}}>
+                <iframe width="100%" height="auto" maxwidth="100" src={x.content} />
+              </div>
+              <div className="description">
+                <div className="title">{x.title}</div>
+                <div className="note">{x.note}</div>
+              </div>
+            </div>
+          );
         }
       }
     });
 
     return (
       <div className = "Gallery">
-        <div className="carousel">
+        <div className="carousel" style={{height:"100%", width:"100%" , backgroundColor:"yellow"}}>
             {images}
         </div>
         <div className="nav">
