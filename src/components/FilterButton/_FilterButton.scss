@@ -11,5 +11,8 @@
   }
   &.isActive{
     background-color:#A6D0CD;
+    &:hover {
+      background-color:rgb(121, 160, 157);
+    }
   }
 }
