@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { showModal } from '../../redux/reducers/modal/modalActions';
 import _ from 'lodash';
 import Gallery from '../Gallery/Gallery';
+import XSVG from '../../images/XSVG';
 
 class Modal extends Component {
   constructor(props){
@@ -52,7 +53,7 @@ class Modal extends Component {
           <div className="content" onClick={this.handleContentClick}>
             <div className="header">
               {this.props.modal.title}
-              <button onClick={this.handleCloseModal}>X</button>
+              <XSVG className="x" size={25} onClick={this.handleCloseModal}/>
             </div>
             <div className="body" style={{width:"100%"}}>
               <Gallery />

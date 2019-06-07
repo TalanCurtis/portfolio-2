@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import _ from 'lodash';
 import { Power0, TimelineLite } from 'gsap';
+import ArrowLeftSVG from '../../images/ArrowLeftSVG';
+import ArrowRightSVG from '../../images/ArrowRightSVG';
 
 class Gallery extends Component {
   constructor(props){
@@ -107,9 +109,9 @@ class Gallery extends Component {
             {images}
         </div>
         <div className="nav">
-          <button onClick={this.handleLeft} >{"<"}</button>
+          <ArrowLeftSVG onClick={this.handleLeft} />
           <div> {`${this.state.index + 1} of ${this.props.modal.contentImages.length}`}</div>
-          <button onClick={this.handleRight} >{">"}</button>
+          <ArrowRightSVG onClick={this.handleRight} />
         </div>
       </div>
     )
