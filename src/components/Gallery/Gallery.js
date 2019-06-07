@@ -29,6 +29,7 @@ class Gallery extends Component {
       this.tl.to(".slider", .5, {x:`-=${totalOffset}%`,  ease:Power0.easeNone})
       this.setState({index: this.props.modal.contentImages.length -1 }) 
     }
+    this.stopAllVideos();
   }
 
   handleRight=()=>{
@@ -40,6 +41,7 @@ class Gallery extends Component {
       this.tl.to(".slider", .5, {x:"0%", ease:Power0.easeNone})
       this.setState({index: 0})
     }
+    this.stopAllVideos();
   }
   stopAllVideos = () => {
     // go through all Iframes and loaded videos and pause them. 
@@ -85,7 +87,7 @@ class Gallery extends Component {
         } else if (x.content.includes("youtube")){
           return (
             <div key={i} className="slider" style={{height:"100%", width:"100%" , backgroundColor:"green", display:"flex", flexDirection:"column"}}>
-              <div id="popupVid" style={{height:"100%", width:"100%" , backgroundColor:"green"}}>
+              <div style={{height:"100%", width:"100%" , backgroundColor:"green"}}>
                 <iframe  width="100%" height="auto" maxwidth="100" src={x.content} />
               </div>
               <div className="description">

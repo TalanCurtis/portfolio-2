@@ -16,11 +16,25 @@ class Modal extends Component {
   }
 
   handleCloseModal = () => {
-    this.props.showModal(false)
+    this.props.showModal(false);
+    this.stopAllVideos();
   }
 
   handleContentClick = (e) => {
     e.stopPropagation();
+  }
+
+  stopAllVideos = () => {
+    // go through all Iframes and loaded videos and pause them. 
+    let iframes = document.getElementsByTagName("iframe");
+    _.forEach(iframes , (x)=>{
+      let iframe = x.contentWindow;
+      iframe.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}','*');
+    });
+    let loadedVideos = document.getElementsByClassName("loadedVideo");
+    _.forEach(loadedVideos, (x)=>{
+      x.pause(); 
+    });
   }
 
   render(){
