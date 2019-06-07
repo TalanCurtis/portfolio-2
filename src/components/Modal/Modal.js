@@ -66,6 +66,7 @@ class Modal extends Component {
             </div>
             <div className="footer">
               <div className="container"> 
+                <div className="title h4">About this Project</div>
                 <div>{this.props.modal.description}</div>
                 {hasLinks? 
                   <div className="link-container">

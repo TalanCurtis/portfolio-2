@@ -44,6 +44,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        .title {
+          font-weight: bold;
+          margin: 5px;
+        }
         .link-container {
           display: flex;
           margin: 10px;
