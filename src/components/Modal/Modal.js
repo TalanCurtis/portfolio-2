@@ -41,26 +41,40 @@ class Modal extends Component {
   render(){
     let links = _.map(this.props.modal.links, (x,i)=>{
       return(
-        <div key={i} className="links">
-          <div>{x.title}</div>
-          <div> <a href={x.link} target="_blank" rel="noopener noreferrer">{x.link}</a></div>
+        <div key={i} className="link">
+          <div> <a className="h4" href={x.link} target="_blank" rel="noopener noreferrer">{x.title}</a></div>
         </div>
       );
     });
+   
+    let hasLinks = false;
+    if (links.length > 0){
+      hasLinks = true;
+    }
 
     return(
         <div className="Modal" onClick={this.handleCloseModal}>
           <div className="content" onClick={this.handleContentClick}>
             <div className="header">
-              {this.props.modal.title}
-              <XSVG className="x" size={25} onClick={this.handleCloseModal}/>
+              <div className="title h3">
+                {this.props.modal.title}
+              </div>
+              <XSVG className="x" size={20} onClick={this.handleCloseModal}/>
             </div>
-            <div className="body" style={{width:"100%"}}>
-              <Gallery />
+            <div className="body" style={{width:"100%" , height:"100%", backgroundColor:"green"}}>
+              {/* <Gallery /> */}
             </div>
             <div className="footer">
-              <div>{this.props.modal.description}</div>
-              {links}
+              <div className="container"> 
+                <div>{this.props.modal.description}</div>
+                {hasLinks? 
+                  <div className="link-container">
+                    <div className="title h4">Links:</div>
+                    {links}
+                  </div>
+                : null
+                }
+              </div>
             </div>
           </div>
         </div>

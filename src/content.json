@@ -41,7 +41,7 @@
                 {"title": "site", "link": "https://www.google.com/"},
                 {"title": "github", "link": "https://www.google.com/"}
             ],
-            "description": "This was a challenge to take a static images from designer to functional site.",
+            "description": "I was a Software Engineer on this project. Though that was my title, on top of my coding React components and Managing Redux state, I did Mockups, UX design, and created all the icons for this App. Also worth noting my photoshop skills came in handy many times for quick turn arounds when images provided by Artist did not meet the coding requirements. My main patches of pride are the universal image component I made and the multi-teir filtering system ",
             "tags": ["React", "CSS"]
         },
         {
