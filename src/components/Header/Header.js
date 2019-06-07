@@ -4,6 +4,9 @@ import LogoSvg from '../../images/LogoSvg';
 import { Power0, TimelineLite } from 'gsap';
 import _ from 'lodash';
 
+// TODO: nav buttons should update highlight when just scrolling naturally.
+// TODO: When on mobile change nav buttons to hamburger and make pop up menu.
+
 class Header extends Component {
   constructor(props){
     super(props);

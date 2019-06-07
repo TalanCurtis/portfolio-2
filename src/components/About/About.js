@@ -10,6 +10,10 @@ const About = () => {
         <AboutCard key={i}content={x} />
       )
   })
+
+  // TODO: get svg icons for Engineer , artist, animator.
+  // TODO: Update Picture
+  // TODO: Fill in content.
   return (
     <div className = "About" id="About">
       <SectionHeader title="About"/>

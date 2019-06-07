@@ -12,6 +12,9 @@ class Contact extends Component{
     };
   }
 
+ // TODO: after send mail should get a confirmation or pop up alert saying it was sent.
+ // TODO: disable send message until name, valid email, and message has input.
+
   sendEmail = () => {
     console.log('hello',)
     const {name, email, message} = this.state

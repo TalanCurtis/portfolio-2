@@ -15,6 +15,8 @@ import Modal from './components/Modal/Modal';
 
 // import Intro from './components/Intro/Intro';
 
+// TODO: app should fade in nicely.
+
 class App extends Component {
   handleShowModal = () => {
     this.props.showModal(true)
