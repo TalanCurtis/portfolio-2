@@ -6,7 +6,12 @@
             "directory":"PaintYourPixture",
             "contentImages": [
                 {
-                    "content":"https://www.youtube.com/embed/tgbNymZ7vqY",
+                    "content":"https://www.youtube.com/embed/tgbNymZ7vqY?version=3&enablejsapi=1",
+                    "title": "youtube",
+                    "note": " This is an animation of youtube"
+                },
+                {
+                    "content":"https://www.youtube.com/embed/tgbNymZ7vqY?version=3&enablejsapi=1",
                     "title": "youtube",
                     "note": " This is an animation of youtube"
                 },

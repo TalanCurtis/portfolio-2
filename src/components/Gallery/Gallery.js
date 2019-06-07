@@ -41,6 +41,19 @@ class Gallery extends Component {
       this.setState({index: 0})
     }
   }
+  stopAllVideos = () => {
+    // go through all Iframes and loaded videos and pause them. 
+    let iframes = document.getElementsByTagName("iframe");
+    _.forEach(iframes , (x)=>{
+      let iframe = x.contentWindow;
+      iframe.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}','*');
+    });
+    let loadedVideos = document.getElementsByClassName("loadedVideo");
+    _.forEach(loadedVideos, (x)=>{
+      x.pause(); 
+    });
+  }
+
   
   render(){
     let images = _.map(this.props.modal.contentImages, (x,i)=>{
@@ -60,7 +73,7 @@ class Gallery extends Component {
         } else if ( fileType === "mp4"){
           return (
             <div key={i} className="slider">
-              <video controls >
+              <video className="loadedVideo" controls >
                 <source src={`./images/projects/${this.props.modal.directory}/${x.content}`} type="video/mp4" />
               </video>
               <div className="description">
@@ -72,8 +85,8 @@ class Gallery extends Component {
         } else if (x.content.includes("youtube")){
           return (
             <div key={i} className="slider" style={{height:"100%", width:"100%" , backgroundColor:"green", display:"flex", flexDirection:"column"}}>
-              <div style={{height:"100%", width:"100%" , backgroundColor:"green"}}>
-                <iframe width="100%" height="auto" maxwidth="100" src={x.content} />
+              <div id="popupVid" style={{height:"100%", width:"100%" , backgroundColor:"green"}}>
+                <iframe  width="100%" height="auto" maxwidth="100" src={x.content} />
               </div>
               <div className="description">
                 <div className="title">{x.title}</div>
@@ -85,6 +98,7 @@ class Gallery extends Component {
       }
     });
 
+
     return (
       <div className = "Gallery">
         <div className="carousel" style={{height:"100%", width:"100%" , backgroundColor:"yellow"}}>
@@ -94,6 +108,7 @@ class Gallery extends Component {
           <button onClick={this.handleLeft} >{"<"}</button>
           <div> {`${this.state.index + 1} of ${this.props.modal.contentImages.length}`}</div>
           <button onClick={this.handleRight} >{">"}</button>
+          <button onClick={this.stopAllVideos} >{"Stop"}</button>
         </div>
       </div>
     )
