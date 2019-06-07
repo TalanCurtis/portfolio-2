@@ -88,7 +88,7 @@ class Gallery extends Component {
           return (
             <div key={i} className="slider" style={{height:"100%", width:"100%" , backgroundColor:"green", display:"flex", flexDirection:"column"}}>
               <div style={{height:"100%", width:"100%" , backgroundColor:"green"}}>
-                <iframe  width="100%" height="auto" maxwidth="100" src={x.content} />
+                <iframe  width="100%" height="auto" maxwidth="100" src={x.content+"?version=3&enablejsapi=1"} />
               </div>
               <div className="description">
                 <div className="title">{x.title}</div>
@@ -110,7 +110,6 @@ class Gallery extends Component {
           <button onClick={this.handleLeft} >{"<"}</button>
           <div> {`${this.state.index + 1} of ${this.props.modal.contentImages.length}`}</div>
           <button onClick={this.handleRight} >{">"}</button>
-          <button onClick={this.stopAllVideos} >{"Stop"}</button>
         </div>
       </div>
     )
