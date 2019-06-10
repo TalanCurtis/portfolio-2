@@ -88,8 +88,8 @@ class Gallery extends Component {
           );
         } else if (x.content.includes("youtube")){
           return (
-            <div key={i} className="slider" style={{height:"100%", width:"100%" , backgroundColor:"green", display:"flex", flexDirection:"column"}}>
-              <div style={{height:"100%", width:"100%" , backgroundColor:"green"}}>
+            <div key={i} className="slider" >
+              <div >
                 <iframe  width="100%" height="auto" maxwidth="100" src={x.content+"?version=3&enablejsapi=1"} />
               </div>
               <div className="description">
@@ -105,14 +105,13 @@ class Gallery extends Component {
 
     return (
       <div className = "Gallery">
-        <div className="carousel" style={{height:"100%", width:"100%" , backgroundColor:"yellow"}}>
-            {images}
+        <div className="carousel" >
+          carousel
+            {/* {images} */}
         </div>
-        <div className="nav">
-          <ArrowLeftSVG onClick={this.handleLeft} />
-          <div> {`${this.state.index + 1} of ${this.props.modal.contentImages.length}`}</div>
-          <ArrowRightSVG onClick={this.handleRight} />
-        </div>
+        <ArrowLeftSVG className="left" onClick={this.handleLeft} />
+        <div className="tick-container" >  {`${this.state.index + 1} of ${this.props.modal.contentImages.length}`}</div>
+        <ArrowRightSVG className="right" onClick={this.handleRight} />
       </div>
     )
   }
