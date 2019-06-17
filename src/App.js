@@ -26,7 +26,21 @@ class App extends Component {
     this.props.showModal(false)
   }
 
+  handleDisableScroll = () => {
+    // if modal is open disable scroll
+    let body = document.body
+    if( body ){
+      if (this.props.modal.showModal){
+        body.style.overflow = "hidden"
+      } else {
+        body.style.overflow = ""
+      }
+    }
+  }
+
   render() {
+    this.handleDisableScroll();
+    
     return (
       <div className="App">
         <Header />
