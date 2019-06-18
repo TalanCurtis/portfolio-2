@@ -67,21 +67,32 @@ class Gallery extends Component {
         if (fileType === "jpg"){
           return (
             <div key={i} className="slider">
-              <img src={`./images/projects/${this.props.modal.directory}/${x.content}`} alt={x}/>
               <div className="description">
-                <div className="title">{x.title}</div>
+                <div className="title h3">{x.title}</div>
                 <div className="note">{x.note}</div>
               </div>
+              <div className="container">
+                <img src={`./images/projects/${this.props.modal.directory}/${x.content}`} alt={x}/>
+                {/* <div style={{height:"100px", width:"200px", backgroundColor:"yellow"}}></div> */}
+  
+              </div>
+
             </div>
           );
         } else if ( fileType === "mp4"){
           return (
             <div key={i} className="slider">
-              <video className="loadedVideo" controls >
-                <source src={`./images/projects/${this.props.modal.directory}/${x.content}`} type="video/mp4" />
-              </video>
+              {/* <video className="loadedVideo" controls > */}
+                {/* <source src={`./images/projects/${this.props.modal.directory}/${x.content}`} type="video/mp4" /> */}
+              {/* </video> */}
+              <div className="container">
+                <div className="size">
+                  <div style={{height:"200px", width:"100px", backgroundColor:"purple"}}></div>
+                </div>
+                
+              </div>
               <div className="description">
-                <div className="title">{x.title}</div>
+                <div className="title h3">{x.title}</div>
                 <div className="note">{x.note}</div>
               </div>
             </div>
@@ -90,10 +101,10 @@ class Gallery extends Component {
           return (
             <div key={i} className="slider" >
               <div >
-                <iframe  width="100%" height="auto" maxwidth="100" src={x.content+"?version=3&enablejsapi=1"} />
+                {/* <iframe src={x.content+"?version=3&enablejsapi=1"} /> */}
               </div>
               <div className="description">
-                <div className="title">{x.title}</div>
+                <div className="title h3">{x.title}</div>
                 <div className="note">{x.note}</div>
               </div>
             </div>
@@ -106,7 +117,9 @@ class Gallery extends Component {
     return (
       <div className = "Gallery">
         <div className="carousel" >
-          carousel
+          <div className="slider-box">
+            {images}
+          </div>
             {/* {images} */}
         </div>
         <ArrowLeftSVG className="left" onClick={this.handleLeft} />

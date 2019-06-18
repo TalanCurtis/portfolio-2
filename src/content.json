@@ -27,13 +27,13 @@
                 },
                 {
                     "content":"PaintYourPixture.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "title": "picture2",
+                    "note": " This is an picture of Kronk"
                 },
                 {
                     "content":"PaintYourPixture_cover.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "title": "picture1",
+                    "note": " This is an another picture of Kronk"
                 }
             ],
             "coverImage": "PaintYourPixture_cover.JPG",
