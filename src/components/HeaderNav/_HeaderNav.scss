@@ -1,0 +1,10 @@
+.HeaderNav {
+  display: flex;
+  font-family: $pt-sans-narrow;
+  margin-right: 10px;
+  .nav {
+    &:hover {
+      color: $success;
+    }
+  }
+}

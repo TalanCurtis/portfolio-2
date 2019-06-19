@@ -1,9 +1,9 @@
 // Colors
 // $darkPurple: #140328;
 
-$success: #73ABA5;
+$success: rgb(91, 216, 204);
 $greyDark: #828282;
-$greenAccent: #A6D0CD;
+$greenAccent: rgb(165, 228, 224);
 $greyLight: #EBEBEB;
 $modalHeader: rgb(194, 194, 194);
 $modalFooter: rgb(194, 194, 194);
@@ -11,8 +11,6 @@ $black: rgb(32, 32, 32);
 $white: rgb(255, 255, 255);
 $warning: rgb(182, 0, 0);
 $test1: rgb(255, 0, 212);
-
-
 
 :export {
   success: $success;
