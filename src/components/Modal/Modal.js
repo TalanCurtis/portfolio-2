@@ -30,7 +30,7 @@ class Modal extends Component {
     let iframes = document.getElementsByTagName("iframe");
     _.forEach(iframes , (x)=>{
       let iframe = x.contentWindow;
-      iframe.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}','*');
+      iframe.postMessage('{"event":"command","func":"pauseVideo","args":""}','*');
     });
     let loadedVideos = document.getElementsByClassName("loadedVideo");
     _.forEach(loadedVideos, (x)=>{

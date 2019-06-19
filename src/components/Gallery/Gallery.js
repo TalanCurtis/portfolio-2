@@ -50,7 +50,7 @@ class Gallery extends Component {
     let iframes = document.getElementsByTagName("iframe");
     _.forEach(iframes , (x)=>{
       let iframe = x.contentWindow;
-      iframe.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}','*');
+      iframe.postMessage('{"event":"command","func":"pauseVideo","args":""}','*');
     });
     let loadedVideos = document.getElementsByClassName("loadedVideo");
     _.forEach(loadedVideos, (x)=>{
@@ -81,30 +81,32 @@ class Gallery extends Component {
         } else if ( fileType === "mp4"){
           return (
             <div key={i} className="slider">
-              {/* <video className="loadedVideo" controls > */}
-                {/* <source src={`./images/projects/${this.props.modal.directory}/${x.content}`} type="video/mp4" /> */}
-              {/* </video> */}
               <div className="container">
-                <div className="size">
-                  <div style={{height:"200px", width:"100px", backgroundColor:"purple"}}></div>
+                <div className="description">
+                  <div className="title h3">{x.title}</div>
+                  <div className="note">{x.note}</div>
                 </div>
-                
-              </div>
-              <div className="description">
-                <div className="title h3">{x.title}</div>
-                <div className="note">{x.note}</div>
+                <div className="image-container">
+                   <video className="loadedVideo" controls >
+                     <source src={`./images/projects/${this.props.modal.directory}/${x.content}`} type="video/mp4" />
+                   </video> 
+                </div>
               </div>
             </div>
           );
         } else if (x.content.includes("youtube")){
           return (
-            <div key={i} className="slider" >
-              <div >
-                {/* <iframe src={x.content+"?version=3&enablejsapi=1"} /> */}
-              </div>
-              <div className="description">
-                <div className="title h3">{x.title}</div>
-                <div className="note">{x.note}</div>
+            <div key={i} className="slider">
+              <div className="container">
+                <div className="description">
+                  <div className="title h3">{x.title}</div>
+                  <div className="note">{x.note}</div>
+                </div>
+                <div className="image-container">
+                  <div className="youtube-container">
+                    <iframe title={`youtube${i}`}className="youtube" src={x.content+"?version=3&enablejsapi=1"} />
+                  </div>
+                </div>
               </div>
             </div>
           );
