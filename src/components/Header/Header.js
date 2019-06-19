@@ -12,11 +12,35 @@ class Header extends Component {
     super(props);
     this.state = {
       isOpen: false,
-      activeButton: 'About',
+      activeButton: '',
       sections:["Intro", "About", "Skills", "Portfolio", "Contact"]
     }
     this.tl = new TimelineLite();
   }
+
+  componentDidMount(){
+    window.addEventListener('scroll', (e)=>{
+      let scrollPosition = window.pageYOffset;
+      let windowHeight = window.innerHeight;
+      let documentHeight = document.body.scrollHeight;
+
+      this.state.sections.forEach(section => {
+        let elem = document.getElementById(section);
+        let offset = elem.offsetTop - 100 ;
+        if ( documentHeight === scrollPosition + windowHeight){
+          // scroll has hit bottom
+          this.setState({activeButton: section});
+        } else if( scrollPosition > offset ){
+          this.setState({activeButton: section});
+        }
+      });
+    });
+  }
+
+  componentWillUnmount(){
+    window.removeEventListener('scroll');
+  }
+
 
   handleMenu = () => {
     if (this.state.isOpen){
@@ -29,10 +53,10 @@ class Header extends Component {
   }
 
   handleNavSelected=(e)=>{
-  let section = e.target.value
-   this.setState({activeButton: section})
-   let elem = document.getElementById(section);
-   this.scrollToMyRef(elem);
+    let section = e.target.value
+    this.setState({activeButton: section})
+    let elem = document.getElementById(section);
+    this.scrollToMyRef(elem);
   }
 
   scrollToMyRef = (elem) => {
