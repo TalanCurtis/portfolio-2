@@ -19,22 +19,23 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     .header {
-      background-color: $greyDark;
+      background-color: $modalHeader;
       display: grid;
-      grid-template-columns: 1fr auto;
       justify-content: center;
       align-items: center;
+      position: relative;
       .title {
         justify-self: center;
         font-weight: bold;
         margin: 10px;
       }
       svg{
-        margin-right: 20px;
+        position: absolute;
+        right: 10px;
       }
     }
     .footer {
-      background-color: $greyDark;
+      background-color: $modalFooter;
       display: flex;
       flex-direction: column;
       .container {

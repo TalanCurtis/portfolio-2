@@ -121,11 +121,10 @@ class Gallery extends Component {
           <div className="slider-box">
             {images}
           </div>
-            {/* {images} */}
         </div>
-        <ArrowLeftSVG className="left" onClick={this.handleLeft} />
+        <ArrowLeftSVG className="left" fill="white" onClick={this.handleLeft} />
         <div className="tick-container" >  {`${this.state.index + 1} of ${this.props.modal.contentImages.length}`}</div>
-        <ArrowRightSVG className="right" onClick={this.handleRight} />
+        <ArrowRightSVG className="right" fill="white" onClick={this.handleRight} />
       </div>
     )
   }
