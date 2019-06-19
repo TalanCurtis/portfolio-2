@@ -1,5 +1,14 @@
 .Footer {
-  background-color: red;
+  background-color: $greyDark;
   height: 100px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 35px;
+    width: 35px;
+    opacity: .30;
+    margin: 5px;
+  }
 } 
