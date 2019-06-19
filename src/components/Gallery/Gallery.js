@@ -67,16 +67,15 @@ class Gallery extends Component {
         if (fileType === "jpg"){
           return (
             <div key={i} className="slider">
-              <div className="description">
-                <div className="title h3">{x.title}</div>
-                <div className="note">{x.note}</div>
-              </div>
               <div className="container">
-                <img src={`./images/projects/${this.props.modal.directory}/${x.content}`} alt={x}/>
-                {/* <div style={{height:"100px", width:"200px", backgroundColor:"yellow"}}></div> */}
-  
+                <div className="description">
+                  <div className="title h3">{x.title}</div>
+                  <div className="note">{x.note}</div>
+                </div>
+                <div className="image-container">
+                  <img src={`./images/projects/${this.props.modal.directory}/${x.content}`} alt={x}/>
+                </div>
               </div>
-
             </div>
           );
         } else if ( fileType === "mp4"){
