@@ -15,23 +15,10 @@
     margin-left: 10px; 
     color: $white;
     font-family: $pt-sans-narrow;
+    z-index: 100000;
   }
   .nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
   }
-}
-
-@media (min-width: 768px) {
-  // .Header {
-  //   .burger {
-  //     display: none;
-  //   }
-  //   .nav {
-  //     display:flex;
-  //     padding-right: 10px;
-  //     justify-self: flex-end;
-  //   }
-  // }
 }
