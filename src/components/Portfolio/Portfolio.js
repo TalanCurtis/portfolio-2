@@ -45,7 +45,8 @@ class Portfolio extends Component {
 
   animateCardContainer(){
     if (!this.cardContainer) return;
-    let cardContainerHeight = this.cardContainer.offsetHeight; 
+    // need to minus 20 for padding offset.
+    let cardContainerHeight = this.cardContainer.offsetHeight - 20; 
     TweenMax.set(".card-container", { height:"auto" });
     TweenMax.from(".card-container", .5 , { height: cardContainerHeight });
     TweenMax.fromTo(".card-holder", .25 , { opacity:0 }, { opacity:1 });
