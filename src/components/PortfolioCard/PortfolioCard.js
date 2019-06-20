@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {TweenMax} from 'gsap';
 import { connect } from 'react-redux';
-import { showModal } from '../../redux/reducers/modal/modalActions'
+import { showModal } from '../../redux/reducers/modal/modalActions';
 
 class PortfolioCard extends Component {
   constructor(props){
@@ -9,6 +9,11 @@ class PortfolioCard extends Component {
     this.state = {
       isOpen: false
     }
+  }
+
+  componentDidMount(){
+    TweenMax.set(`.PortfolioCard${this.props.index}` , {opacity: 0});
+    TweenMax.to(`.PortfolioCard${this.props.index}`, 1 , {opacity: 1});
   }
 
    handleMouseEnter = () => {

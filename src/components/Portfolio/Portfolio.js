@@ -4,6 +4,7 @@ import PortfolioCard from '../PortfolioCard/PortfolioCard';
 import Filter from '../Filter/Filter';
 import _ from 'lodash';
 import SectionHeader from '../SectionHeader/SectionHeader';
+import { TweenMax } from 'gsap';
 
 class Portfolio extends Component {
   constructor(props){
@@ -38,9 +39,17 @@ class Portfolio extends Component {
     if(_.isEmpty(filters)){
       newFilteredProjects = content.projects;
     }
-    this.setState({filters, filteredProjects: newFilteredProjects})
+    this.setState({filters, filteredProjects: newFilteredProjects});
+    this.animateCardContainer();
   }
 
+  animateCardContainer(){
+    if (!this.cardContainer) return;
+    let cardContainerHeight = this.cardContainer.offsetHeight; 
+    TweenMax.set(".card-container", { height:"auto" });
+    TweenMax.from(".card-container", .5 , { height: cardContainerHeight });
+    TweenMax.fromTo(".card-holder", .25 , { opacity:0 }, { opacity:1 });
+  }
 
   render(){
     let projects = this.state.filteredProjects.map((x,i)=>{
@@ -59,7 +68,7 @@ class Portfolio extends Component {
             </div>
           <div className="separator"></div>
         </div>
-        <div className="project-container">
+        <div className="project-container card-container" ref={(ref)=>this.cardContainer = ref}>
           {projects}
         </div>
        </div>
