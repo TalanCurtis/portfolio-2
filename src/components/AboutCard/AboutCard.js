@@ -22,7 +22,7 @@ const AboutCard = (props) => {
         <div className="separator"></div>
       </div>
       {getIcon()}
-      <div className="description">{ props.content.description }</div>
+      <div className="description h4">{ props.content.description }</div>
     </div>
   )
 }

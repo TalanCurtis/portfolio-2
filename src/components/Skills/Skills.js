@@ -62,7 +62,7 @@ const Skills = () => {
             <div className="info">
               <div className="card">
                 <div className="sub-header-art h2">Artistic Skills</div>
-                <div className="description h4">After being a professional artist for many years you acquire a wide set of skills: From global juggernauts like Electronic Arts to freelance graphic design.</div>
+                <div className="description h4">After being a professional artist for many years you acquire a wide set of skills. From 3d Artist to freelance graphic design.</div>
               </div>
               <div className="bullet-points">
                 <div className="container">

@@ -1,8 +1,9 @@
 .AboutCard {
   // background-color: yellow;
   display: grid;
-  max-width: 256px;
+  // max-width: px;
   grid-template-columns: 1fr auto;
+  grid-template-rows: auto 1fr;
   justify-content: center;
   align-items: flex-end;
   padding: 16px;
@@ -13,5 +14,6 @@
   .description {
     margin-top: 5px;
     grid-column: 1 / -1;
+    align-self: flex-start;
   }
 }

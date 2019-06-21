@@ -235,17 +235,17 @@
         {
             "id":0,
             "title": "Engineer",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti porro atque repudiandae nulla libero magni omnis, aspernatur adipisci molestiae molestias accusantium iste explicabo rem optio voluptatem. Rem impedit quia ipsa, unde vero odit explicabo ab nemo perspiciatis maiores ipsam veritatis. "
+            "description":"Web Applications , Video Games and even Virtual Reality. Having programed on a variety of platforms as well as languages,  I have been challenged to work within restraints while providing optimal quality. My main languages are Javascript and Python, but I have programmed in so many more. I love problem solving and I am adaptable with a continuous learning attitude."
         },
         {
             "id":1,
             "title": "Artist",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti porro atque repudiandae nulla libero magni omnis, aspernatur adipisci molestiae molestias accusantium iste explicabo rem optio voluptatem. Rem impedit quia ipsa, unde vero odit explicabo ab nemo perspiciatis maiores ipsam veritatis. "
+            "description": "I went to The Art Institute of San Diego for a BS focused in Media Arts and Animation. There I received a solid foundation of the Adobe Suite, 3d Modeling Programs, Video game engines and Traditional Art Skills. Shortly after I began a career as a 3d Artist at Electronic Arts. Having an artistic background has given me the unique perspective to find creative solutions for complex problems."
         },
         {
             "id":2,
             "title": "Animator",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti porro atque repudiandae nulla libero magni omnis, aspernatur adipisci molestiae molestias accusantium iste explicabo rem optio voluptatem. Rem impedit quia ipsa, unde vero odit explicabo ab nemo perspiciatis maiores ipsam veritatis. "
+            "description": "Traditional 2d animation, 3d rigged characters and animated web elements, I have done them all. Understanding the laws of motion, when to bend and break the rules, has given me and advantage when making pleasing, appealing, movement on any platform."
         }
     ],
     "skills": {

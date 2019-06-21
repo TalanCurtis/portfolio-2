@@ -28,7 +28,9 @@
     }
   }
   .aboutCards-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 20px;
     justify-content: space-around;
     .AboutCard:nth-child(odd) {
       background: $greenAccent;
@@ -36,6 +38,16 @@
   }
 }
 
+@media (max-width: 768px) { 
+  .About {
+    .aboutCards-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
 @media (max-width: 568px) {
   .About {
     .me {
@@ -44,12 +56,5 @@
       align-items: center;
       text-align: center;
     }
-    .aboutCards-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
   }
 }
