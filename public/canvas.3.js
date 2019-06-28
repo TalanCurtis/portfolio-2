@@ -1,36 +1,7 @@
-import React,{ Component } from 'react';
-
-class Intro extends Component {  
-  constructor(props){
-    super(props);
-    this.state = {
-
-    }
-  } 
-
-  componentDidMount(){
-
-  }
-
-
-
-  render(){
-
-
-    return (
-      <div className="Intro" id="Intro" >
-        {/* <canvas className="intro-canvas" id="intro-canvas" style={{backgroundColor:"yellow", height:"100%", width:"100%" }}></canvas> */}
-      </div>
-    )
-  }
-}
-
-export default Intro;
-/*
 console.log("canvas playground")
 // end of tutorial working version.
 
-let canvas = document.querySelector("canvas");
+let canvas = document.getElementById("int-canvas");
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -132,5 +103,3 @@ function animate () {
 
 init();
 animate();
-
-*/
