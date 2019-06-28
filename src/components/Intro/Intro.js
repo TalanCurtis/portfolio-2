@@ -19,7 +19,9 @@ class Intro extends Component {
 
     return (
       <div className="Intro" id="Intro" >
-        {/* <canvas className="intro-canvas" id="intro-canvas" style={{backgroundColor:"yellow", height:"100%", width:"100%" }}></canvas> */}
+        <div className="header h1"><p> I am  <span className="name" > Alan Curtis </span> </p></div>
+        <div className="sub-header h2"> Web Developer / Technical Artist</div>
+        <button className="goto">My Work</button>
       </div>
     )
   }

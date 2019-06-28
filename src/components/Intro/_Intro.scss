@@ -5,4 +5,21 @@
   left: 0px;
   height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .header {
+    display: flex;
+    p {
+      color: white;
+      .name {
+        font-weight: bold;
+        color: red;
+      }
+    }
+  }
+  .sub-header {
+    color: green;
+  }
 }
