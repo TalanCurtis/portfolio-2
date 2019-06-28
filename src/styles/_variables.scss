@@ -12,6 +12,12 @@ $white: rgb(255, 255, 255);
 $warning: rgb(182, 0, 0);
 $test1: rgb(255, 0, 212);
 
+$c1: rgb(66, 49, 138);
+$c2: rgb(61, 175, 86);
+$c3: rgb(70, 125, 197);
+$c4: rgb(91, 216, 204);
+$bg: rgb(72, 87, 94);
+
 :export {
   success: $success;
   greyDark: $greyDark;
@@ -21,4 +27,9 @@ $test1: rgb(255, 0, 212);
   white: $white;
   warning: $warning;
   test1: $test1;
+  c1: $c1;
+  c2: $c2;
+  c3: $c3;
+  c4: $c4;
+  bg: $bg;
 }

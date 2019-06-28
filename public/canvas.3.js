@@ -14,10 +14,10 @@ let mouse = {
 }
 
 let colorArray= [
-  "#F8B195",
-  "#F67280",
-  "#C06C84",
-  "#6C5B7B",
+  "rgb(66, 49, 138)",
+  "rgb(61, 175, 86)",
+  "rgb(70, 125, 197)",
+  "rgb(91, 216, 204)",
 ]
 
 window.addEventListener('mousemove', function(event){
@@ -83,8 +83,8 @@ function init(){
     let radius = Math.random() * 3 + 1 ;
     let x = Math.random() * ( innerWidth - radius * 2) + radius;
     let y = Math.random() * ( innerHeight - radius * 2) + radius;
-    let dx = (Math.random() -0.5) * 2;
-    let dy = (Math.random() -0.5) * 2;
+    let dx = (Math.random() -0.5) * 1.2;
+    let dy = (Math.random() -0.5) * 1.2;
     let minRadius = Math.random() * 3 + 1 ;
     let maxRadius = Math.random() * 40 + 10 ;
   

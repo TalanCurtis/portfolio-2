@@ -11,8 +11,11 @@ class Intro extends Component {
   componentDidMount(){
 
   }
-
-
+  scrollToMyRef = () => {
+    // add 60 for header offset;
+    let elem = document.getElementById("About");
+    window.scrollTo(0, elem.offsetTop - 60);
+  };
 
   render(){
 
@@ -20,119 +23,11 @@ class Intro extends Component {
     return (
       <div className="Intro" id="Intro" >
         <div className="header h1"><p> I am  <span className="name" > Alan Curtis </span> </p></div>
-        <div className="sub-header h2"> Web Developer / Technical Artist</div>
-        <button className="goto">My Work</button>
+        <div className="sub-header h2"> Web Developer | Technical Artist</div>
+        <button className="goto colorBtn h3" onClick={this.scrollToMyRef}>My Work</button>
       </div>
     )
   }
 }
 
 export default Intro;
-/*
-console.log("canvas playground")
-// end of tutorial working version.
-
-let canvas = document.querySelector("canvas");
-
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-let c = canvas.getContext('2d');
-
-let mouse = {
-  x: undefined,
-  y: undefined
-}
-
-let colorArray= [
-  "#F8B195",
-  "#F67280",
-  "#C06C84",
-  "#6C5B7B",
-]
-
-window.addEventListener('mousemove', function(event){
-  mouse.x = event.x;
-  mouse.y = event.y;
-});
-
-window.addEventListener('resize', function (){
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-  init();
-})
-
-function Circle (x, y, dx, dy, radius, minRadius, maxRadius) {
-  this.x = x;
-  this.y = y;
-  this.dx = dx;
-  this.dy = dy;
-  this.radius= radius;
-  this.color = colorArray[ Math.floor(Math.random() * colorArray.length)]
-  this.minRadius = minRadius;
-  this.maxRadius = maxRadius;
-
-  this.draw = function () {
-    c.beginPath();
-    c.arc(this.x, this.y, this.radius, 0 , Math.PI * 2, false);
-    c.fillStyle = this.color;
-    c.fill();
-    
-  }
-  this.update = function () {
-    if (this.x + radius > innerWidth || this.x - radius < 0 ){
-      this.dx = -this.dx;
-    }
-    if (this.y + radius > innerHeight || this.y - radius < 0 ){
-      this.dy = -this.dy;
-    }
-  
-    this.x += this.dx;
-    this.y += this.dy;
-
-    // Mouse interactivity. What happens when mouse move event happens.
-    if (mouse.x - this.x < 50 && mouse.x - this.x > -50
-      && mouse.y - this.y < 50 && mouse.y - this.y > -50
-      ) {
-        if ( this.radius < this.maxRadius){
-          this.radius += 1;
-        }
-      
-    } else if ( this.radius > this.minRadius) {
-      this.radius -= 1;
-    }
-
-    this.draw();
-  }
-}
-
-let circleArray = [];
-
-function init(){
-  circleArray= [];
-  for (let i = 0; i < 800 ; i++){
-    let radius = Math.random() * 3 + 1 ;
-    let x = Math.random() * ( innerWidth - radius * 2) + radius;
-    let y = Math.random() * ( innerHeight - radius * 2) + radius;
-    let dx = (Math.random() -0.5) * 2;
-    let dy = (Math.random() -0.5) * 2;
-    let minRadius = Math.random() * 3 + 1 ;
-    let maxRadius = Math.random() * 40 + 10 ;
-  
-    circleArray.push(new Circle( x, y , dx, dy, radius, minRadius, maxRadius));
-  }
-}
-
-function animate () {
-  requestAnimationFrame(animate);
-  c.clearRect(0, 0 , innerWidth, innerHeight);
-  
-  for( let circle in circleArray ){
-    circleArray[circle].update();
-  }
-}
-
-init();
-animate();
-
-*/

@@ -47,7 +47,7 @@ class Contact extends Component{
               <label htmlFor="">Message</label>
               <textarea className="message"  title="message" name="message" rows="10"  onChange={this.handleInput}></textarea>
             </div>
-            <button className="h3 send" onClick={this.sendEmail}>Send Email</button>
+            <button className="h3 send colorBtn" onClick={this.sendEmail}>Send Email</button>
           </div>
         </div>
 

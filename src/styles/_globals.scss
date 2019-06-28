@@ -60,6 +60,19 @@ button {
     cursor: pointer;
   }
 }
+.colorBtn {
+  font-weight: bold;
+  background-color: $c3;
+  box-shadow: 2px 2px rgb(18, 61, 28), -2px -2px rgb(18, 61, 28), -2px 2px rgb(18, 61, 28),2px -2px rgb(18, 61, 28);
+  color: $black;
+  transition: all .5s ease-in-out;
+  &:hover {
+    background-color: green;
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+  }
+}
 
 .nav {
   color: $white;
