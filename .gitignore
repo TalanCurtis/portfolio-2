@@ -27,3 +27,4 @@ yarn-error.log*
 src/**/*.css
 designs/portfolio_mockup.xd
 package-lock.json
+_notes

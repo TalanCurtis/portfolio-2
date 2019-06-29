@@ -103,18 +103,162 @@
             "directory":"Sims3",
             "contentImages": [
                 {
-                    "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "id": 0,
+                    "content":"alan-curtis-the-sims-3-logo.jpg",
+                    "title": "Sims 3 logo",
+                    "note": " I did not make the logo."
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-forgottencabin01.jpg",
+                    "title": "Forgotten Cabin 01",
+                    "note": " This is a destroyed and abandoned cabin that was part of the world exploration. "
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-forgottencabin02.jpg",
+                    "title": "Forgotten Cabin 02",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-forgottencabin03.jpg",
+                    "title": "Forgotten Cabin 03",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-forgottencabin04.jpg",
+                    "title": "Forgotten Cabin 04",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-forgottencabin05.jpg",
+                    "title": "Forgotten Cabin 05",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep10-arch.jpg",
+                    "title": "The Arch 01",
+                    "note": " This arch get placed over the roads in the city and Sims can walk and driver under it."
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep10-arch02.jpg",
+                    "title": "The Arch 02",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep10-arch03.jpg",
+                    "title": "The Arch 03",
+                    "note": " It also lights up at night! "
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep09-brainenhance01.jpg",
+                    "title": "Brain Enhancer 01",
+                    "note": " This is home built, makeshift brain enhancing machine that when a Sim sits in it their intelligence gets a boost."
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep09-brainenhance02.jpg",
+                    "title": "Brain Enhancer 02",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep06-bear.jpg",
+                    "title": "Bear Sculpture",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep06-gargoyal.jpg",
+                    "title": "Gargoyal Sculpture",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep06-seahorse.jpg",
+                    "title": "Seahorse Sculpture",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep06-steampunkfurnace.jpg",
+                    "title": "Steam Punk Furnace",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep06-chairpancake.jpg",
+                    "title": "Pancake Chair",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-loveseatcrates.jpg",
+                    "title": "Dorm Room Couch",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-signbowling.jpg",
+                    "title": "Bowling Sign",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-signcoffeeshop.jpg",
+                    "title": "Coffee Shop Sign",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-vendingmachinecandy.jpg",
+                    "title": "Vending Machine Candy",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep09-photobooth02.jpg",
+                    "title": "Photobooth 01",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep06-photobooth02.jpg",
+                    "title": "Photobooth 02",
+                    "note": ""
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep07-wands.jpg",
+                    "title": "Wands",
+                    "note": "I made a variation of wands for the Supernatural."
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-baristabar01.jpg",
+                    "title": "Barista Bar 01",
+                    "note": "This is a fully rigged and animated Barista Bar."
+                },
+                {
+                    "id": 1,
+                    "content":"alan-curtis-ep08-baristabar02.jpg",
+                    "title": "Barista Bar 01",
+                    "note": ""
                 }
             ],
-            "coverImage": "OCaptain.JPG",
+            "coverImage": "alan-curtis-the-sims-3-logo.jpg",
             "links": [
-                {"title": "site", "link": "https://www.google.com/"},
-                {"title": "github", "link": "https://www.google.com/"}
+                {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_3#Expansion_packs"}
             ],
-            "description": "This was a challenge to take a static images from designer to functional site.",
-            "tags": ["Unity", "Maya", "Substance", "ZBrush", "Python", "C#"]
+            "description":"Sims 3: I take pride in working on a project that has more than ten million copies sold. I started as a 3d Artist and by the end of 3 years of continuous expansion packs I evolved into a technical artist. As I mentored under an amazing technical artist I expanded my skillset from Modeling and texturing to include Python Tool Creation, Pipeline Flow and Rigging for 3d animation. Here I made a Maya Modeling Toolset with custom tools, exporters. Sims was a well oiled machine. I learned project structures and naming conventions that can make any project run smooth.",
+            "tags": [ "Maya", "ZBrush", "Python", "C#"]
         },
         {
             "id":4,
