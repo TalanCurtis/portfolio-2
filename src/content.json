@@ -285,18 +285,50 @@
             "directory":"SimsMobile",
             "contentImages": [
                 {
-                    "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "content":"simsMobile-cover.jpg",
+                    "title": "Sims Mobile Banner",
+                    "note": " I did not make this banner."
                 }
             ],
-            "coverImage": "OCaptain.JPG",
+            "coverImage": "simsMobile-cover.jpg",
             "links": [
-                {"title": "site", "link": "https://www.google.com/"},
-                {"title": "github", "link": "https://www.google.com/"}
+                {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_Mobile#External_links"}
             ],
-            "description": "This was a challenge to take a static images from designer to functional site.",
-            "tags": ["Unity", "Maya", "Substance", "Python", "C#"]
+            "description": "Sims Mobile: Sims Mobile was challenging to meet a visual quality with the restrictions of  being on mobile devices. Here I started exploring the Unity 3d Engine, really diving into the technical side of Development. Picking up C# and exploring  the inner workings of  game engine. Finding clever ways to develop textures and pushing visual quality while maintaining small footprints. Again due to sudden shifts from project to project I did not take snapshots of the assets I built. They were a variety of building , and assets. To name a few; Coffee Shop , Hospital and variety of furniture.",
+            "tags": ["Unity", "Maya", "Python", "C#"]
+        },
+        {
+            "id":10,
+            "title": "Sims Freeplay",
+            "directory":"SimsFreeplay",
+            "contentImages": [
+                {
+                    "content":"simsFreeplay-cover.jpg",
+                    "title": "Sims Freeplay Banner",
+                    "note": " I did not make this banner."
+                },
+                {
+                    "content":"sims-freeplay-barnAssets-01.jpg",
+                    "title": "Barn Assets 01",
+                    "note": "I made a variety of the models used to populate the scene. The grass variations, tire, barrel and rocks."
+                },
+                {
+                    "content":"sims-freeplay-barnAssets-02.jpg",
+                    "title": "Barn Assets 02",
+                    "note": "I made a variety of the models used to populate the scene. The grass variations, tire, barrel and rocks."
+                },
+                {
+                    "content":"sims-freeplay-barnAssets-03.jpg",
+                    "title": "Barn Assets 03",
+                    "note": "I modeled the broken down wagon in this image."
+                }
+            ],
+            "coverImage": "simsFreeplay-cover.jpg",
+            "links": [
+                {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_FreePlay"}
+            ],
+            "description": "Sims Freeplay: I flew out to Melbourne Australia for 2 Months to assist and learn how to develop games for mobile devices. Leaning the challenges and struggles that the Fire Monkeys Studio encounter. This was an amazing experience to work with such a talented studio is such a beautiful part of the world.",
+            "tags": ["Unity", "Maya", "Python", "C#"]
         },
         {
             "id":6,
