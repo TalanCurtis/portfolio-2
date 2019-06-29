@@ -266,18 +266,18 @@
             "directory":"Sims4",
             "contentImages": [
                 {
-                    "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "content":"sims4-cover.jpg",
+                    "title": "Sims 4 Cover",
+                    "note": "I did not make this Logo."
                 }
             ],
-            "coverImage": "OCaptain.JPG",
+            "coverImage": "sims4-cover.jpg",
             "links": [
-                {"title": "site", "link": "https://www.google.com/"},
-                {"title": "github", "link": "https://www.google.com/"}
+                {"title": "Site", "link": "https://www.ea.com/games/the-sims/the-sims-4"},
+                {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_4"}
             ],
-            "description": "This was a challenge to take a static images from designer to functional site.",
-            "tags": ["Unity", "Maya", "Substance", "ZBrush", "Python", "C#"]
+            "description": "Sims 4: Working on Sims 3 it was only natural to move on to Sims 4. I continued on as a 3d and Technical Artist. Creating art asset and pipeline tools in python. I ended up getting flown out to EA Redwood Shores for 2 months to work on this project. I have no examples of my work on this project due to layoffs. I was not let go but our studio got cut off from the main server.",
+            "tags": [ "Maya", "ZBrush", "Python", "C#"]
         },
         {
             "id":5,
