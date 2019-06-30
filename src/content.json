@@ -336,17 +336,16 @@
             "directory":"StarWarsSecretsOfTheEmpire",
             "contentImages": [
                 {
-                    "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "content":"swsote-banner.jpg",
+                    "title": "Star Wars: Secrets Of The Empire",
+                    "note": "I did not make this banner."
                 }
             ],
-            "coverImage": "OCaptain.JPG",
+            "coverImage": "swsote-banner.jpg",
             "links": [
-                {"title": "site", "link": "https://www.google.com/"},
-                {"title": "github", "link": "https://www.google.com/"}
+                {"title": "HomePage", "link": "https://www.thevoid.com/"}
             ],
-            "description": "This was a challenge to take a static images from designer to functional site.",
+            "description": "Secrets of the Empire: Working with Disney studios to build an amazing Virtual Reality experience that is feature at DisneyLand and Disney World resorts is quite a badge of honor. Unfortunately most art was provided by Disney but that didn’t stop my tools from aiding artist. I wrote python tools to speed up process the get assets completed quickly and efficiently.",
             "tags": ["Unreal 4", "Maya", "Substance", "ZBrush", "Python", "C#"]
         },
         {
@@ -527,17 +526,21 @@
             "directory":"GhostBusters",
             "contentImages": [
                 {
-                    "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "content":"ghostBusters-banner.jpg",
+                    "title": "The Void Ghost Busters",
+                    "note": " I did not make this image."
+                }, 
+                {
+                    "content":"gbavatar-render-back.jpg",
+                    "title": "Proton Pack",
+                    "note": "The Avatars created for the experience was a group effort. I made the Proton Pack."
                 }
             ],
-            "coverImage": "OCaptain.JPG",
+            "coverImage": "ghostBusters-banner.jpg",
             "links": [
-                {"title": "site", "link": "https://www.google.com/"},
-                {"title": "github", "link": "https://www.google.com/"}
+                {"title": "HomePage", "link": "https://www.thevoid.com/"}
             ],
-            "description": "This was a challenge to take a static images from designer to functional site.",
+            "description": "Ghost Busters: Working in Virtual Reality has it own sets of obstacles, But that didn’t stop me and a dedicated team to produce one of the best VR experiences to date. I helped with project structure as well as built python development tools for this project. Mainly I was in change of environment modeling and asset creation.",
             "tags": ["Unity", "Maya", "Substance", "Photoshop", "ZBrush", "Python", "C#"]
         }
     ],
