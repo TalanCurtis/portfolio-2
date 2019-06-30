@@ -814,21 +814,26 @@
                 },
                 {
                     "id": 3,
+                    "image": "AdobeXD-Icon.png",
+                    "title": "Experience"
+                },
+                {
+                    "id": 4,
                     "image": "Maya-Icon.png",
                     "title": "Maya"
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "image": "ZBrush-Icon.png",
                     "title": "ZBrush"
                 },
                 {
-                    "id": 3,
+                    "id": 6,
                     "image": "SubstanceDesigner-Icon.png",
                     "title": "Designer"
                 },
                 {
-                    "id": 4,
+                    "id": 7,
                     "image": "SubstancePainter-Icon.png",
                     "title": "Painter"
                 }
