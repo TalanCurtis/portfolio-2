@@ -374,17 +374,151 @@
             "directory":"MinionsParadise",
             "contentImages": [
                 {
-                    "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "content":"alan-curtis-minionsparadise.jpg",
+                    "title": "Minions Paradise Cover",
+                    "note": " I did not make this image."
+                },
+                {
+                    "content":"alan-curtis-minionbase.jpg",
+                    "title": "Base Minion Model",
+                    "note": " I modeled and texture the base minion. This was a complex model because we used on character and morphed them into all the different types of minions. This one minion can morph into tall, short, base, one eyed, two eyed, spiky hair, curly hair lets just say any minion you could imagine."
+                },
+                {
+                    "content":"alan-curtis-minionbeedo.jpg",
+                    "title": "Beedo",
+                    "note": "I got to make Beedo! Despite the crazy versatility of the Base Minion Character. We still had to model one off minions like Beedo here."
+                },
+                {
+                    "content":"alan-curtis-minionfrenchmaid.jpg",
+                    "title": "French Maid",
+                    "note": "The iconic french maid minion."
+                },
+                {
+                    "content":"alan-curtis-resource-banana.jpg",
+                    "title": "Banana Resource Building",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-resource-fireflies.jpg",
+                    "title": "Fireflies Resource Building",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-resource-rubbertree.jpg",
+                    "title": "Rubber Resource Building",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-resource-razorclam.jpg",
+                    "title": "Razor Clam Resource Building",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-resource-piranha.jpg",
+                    "title": "Piranha Resource Building",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-unique-cruiseship.jpg",
+                    "title": "Cruise ship",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-leisure-hottub.jpg",
+                    "title": "Hot Tub Leisure Building",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-leisure-hammock.jpg",
+                    "title": "Hammock Leisure Building",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-leisure-loungechair.jpg",
+                    "title": "Lounge Chair Leisure Building",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-leisure-throwingdisc.jpg",
+                    "title": "Throwing Disc Leisure Building",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-decor-camelrocks.jpg",
+                    "title": "Camel Rocks Decor",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-decor-clothesline.jpg",
+                    "title": "Clothes Line Decor",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-decor-minionsign.jpg",
+                    "title": "Minion Sign Decor",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-decor-toilet.jpg",
+                    "title": "Outhouse",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-decor-totemshort.jpg",
+                    "title": "Totem Short Decor",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-decor-totemtall.jpg",
+                    "title": "Totem Tall Decor",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-decor-umbrella.jpg",
+                    "title": "Umbrella Decor",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-unique-innertube.jpg",
+                    "title": "Innertube",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-unique-repairstate01.jpg",
+                    "title": "Disheveled 01",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-unique-repairstate02.jpg",
+                    "title": "Disheveled 02",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-unique-repairstate03.jpg",
+                    "title": "Disheveled 03",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-unique-repairstate04.jpg",
+                    "title": "Disheveled 04",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-unique-repairstate05.jpg",
+                    "title": "Disheveled 05",
+                    "note": ""
+                },
+                {
+                    "content":"alan-curtis-unique-repairstate06.jpg",
+                    "title": "Disheveled 06",
+                    "note": ""
                 }
             ],
-            "coverImage": "OCaptain.JPG",
+            "coverImage": "alan-curtis-minionsparadise.jpg",
             "links": [
-                {"title": "site", "link": "https://www.google.com/"},
-                {"title": "github", "link": "https://www.google.com/"}
+                {"title": "wiki", "link": "https://en.wikipedia.org/wiki/Minions_Paradise"}
             ],
-            "description": "This was a challenge to take a static images from designer to functional site.",
+            "description": "Minions Paradise: This Project I was able to let all my talents shine! I created the project folder structure, naming conventions and modeling pipeline from scratch. After developing the process from the ground up I made Tools to help with the process. Animation Exports, Character Exports, LightBaking tools and my big win was the Asset Exporter. This tool made it so artist could make an asset, put in the design specs (cost, number of minions, resource, etc). It would then export that asset and make it a playable game asset. Updating all the code for the store, playability. This in turn saved hundreds of hours of manpower saving the company over $150,000 a year.",
             "tags": ["Unity", "Maya", "Photoshop", "ZBrush", "Python", "C#"]
         },
         {
