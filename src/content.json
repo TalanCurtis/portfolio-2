@@ -50,32 +50,21 @@
             "directory":"Akrasia",
             "contentImages": [
                 {
-                    "content":"Akrasia.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "content":"akrasia-01.jpg",
+                    "title": " Login / Friend / Challenge Categories",
+                    "note": ""
                 },
                 {
-                    "content":"Akrasia.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
-                },
-                {
-                    "content":"Akrasia.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
-                },
-                {
-                    "content":"Akrasia.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "content":"akrasia-02.jpg",
+                    "title": "Challenge / Payment / Personal Profile",
+                    "note": ""
                 }
+        
             ],
-            "coverImage": "Akrasia.JPG",
+            "coverImage": "akrasia-01.jpg",
             "links": [
-                {"title": "site", "link": "https://www.google.com/"},
-                {"title": "github", "link": "https://www.google.com/"}
             ],
-            "description": "This was a challenge to take a static images from designer to functional site.",
+            "description": "Akrasia: This was a personal project. Overall this is a site where you accept challenges and put money against yourself. Once you complete a challenge you receive awards but if you don’t you get charged the amount you wagered. Achievements: Allowing user to login using facebook Api. A friend system unique to the app. Credit card payment method using stripe. A window mechanic that will charge your account if you did not complete your challenge in time.",
             "tags": ["React", "CSS", "Redux"]
         },
         {
