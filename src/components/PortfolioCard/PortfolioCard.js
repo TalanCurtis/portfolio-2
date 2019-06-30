@@ -18,11 +18,9 @@ class PortfolioCard extends Component {
 
    handleMouseEnter = () => {
     TweenMax.to(`.PortfolioCard${this.props.index}`, .25, {scale:1.03 , zIndex:100, boxShadow:"5px 5px #5EACDC , -5px -5px  #5EACDC,  5px -5px  #5EACDC,  -5px 5px  #5EACDC"});
-    TweenMax.to(`.PortfolioCard${this.props.index} .header`, .25, {opacity:1});
   }
    handleMouseLeave = () => {
     TweenMax.to(`.PortfolioCard${this.props.index}`, .25, {scale:1 ,zIndex:1, boxShadow:" 2px 2px #475877  , -2px -2px #475877 ,  2px -2px #475877 ,  -2px 2px #475877 "});
-    TweenMax.to(`.PortfolioCard${this.props.index} .header`, .25, {opacity:0});
   }
    handleOnClick = () => {
     this.props.showModal(true, this.props.item);
