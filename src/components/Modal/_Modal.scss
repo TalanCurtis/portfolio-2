@@ -13,11 +13,11 @@
   display: none;
 
   .content {
-    background-color: #fff;
+    background-color:$modalHeader;
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto 1fr;
     .header {
       background-color: $modalHeader;
       display: grid;
@@ -38,6 +38,9 @@
       background-color: $modalFooter;
       display: flex;
       flex-direction: column;
+      max-width: 700px;
+      justify-self: center;
+      padding: 0px 10px;
       .container {
         margin: 10px 10px 10px 10px;
         text-align: center;

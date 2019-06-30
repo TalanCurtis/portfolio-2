@@ -61,9 +61,6 @@ class Modal extends Component {
               </div>
               <XSVG className="x" size={20} onClick={this.handleCloseModal}/>
             </div>
-            <div className="body" style={{width:"100%" , height:"100%", backgroundColor:"green"}}>
-              <Gallery />
-            </div>
             <div className="footer">
               <div className="container"> 
                 <div className="title h4">About this Project</div>
@@ -77,6 +74,10 @@ class Modal extends Component {
                 }
               </div>
             </div>
+            <div className="body" style={{width:"100%" , height:"100%"}}>
+              <Gallery />
+            </div>
+
           </div>
         </div>
     )
