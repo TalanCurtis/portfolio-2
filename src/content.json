@@ -70,7 +70,7 @@
         },
         {
             "id":3,
-            "title": "Sims 3",
+            "title": "Sims 3 & Expansions Packs",
             "directory":"Sims3",
             "contentImages": [
                 {
@@ -618,13 +618,49 @@
             "directory":"fsgVisualizer",
             "contentImages": [
                 {
-                    "content":"OCaptain.JPG",
-                    "title": "",
-                    "note": ""
+                    "content":"fsgVisualizer_01_landing.jpg",
+                    "title": "Landing",
+                    "note": "Here you search our database for your school."
+                },
+                {
+                    "content":"fsgVisualizer_02_category.jpg",
+                    "title": "Category",
+                    "note": "Then you select a Category."
+                },
+                {
+                    "content":"fsgVisualizer_03_productTypes.jpg",
+                    "title": "Product Types",
+                    "note": "Then you select a Product Type."
+                },
+                {
+                    "content":"fsgVisualizer_04_products.jpg",
+                    "title": "Products",
+                    "note": "Here you can browse and refine your search."
+                },
+                {
+                    "content":"fsgVisualizer_05_productColor.jpg",
+                    "title": "Product Colors",
+                    "note": "change colors with ease with our interactive color picker."
+                },
+                {
+                    "content":"fsgVisualizer_06_product.jpg",
+                    "title": "Product",
+                    "note": "Get more details about the product. Then add the item to your cart."
+                },
+                {
+                    "content":"fsgVisualizer_07_cart.jpg",
+                    "title": "Cart",
+                    "note": "Cart view. See all items that you added and get ready to check out."
+                },
+                {
+                    "content":"fsgVisualizer_08_findDealer.jpg",
+                    "title": "Find Dealer",
+                    "note": "Using the google maps api. You are able to quickly search Dealers in your area."
                 }
             ],
-            "coverImage": "",
+            "coverImage": "fsgVisualizer_03_productTypes.jpg",
             "links": [
+                {"title": "HomePage", "link": "https://foundersportgroup.com/showroom/"}
             ],
             "description": "FSG Visualizer: I was a Software Engineer on this project. Though that was my title, on top of my coding React components and Managing Redux state, I did Mockups, UX design, and created all the icons for this App. Also worth noting my photoshop skills came in handy many times for quick turnarounds when images provided by Artist did not meet the coding requirements. My main patches of pride are the universal image component I made and the multi-tier filtering system.",
             "tags": ["React", "CSS", "Redux"]
@@ -641,7 +677,7 @@
                 }
             ],
             "coverImage": "",
-            "links": [
+            "links": [ 
             ],
             "description": "FSG Ultimate Builder: An athletic apparel customization tool. I touched every part of this site. I was in charge of  visual representation of the data on canvas and canvas interactions. Pretty much anything that deals with interacting with the Product, or images. I got to do tons of math and geometry to match scales, detect edges and resize entities. This was a super fun and challenging project.",
             "tags": ["React", "CSS", "Redux"]
