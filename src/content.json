@@ -630,7 +630,7 @@
             "tags": ["React", "CSS", "Redux"]
         },
         {
-            "id":10,
+            "id":11,
             "title": "FSG UltimateBuilder",
             "directory":"fsgUltimateBuilder",
             "contentImages": [
@@ -644,6 +644,57 @@
             "links": [
             ],
             "description": "FSG Ultimate Builder: An athletic apparel customization tool. I touched every part of this site. I was in charge of  visual representation of the data on canvas and canvas interactions. Pretty much anything that deals with interacting with the Product, or images. I got to do tons of math and geometry to match scales, detect edges and resize entities. This was a super fun and challenging project.",
+            "tags": ["React", "CSS", "Redux"]
+        },
+        {
+            "id":12,
+            "title": "Nerf N-Strike",
+            "directory":"nerf1",
+            "contentImages": [
+                {
+                    "content":"nerf1-01.jpg",
+                    "title": "Nerf N-Strike",
+                    "note": ""
+                }
+            ],
+            "coverImage": "nerf1-01.jpg",
+            "links": [
+            ],
+            "description": "My first Video game job. Creating and running test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I also assisted with a Sizzle video and some conceptual design.",
+            "tags": ["React", "CSS", "Redux"]
+        },
+        {
+            "id":13,
+            "title": "Nerf 2",
+            "directory":"nerf2",
+            "contentImages": [
+                {
+                    "content":"nerf2-01.jpg",
+                    "title": "Nerf N-Stike Elite",
+                    "note": ""
+                }
+            ],
+            "coverImage": "nerf2-01.jpg",
+            "links": [
+            ],
+            "description": "Creating and running test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I also was able to work with Lead Art Director and assist with Enemy, Environment, Vehicle, and weapon, concepts for upcoming game.",
+            "tags": ["React", "CSS", "Redux"]
+        },
+        {
+            "id":14,
+            "title": "Monopoly Streets",
+            "directory":"monopolyStreets",
+            "contentImages": [
+                {
+                    "content":"monopolyStreets-01.jpg",
+                    "title": "Monopoly Streets",
+                    "note": ""
+                }
+            ],
+            "coverImage": "monopolyStreets-01.jpg",
+            "links": [
+            ],
+            "description": "This game was release on Xbox 360, Playstation 3, and the Wii. I created and ran test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I did some Character concept sketches for new game sku.",
             "tags": ["React", "CSS", "Redux"]
         }
     ],
