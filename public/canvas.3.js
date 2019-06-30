@@ -1,6 +1,3 @@
-console.log("canvas playground")
-// end of tutorial working version.
-
 let canvas = document.getElementById("int-canvas");
 
 canvas.width = window.innerWidth;

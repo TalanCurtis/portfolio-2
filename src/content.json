@@ -611,6 +611,40 @@
             ],
             "description": "Ghost Busters: Working in Virtual Reality has it own sets of obstacles, But that didn’t stop me and a dedicated team to produce one of the best VR experiences to date. I helped with project structure as well as built python development tools for this project. Mainly I was in change of environment modeling and asset creation.",
             "tags": ["Unity", "Maya", "Substance", "Photoshop", "ZBrush", "Python", "C#"]
+        },
+        {
+            "id":10,
+            "title": "FSG Visualizer",
+            "directory":"fsgVisualizer",
+            "contentImages": [
+                {
+                    "content":"OCaptain.JPG",
+                    "title": "",
+                    "note": ""
+                }
+            ],
+            "coverImage": "",
+            "links": [
+            ],
+            "description": "FSG Visualizer: I was a Software Engineer on this project. Though that was my title, on top of my coding React components and Managing Redux state, I did Mockups, UX design, and created all the icons for this App. Also worth noting my photoshop skills came in handy many times for quick turnarounds when images provided by Artist did not meet the coding requirements. My main patches of pride are the universal image component I made and the multi-tier filtering system.",
+            "tags": ["React", "CSS", "Redux"]
+        },
+        {
+            "id":10,
+            "title": "FSG UltimateBuilder",
+            "directory":"fsgUltimateBuilder",
+            "contentImages": [
+                {
+                    "content":"OCaptain.JPG",
+                    "title": "",
+                    "note": ""
+                }
+            ],
+            "coverImage": "",
+            "links": [
+            ],
+            "description": "FSG Ultimate Builder: An athletic apparel customization tool. I touched every part of this site. I was in charge of  visual representation of the data on canvas and canvas interactions. Pretty much anything that deals with interacting with the Product, or images. I got to do tons of math and geometry to match scales, detect edges and resize entities. This was a super fun and challenging project.",
+            "tags": ["React", "CSS", "Redux"]
         }
     ],
     "aboutCards":[
