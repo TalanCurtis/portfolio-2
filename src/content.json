@@ -6,42 +6,25 @@
             "directory":"PaintYourPixture",
             "contentImages": [
                 {
-                    "content":"https://www.youtube.com/embed/tgbNymZ7vqY",
-                    "title": "youtube",
-                    "note": " This is an animation of youtube"
+                    "content":"paintYourPicture-01.jpg",
+                    "title": "Landing",
+                    "note": ""
                 },
                 {
-                    "content":"https://www.youtube.com/embed/tgbNymZ7vqY",
-                    "title": "youtube",
-                    "note": " This is an animation of youtube"
+                    "content":"paintYourPicture-02.jpg",
+                    "title": "Bottom of page",
+                    "note": ""
                 },
                 {
-                    "content":"kronk.mp4",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
-                },
-                {
-                    "content":"PaintYourPixture_cover.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
-                },
-                {
-                    "content":"PaintYourPixture.jpg",
-                    "title": "picture2",
-                    "note": " This is an picture of Kronk"
-                },
-                {
-                    "content":"PaintYourPixture_cover.jpg",
-                    "title": "picture1",
-                    "note": " This is an another picture of Kronk"
+                    "content":"paintYourPicture-03.jpg",
+                    "title": "Card Content",
+                    "note": ""
                 }
             ],
             "coverImage": "PaintYourPixture_cover.JPG",
             "links": [
-                {"title": "site", "link": "https://www.google.com/"},
-                {"title": "github", "link": "https://www.google.com/"}
             ],
-            "description": "I was a Software Engineer on this project. Though that was my title, on top of my coding React components and Managing Redux state, I did Mockups, UX design, and created all the icons for this App. Also worth noting my photoshop skills came in handy many times for quick turn arounds when images provided by Artist did not meet the coding requirements. My main patches of pride are the universal image component I made and the multi-teir filtering system ",
+            "description": "Paint Your Pixture: This was just a site challenge to match the css style requirements from an image.",
             "tags": ["React", "CSS"]
         },
         {
@@ -74,16 +57,15 @@
             "contentImages": [
                 {
                     "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "title": "Landing / Class / Student",
+                    "note": ""
                 }
             ],
             "coverImage": "OCaptain.JPG",
             "links": [
-                {"title": "site", "link": "https://www.google.com/"},
-                {"title": "github", "link": "https://www.google.com/"}
+                {"title": "github", "link": "https://github.com/TalanCurtis/o-captain"}
             ],
-            "description": "This was a challenge to take a static images from designer to functional site.",
+            "description": "OCaptain: This was a person project. An organizational site for teachers, allowing them to track students, assignments and grades. Achievements: Building a complex database with sql, and gaining a deeper understanding of relational databases.",
             "tags": ["React", "CSS", "Redux"]
         },
         {
