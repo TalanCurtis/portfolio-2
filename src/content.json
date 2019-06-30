@@ -354,17 +354,115 @@
             "directory":"TropicanaTropolis",
             "contentImages": [
                 {
-                    "content":"OCaptain.jpg",
-                    "title": "Kronk",
-                    "note": " This is an animation of Kronk"
+                    "content":"tropolis-cover.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-mockup.jpg",
+                    "title": "Tropicana Tropolis mockup",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-screens-fullsite-b1.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-screens-fullsite-b2.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-screens-fullsite-b3.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-screens-fullsite-b4.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-screens-fullsite-b5.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-screens-fullsite-b6.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-screens-fullsite-b7.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-screens-fullsite-b8.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-screens-fullsite-b9.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-sketch1.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-sketch2.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-sketches1.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-sketches2.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-sketches3.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-sketches4.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-sketches5.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-sketches6.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-sketches7.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
+                },
+                {
+                    "content":"tropolis-sketches8.jpg",
+                    "title": "Tropicana Tropolis Banner",
+                    "note": ""
                 }
             ],
-            "coverImage": "OCaptain.JPG",
+            "coverImage": "tropolis-cover.jpg",
             "links": [
-                {"title": "site", "link": "https://www.google.com/"},
-                {"title": "github", "link": "https://www.google.com/"}
             ],
-            "description": "This was a challenge to take a static images from designer to functional site.",
+            "description": "Tropicana Tropolis: FWA Award winning site! I was hired for this project for my Art skills. Doing all the art and traditional frame by frame animation pushed this website over the top with lively interactable environments, and games with animated characters and vfx. On top of it all I ended up making around a 15 page coloring book for kids. This site was directed towards a new product that Tropicana was releasing. Unfortunately the product got discontinued and so did the site but still a site I am proud of.",
             "tags": ["Flash"]
         },
         {
