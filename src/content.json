@@ -242,7 +242,7 @@
                     "note": "I did not make this Logo."
                 }
             ],
-            "coverImage": "sims4-cover.jpg",
+            "coverImage": "sims4-cover-1.jpg",
             "links": [
                 {"title": "Site", "link": "https://www.ea.com/games/the-sims/the-sims-4"},
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_4"}
@@ -294,7 +294,7 @@
                     "note": "I modeled the broken down wagon in this image."
                 }
             ],
-            "coverImage": "simsFreeplay-cover.jpg",
+            "coverImage": "simsFreeplay-cover-1.jpg",
             "links": [
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_FreePlay"}
             ],
@@ -693,7 +693,7 @@
                     "note": ""
                 }
             ],
-            "coverImage": "nerf1-01.jpg",
+            "coverImage": "nerf1-cover.jpg",
             "links": [
             ],
             "description": "My first Video game job. Creating and running test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I also assisted with a Sizzle video and some conceptual design.",
@@ -710,7 +710,7 @@
                     "note": ""
                 }
             ],
-            "coverImage": "nerf2-01.jpg",
+            "coverImage": "nerf2-cover.jpg",
             "links": [
             ],
             "description": "Creating and running test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I also was able to work with Lead Art Director and assist with Enemy, Environment, Vehicle, and weapon, concepts for upcoming game.",
@@ -727,7 +727,7 @@
                     "note": ""
                 }
             ],
-            "coverImage": "monopolyStreets-01.jpg",
+            "coverImage": "monopolyStreets-cover.jpg",
             "links": [
             ],
             "description": "This game was release on Xbox 360, Playstation 3, and the Wii. I created and ran test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I did some Character concept sketches for new game sku.",
