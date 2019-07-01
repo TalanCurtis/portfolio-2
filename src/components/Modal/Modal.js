@@ -81,7 +81,7 @@ class Modal extends Component {
               <div className="title h2">
                 {this.props.modal.title}
               </div>
-              <XSVG className="x" size={20} onClick={this.handleCloseModal}/>
+              <XSVG className="x" size={20} fill="white" onClick={this.handleCloseModal}/>
               {this.tags()}
             </div>
             <div className="achievements">

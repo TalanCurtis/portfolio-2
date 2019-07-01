@@ -115,3 +115,33 @@
     color: white;
   }
 }
+
+@media (max-width: 568px) {
+  .Gallery {
+    .carousel {
+      .slider-box {
+        .slider {
+          .container {
+            // this needs to match the offset in the modal grid.
+            width: 55%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .Gallery {
+    .carousel {
+      .slider-box {
+        .slider {
+          .container {
+            // this needs to match the offset in the modal grid.
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
