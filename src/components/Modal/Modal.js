@@ -48,7 +48,7 @@ class Modal extends Component {
     })
 
     return (
-      <div className="tech">Tech: {string}</div>
+      <div className="tech">{string}</div>
     )
   }
 
