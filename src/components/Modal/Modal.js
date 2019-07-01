@@ -37,6 +37,20 @@ class Modal extends Component {
       x.pause(); 
     });
   }
+  tags = () => {
+    let string = "";
+    _.forEach(this.props.modal.tags, (tag, i)=>{
+      if( this.props.modal.tags.length === i + 1 ){
+        string = string.concat(`${tag}`)
+      } else {
+        string = string.concat(`${tag} | `)
+      }
+    })
+
+    return (
+      <div className="tech">Tech: {string}</div>
+    )
+  }
 
   render(){
     let links = _.map(this.props.modal.links, (x,i)=>{
@@ -52,32 +66,62 @@ class Modal extends Component {
       hasLinks = true;
     }
 
+    let achievements = _.map(this.props.modal.achievements, ((x,i)=>{
+      return(
+        <li key={i} className="h4">{x}</li>
+      )})
+    );
+    console.log(this.props)
+
+
     return(
         <div className="Modal" onClick={this.handleCloseModal}>
           <div className="content" onClick={this.handleContentClick}>
             <div className="header">
+              <div className="title h2">
+                {this.props.modal.title}
+              </div>
+              <XSVG className="x" size={20} onClick={this.handleCloseModal}/>
+              {this.tags()}
+            </div>
+            <div className="achievements">
+              <div className="container"> 
+                <div className="title h3">Achievements:</div>
+                <ol>{achievements}</ol>
+              </div>
+            </div>
+            <div className="body" style={{width:"100%" , height:"100%"}}>
+              <Gallery />
+            </div> 
+            {hasLinks? 
+                  <div className="link-container">
+                    <div className="title h4">Links:</div>
+                    {links}
+                  </div>
+                : null
+            }
+            {/* <div className="header">
               <div className="title h3">
                 {this.props.modal.title}
               </div>
               <XSVG className="x" size={20} onClick={this.handleCloseModal}/>
             </div>
-            <div className="footer">
+            <div className="achievements">
               <div className="container"> 
-                <div className="title h4">About this Project</div>
-                <div>{this.props.modal.description}</div>
-                {hasLinks? 
+                <div className="title h3">Achievements:</div>
+                <ol>{this.props.modal.achievements}</ol>
+              </div>
+            </div>
+            <div className="body" style={{width:"100%" , height:"100%"}}>
+              <Gallery />
+              {hasLinks? 
                   <div className="link-container">
                     <div className="title h4">Links:</div>
                     {links}
                   </div>
                 : null
                 }
-              </div>
-            </div>
-            <div className="body" style={{width:"100%" , height:"100%"}}>
-              <Gallery />
-            </div>
-
+            </div> */}
           </div>
         </div>
     )

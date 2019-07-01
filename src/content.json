@@ -25,7 +25,13 @@
             "links": [
             ],
             "description": "Paint Your Pixture: This was just a site challenge to match the css style requirements from an image.",
-            "tags": ["React", "CSS"]
+            "tags": ["React", "CSS"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":1,
@@ -48,7 +54,13 @@
             "links": [
             ],
             "description": "Akrasia: This was a personal project. Overall this is a site where you accept challenges and put money against yourself. Once you complete a challenge you receive awards but if you don’t you get charged the amount you wagered. Achievements: Allowing user to login using facebook Api. A friend system unique to the app. Credit card payment method using stripe. A window mechanic that will charge your account if you did not complete your challenge in time.",
-            "tags": ["React", "CSS", "Redux"]
+            "tags": ["React", "CSS", "Redux"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":2,
@@ -66,7 +78,13 @@
                 {"title": "github", "link": "https://github.com/TalanCurtis/o-captain"}
             ],
             "description": "OCaptain: This was a person project. An organizational site for teachers, allowing them to track students, assignments and grades. Achievements: Building a complex database with sql, and gaining a deeper understanding of relational databases.",
-            "tags": ["React", "CSS", "Redux"]
+            "tags": ["React", "CSS", "Redux"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":3,
@@ -229,7 +247,13 @@
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_3#Expansion_packs"}
             ],
             "description":"Sims 3: I take pride in working on a project that has more than ten million copies sold. I started as a 3d Artist and by the end of 3 years of continuous expansion packs I evolved into a technical artist. As I mentored under an amazing technical artist I expanded my skillset from Modeling and texturing to include Python Tool Creation, Pipeline Flow and Rigging for 3d animation. Here I made a Maya Modeling Toolset with custom tools, exporters. Sims was a well oiled machine. I learned project structures and naming conventions that can make any project run smooth.",
-            "tags": [ "Maya", "ZBrush", "Python", "C#"]
+            "tags": [ "Maya", "ZBrush", "Python", "C#"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":4,
@@ -248,7 +272,13 @@
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_4"}
             ],
             "description": "Sims 4: Working on Sims 3 it was only natural to move on to Sims 4. I continued on as a 3d and Technical Artist. Creating art asset and pipeline tools in python. I ended up getting flown out to EA Redwood Shores for 2 months to work on this project. I have no examples of my work on this project due to layoffs. I was not let go but our studio got cut off from the main server.",
-            "tags": [ "Maya", "ZBrush", "Python", "C#"]
+            "tags": [ "Maya", "ZBrush", "Python", "C#"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":5,
@@ -266,7 +296,13 @@
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_Mobile#External_links"}
             ],
             "description": "Sims Mobile: Sims Mobile was challenging to meet a visual quality with the restrictions of  being on mobile devices. Here I started exploring the Unity 3d Engine, really diving into the technical side of Development. Picking up C# and exploring  the inner workings of  game engine. Finding clever ways to develop textures and pushing visual quality while maintaining small footprints. Again due to sudden shifts from project to project I did not take snapshots of the assets I built. They were a variety of building , and assets. To name a few; Coffee Shop , Hospital and variety of furniture.",
-            "tags": ["Unity", "Maya", "Python", "C#"]
+            "tags": ["Unity", "Maya", "Python", "C#"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":10,
@@ -299,7 +335,13 @@
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_FreePlay"}
             ],
             "description": "Sims Freeplay: I flew out to Melbourne Australia for 2 Months to assist and learn how to develop games for mobile devices. Leaning the challenges and struggles that the Fire Monkeys Studio encounter. This was an amazing experience to work with such a talented studio is such a beautiful part of the world.",
-            "tags": ["Unity", "Maya", "Python", "C#"]
+            "tags": ["Unity", "Maya", "Python", "C#"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":6,
@@ -317,7 +359,13 @@
                 {"title": "HomePage", "link": "https://www.thevoid.com/"}
             ],
             "description": "Secrets of the Empire: Working with Disney studios to build an amazing Virtual Reality experience that is feature at DisneyLand and Disney World resorts is quite a badge of honor. Unfortunately most art was provided by Disney but that didn’t stop my tools from aiding artist. I wrote python tools to speed up process the get assets completed quickly and efficiently.",
-            "tags": ["Unreal 4", "Maya", "Substance", "ZBrush", "Python", "C#"]
+            "tags": ["Unreal 4", "Maya", "Substance", "ZBrush", "Python", "C#"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":7,
@@ -434,7 +482,13 @@
             "links": [
             ],
             "description": "Tropicana Tropolis: FWA Award winning site! I was hired for this project for my Art skills. Doing all the art and traditional frame by frame animation pushed this website over the top with lively interactable environments, and games with animated characters and vfx. On top of it all I ended up making around a 15 page coloring book for kids. This site was directed towards a new product that Tropicana was releasing. Unfortunately the product got discontinued and so did the site but still a site I am proud of.",
-            "tags": ["Flash"]
+            "tags": ["Flash"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":8,
@@ -587,7 +641,13 @@
                 {"title": "wiki", "link": "https://en.wikipedia.org/wiki/Minions_Paradise"}
             ],
             "description": "Minions Paradise: This Project I was able to let all my talents shine! I created the project folder structure, naming conventions and modeling pipeline from scratch. After developing the process from the ground up I made Tools to help with the process. Animation Exports, Character Exports, LightBaking tools and my big win was the Asset Exporter. This tool made it so artist could make an asset, put in the design specs (cost, number of minions, resource, etc). It would then export that asset and make it a playable game asset. Updating all the code for the store, playability. This in turn saved hundreds of hours of manpower saving the company over $150,000 a year.",
-            "tags": ["Unity", "Maya", "Photoshop", "ZBrush", "Python", "C#"]
+            "tags": ["Unity", "Maya", "Photoshop", "ZBrush", "Python", "C#"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":9,
@@ -610,7 +670,13 @@
                 {"title": "HomePage", "link": "https://www.thevoid.com/"}
             ],
             "description": "Ghost Busters: Working in Virtual Reality has it own sets of obstacles, But that didn’t stop me and a dedicated team to produce one of the best VR experiences to date. I helped with project structure as well as built python development tools for this project. Mainly I was in change of environment modeling and asset creation.",
-            "tags": ["Unity", "Maya", "Substance", "Photoshop", "ZBrush", "Python", "C#"]
+            "tags": ["Unity", "Maya", "Substance", "Photoshop", "ZBrush", "Python", "C#"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":10,
@@ -663,7 +729,13 @@
                 {"title": "HomePage", "link": "https://foundersportgroup.com/showroom/"}
             ],
             "description": "FSG Visualizer: I was a Software Engineer on this project. Though that was my title, on top of my coding React components and Managing Redux state, I did Mockups, UX design, and created all the icons for this App. Also worth noting my photoshop skills came in handy many times for quick turnarounds when images provided by Artist did not meet the coding requirements. My main patches of pride are the universal image component I made and the multi-tier filtering system.",
-            "tags": ["React", "CSS", "Redux"]
+            "tags": ["React", "CSS", "Redux"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":11,
@@ -680,7 +752,13 @@
             "links": [ 
             ],
             "description": "FSG Ultimate Builder: An athletic apparel customization tool. I touched every part of this site. I was in charge of  visual representation of the data on canvas and canvas interactions. Pretty much anything that deals with interacting with the Product, or images. I got to do tons of math and geometry to match scales, detect edges and resize entities. This was a super fun and challenging project.",
-            "tags": ["React", "CSS", "Redux"]
+            "tags": ["React", "CSS", "Redux"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":12,
@@ -697,7 +775,13 @@
             "links": [
             ],
             "description": "My first Video game job. Creating and running test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I also assisted with a Sizzle video and some conceptual design.",
-            "tags": ["React", "CSS", "Redux"]
+            "tags": ["React", "CSS", "Redux"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":13,
@@ -714,7 +798,13 @@
             "links": [
             ],
             "description": "Creating and running test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I also was able to work with Lead Art Director and assist with Enemy, Environment, Vehicle, and weapon, concepts for upcoming game.",
-            "tags": ["React", "CSS", "Redux"]
+            "tags": ["React", "CSS", "Redux"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         },
         {
             "id":14,
@@ -731,7 +821,13 @@
             "links": [
             ],
             "description": "This game was release on Xbox 360, Playstation 3, and the Wii. I created and ran test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I did some Character concept sketches for new game sku.",
-            "tags": ["React", "CSS", "Redux"]
+            "tags": ["React", "CSS", "Redux"],
+            "achievements": [
+                "bull hamsters are awesome",
+                "bull cheese is great",
+                "bull yorgurt tastes good",
+                "bull rams are an animal"
+            ]
         }
     ],
     "aboutCards":[
