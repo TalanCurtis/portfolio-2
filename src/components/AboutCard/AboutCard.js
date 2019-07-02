@@ -2,13 +2,14 @@ import React from 'react';
 import AnimatorSvg from '../../images/AnimatorSvg';
 import ArtistSvg from '../../images/ArtistSvg';
 import EngineerSvg from '../../images/EngineerSvg';
+import CogsSvg from '../../images/CogsSvg';
 
 
 const AboutCard = (props) => {
 
   const getIcon =()=>{
     switch (props.content.title) {
-      case "Engineer": return (<EngineerSvg size="50px" />);
+      case "Engineer": return (<CogsSvg size="50px" />);
       case "Artist": return (<ArtistSvg size="50px" />);
       case "Animator": return (<AnimatorSvg size="50px" />);
       default: return (<div>No Icon</div>  );

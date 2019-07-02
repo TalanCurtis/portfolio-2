@@ -111,3 +111,19 @@ hr {
   border-top: 2px solid black;
 }
 
+@keyframes cogsRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes cogsRotateNeg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
