@@ -15,14 +15,23 @@ const AboutCard = (props) => {
     }
   }
 
+  const cssPosition = () => {
+    let position = "top";
+    if (props.content.id === 1 ){
+      position = "bottom";
+    }
+    return position;
+  }
+
   return(
     <div className="AboutCard">
-      <div>
-        <div className=" h1 title" >{props.content.title}</div>
-        <div className="separator"></div>
-      </div>
-      {getIcon()}
-      <div className="description h4">{ props.content.description }</div>
+        <div className={`info ${cssPosition()}`}>
+          <div className=" h1 title" >{props.content.title}</div>
+          <div className="separator"></div>
+          {getIcon()}
+          <div className="description h4">{ props.content.description }</div>
+        </div>
+      <div className={`iconBox ${cssPosition()}`}>{getIcon()}</div>
     </div>
   )
 }

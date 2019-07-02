@@ -17,8 +17,9 @@
     font-family: $pt-sans-narrow;
     z-index: 100000;
   }
-  .nav {
+  .nav-container {
     display: flex;
     position: relative;
+    margin-right: 2%;
   }
 }
