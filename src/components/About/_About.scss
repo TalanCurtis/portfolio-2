@@ -6,7 +6,7 @@
   .me {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -35,9 +35,6 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 0px 20px;
     justify-content: space-around;
-    .AboutCard:nth-child(odd) {
-      // background: $greenAccent;
-    }
   }
 }
 

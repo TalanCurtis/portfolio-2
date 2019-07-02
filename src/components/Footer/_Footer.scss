@@ -1,6 +1,6 @@
 .Footer {
   background-color: $greyDark;
-  height: 60px;
+  height: 80px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -8,7 +8,11 @@
   img {
     height: 35px;
     width: 35px;
-    opacity: .30;
+    opacity: .7;
     margin: 5px;
+    transition: transform 1s;
+    &:hover{
+      transform: scale(1.2)
+    }
   }
 } 
