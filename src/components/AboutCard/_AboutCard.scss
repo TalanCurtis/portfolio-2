@@ -2,29 +2,6 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   padding: 0px 10px;
-  &:hover{
-    #cog1 {
-      transform-origin: 44px 41px;
-      animation-duration: 3s ;
-      animation-name: cogsRotate;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-    }
-   #cog2 {
-    transform-origin: 98.46px 68.256px;
-    animation-duration: 2s ;
-    animation-name: cogsRotateNeg;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-   }
-   #cog3 {
-    transform-origin: 67.677px 101.869px;
-    animation-duration: 2s ;
-    animation-name: cogsRotate;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-   }
-  }
 
   margin-bottom: 20px;
   .info {
