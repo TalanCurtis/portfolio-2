@@ -244,7 +244,7 @@
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_3#Expansion_packs"}
             ],
             "description":"This is a life simulation game with character customization and house building.",
-            "tags": [ "Maya", "ZBrush", "Photoshop", "Python", "C#"],
+            "tags": [ "Maya", "ZBrush", "Adobe CS", "Python", "C#"],
             "achievements": [
                 "I take pride in working on a game that has more then ten million copies sold.",
                 "Learned the power of project folder structure and naming conventions.",
@@ -269,7 +269,7 @@
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_4"}
             ],
             "description": "This is a life simulation game with character customization and house building.",
-            "tags": [ "Maya", "ZBrush", "Photoshop", "Python", "C#"],
+            "tags": [ "Maya", "ZBrush", "Adobe CS", "Python", "C#"],
             "achievements": [
                 "Made custom maya toolbar to add with modeling, rigging and exports",
                 "Got flown out to EA Headquarters to work on project for 2 months."
@@ -291,7 +291,7 @@
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_Mobile#External_links"}
             ],
             "description": "Sims game made for Mobile!",
-            "tags": ["Unity", "Maya", "Photoshop", "Python", "C#"],
+            "tags": ["Unity", "Maya", "Adobe CS", "Python", "C#"],
             "achievements": [
                 "Challenged to meet a visual quality with the restrictions of being on mobile devices.",
                 "Developed deeper understanding of the Unity 3d engine."
@@ -328,7 +328,7 @@
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_FreePlay"}
             ],
             "description": "Sims Mobiles predecessor.",
-            "tags": ["Unity", "Maya", "Photoshop", "Python", "C#"],
+            "tags": ["Unity", "Maya", "Adobe CS", "Python", "C#"],
             "achievements": [
                 "Flew out to Melbourne Australia for 2 Months to assist and learn how to develop games for mobile.",
                 "Challenged to meet a visual quality with the restrictions of being on mobile devices."
@@ -350,7 +350,7 @@
                 {"title": "HomePage", "link": "https://www.thevoid.com/"}
             ],
             "description": "A virtual reality experience made for Disney!",
-            "tags": ["Unreal 4", "Maya", "Substance", "Photoshop", "ZBrush", "Python", "C#"],
+            "tags": ["Unreal 4", "Maya", "Substance", "Adobe CS", "ZBrush", "Python", "C#"],
             "achievements": [
                 "Built edge normalizer tool to achieve smooth bevels with minimal geometry.",
                 "Created Story board and animatic for whole experience.",
@@ -473,7 +473,7 @@
             "links": [
             ],
             "description": "A flash site made for a new product that Tropicana was releasing.",
-            "tags": ["Flash", "Photoshop"],
+            "tags": ["Flash", "Adobe CS"],
             "achievements": [
                 "FWA Award winning site!",
                 "Tradition 2d animated characters and environments.",
@@ -632,7 +632,7 @@
                 {"title": "wiki", "link": "https://en.wikipedia.org/wiki/Minions_Paradise"}
             ],
             "description": "A mobile resource gathering game made at EA teamed up with Illumination studios.",
-            "tags": ["Unity", "Maya", "Photoshop", "ZBrush", "Python", "C#"],
+            "tags": ["Unity", "Maya", "Adobe CS", "ZBrush", "Python", "C#"],
             "achievements": [
                 "Invented a tool that saved company over $150,000 by reducing production time.",
                 "I created the project folder structure, naming conventions and modeling pipeline from scratch.",
@@ -661,7 +661,7 @@
                 {"title": "HomePage", "link": "https://www.thevoid.com/"}
             ],
             "description": "A Virtual Reality experience made at the Void.",
-            "tags": ["Unity", "Maya", "Substance", "Photoshop", "ZBrush", "Python", "C#"],
+            "tags": ["Unity", "Maya", "Substance", "Adobe CS", "ZBrush", "Python", "C#"],
             "achievements": [
                 "Small team great results! Proud to be on a small team and achieve something this big.",
                 "Learned limitations and how to work within restraints of Virtual Reality.",
@@ -720,7 +720,7 @@
                 {"title": "HomePage", "link": "https://foundersportgroup.com/showroom/"}
             ],
             "description": "A custom catalogue site to display and order athletic apparel.",
-            "tags": ["React", "CSS", "Redux", "Photoshop" ],
+            "tags": ["React", "CSS", "Redux", "Adobe CS", "PostgreSQL", "Nodejs" ],
             "achievements": [
                 "Made universal image component used on all pages. Leveraging reacts component based architecture.",
                 "Created the multi-tier filtering system to sort through over 2000 products.",
@@ -743,7 +743,7 @@
             "links": [ 
             ],
             "description": "An athletic apparel customization tool.",
-            "tags": ["React", "CSS", "Redux", "Photoshop"],
+            "tags": ["React", "CSS", "Redux", "Adobe CS", "PostgreSQL", "Nodejs"],
             "achievements": [
                 "I was in charge of visual representation of the data on canvas and canvas interactions.",
                 "Did tons of math and geometry to match scales, detect edges and resize entities.",
@@ -765,7 +765,7 @@
             "links": [
             ],
             "description": "A video game release on the wii.",
-            "tags": ["Photoshop", "Unity", "Unreal 4"],
+            "tags": ["Adobe CS", "Unity", "Unreal 4"],
             "achievements": [
                 "Assisted with a Sizzle video and some conceptual design.",
                 "Creating and running test cases",
@@ -788,7 +788,7 @@
             "links": [
             ],
             "description": "The Sequel to Nerf N-Strike release on Wii.",
-            "tags": ["Photoshop", "Unity", "Unreal 4"],
+            "tags": ["Adobe CS", "Unity", "Unreal 4"],
             "achievements": [
                 "Work with Art Director to make Enemy, Environment, Vehicle, and Weapon concepts.",
                 "Its not proven but I bet I still have the Highest score in the Blasting Chamber.",
@@ -811,7 +811,7 @@
             "links": [
             ],
             "description": "Monopoly the video game release on Xbox 360, Playstation 3, and the Wii",
-            "tags": ["Photoshop", "Unity", "Unreal 4"],
+            "tags": ["Adobe CS", "Unity", "Unreal 4"],
             "achievements": [
                 "Verified bug fixes and entering data into Dev Track.",
                 "I created and ran test cases.",
