@@ -61,10 +61,10 @@
           padding-left: 20px;
           list-style-type: decimal;
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
           justify-items: flex-start;
           li {
             margin: 1px;
+            text-align: left;
           }
         }   
       }

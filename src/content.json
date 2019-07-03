@@ -25,12 +25,12 @@
             "links": [
             ],
             "description": "Paint Your Pixture: This was just a site challenge to match the css style requirements from an image.",
-            "tags": ["React", "CSS"],
+            "tags": ["React", "CSS" ],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Made function site from static image within a given time frame.",
+                "Leaned some new css tricks. The corner fold.",
+                "Side bar fades on page scroll position.",
+                "Used gsap to make cool staggered animations and transitions."
             ]
         },
         {
