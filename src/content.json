@@ -660,13 +660,13 @@
             "links": [
                 {"title": "HomePage", "link": "https://www.thevoid.com/"}
             ],
-            "description": "Ghost Busters: Working in Virtual Reality has it own sets of obstacles, But that didn’t stop me and a dedicated team to produce one of the best VR experiences to date. I helped with project structure as well as built python development tools for this project. Mainly I was in change of environment modeling and asset creation.",
+            "description": "A Virtual Reality experience made at the Void.",
             "tags": ["Unity", "Maya", "Substance", "Photoshop", "ZBrush", "Python", "C#"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Small team great results! Proud to be on a small team and achieve something this big.",
+                "Learned limitations and how to work within restraints of Virtual Reality.",
+                "Built a skin-weight transferring tool, and mass obj exporter increasing productivity by 20%",
+                "Art skills used: Story Boarding, Concept Art, 3d Modeling and Animation."
             ]
         },
         {
@@ -719,13 +719,13 @@
             "links": [
                 {"title": "HomePage", "link": "https://foundersportgroup.com/showroom/"}
             ],
-            "description": "FSG Visualizer: I was a Software Engineer on this project. Though that was my title, on top of my coding React components and Managing Redux state, I did Mockups, UX design, and created all the icons for this App. Also worth noting my photoshop skills came in handy many times for quick turnarounds when images provided by Artist did not meet the coding requirements. My main patches of pride are the universal image component I made and the multi-tier filtering system.",
-            "tags": ["React", "CSS", "Redux"],
+            "description": "A custom catalogue site to display and order athletic apparel.",
+            "tags": ["React", "CSS", "Redux", "Photoshop" ],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Made universal image component used on all pages. Leveraging reacts component based architecture.",
+                "Created the multi-tier filtering system to sort through over 2000 products.",
+                "Set up a component based svg system to allow javascript to control svg's dynamically.",
+                "Even though I was a Software Engineer, I also got tasked with the UX Design and Mockups."
             ]
         },
         {
@@ -742,13 +742,12 @@
             "coverImage": "",
             "links": [ 
             ],
-            "description": "FSG Ultimate Builder: An athletic apparel customization tool. I touched every part of this site. I was in charge of  visual representation of the data on canvas and canvas interactions. Pretty much anything that deals with interacting with the Product, or images. I got to do tons of math and geometry to match scales, detect edges and resize entities. This was a super fun and challenging project.",
-            "tags": ["React", "CSS", "Redux"],
+            "description": "An athletic apparel customization tool.",
+            "tags": ["React", "CSS", "Redux", "Photoshop"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "I was in charge of visual representation of the data on canvas and canvas interactions.",
+                "Did tons of math and geometry to match scales, detect edges and resize entities.",
+                "Helped organize a giant yet powerful redux state."
             ]
         },
         {
@@ -765,13 +764,13 @@
             "coverImage": "nerf1-cover.jpg",
             "links": [
             ],
-            "description": "My first Video game job. Creating and running test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I also assisted with a Sizzle video and some conceptual design.",
-            "tags": ["React", "CSS", "Redux"],
+            "description": "A video game release on the wii.",
+            "tags": ["Photoshop", "Unity", "Unreal 4"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Assisted with a Sizzle video and some conceptual design.",
+                "Creating and running test cases",
+                "Verified bug fixes and entering data into Dev Track.",
+                "I created and ran test cases."
             ]
         },
         {
@@ -788,13 +787,13 @@
             "coverImage": "nerf2-cover.jpg",
             "links": [
             ],
-            "description": "Creating and running test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I also was able to work with Lead Art Director and assist with Enemy, Environment, Vehicle, and weapon, concepts for upcoming game.",
-            "tags": ["React", "CSS", "Redux"],
+            "description": "The Sequel to Nerf N-Strike release on Wii.",
+            "tags": ["Photoshop", "Unity", "Unreal 4"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Work with Art Director to make Enemy, Environment, Vehicle, and Weapon concepts.",
+                "Its not proven but I bet I still have the Highest score in the Blasting Chamber.",
+                "Verified bug fixes and entering data into Dev Track.",
+                "I created and ran test cases."
             ]
         },
         {
@@ -811,13 +810,12 @@
             "coverImage": "monopolyStreets-cover.jpg",
             "links": [
             ],
-            "description": "This game was release on Xbox 360, Playstation 3, and the Wii. I created and ran test cases, performing regression testing, verifying bug fixes and entering data into Dev Track. I did some Character concept sketches for new game sku.",
-            "tags": ["React", "CSS", "Redux"],
+            "description": "Monopoly the video game release on Xbox 360, Playstation 3, and the Wii",
+            "tags": ["Photoshop", "Unity", "Unreal 4"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Verified bug fixes and entering data into Dev Track.",
+                "I created and ran test cases.",
+                "Character concepts."
             ]
         }
     ],
