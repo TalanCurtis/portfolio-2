@@ -71,7 +71,6 @@ class Modal extends Component {
         <li key={i} className="h4">{x}</li>
       )})
     );
-    console.log(this.props)
 
 
     return(
