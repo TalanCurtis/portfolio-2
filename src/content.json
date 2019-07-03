@@ -24,11 +24,11 @@
             "coverImage": "PaintYourPixture_cover.JPG",
             "links": [
             ],
-            "description": "Paint Your Pixture: This was just a site challenge to match the css style requirements from an image.",
+            "description": "This was a site challenge to match the css style requirements from an image.",
             "tags": ["React", "CSS" ],
             "achievements": [
-                "Made function site from static image within a given time frame.",
-                "Leaned some new css tricks. The corner fold.",
+                "Made functional site from static image within a given time frame.",
+                "Leaned new css tricks. The corner fold.",
                 "Side bar fades on page scroll position.",
                 "Used gsap to make cool staggered animations and transitions."
             ]
@@ -53,13 +53,12 @@
             "coverImage": "akrasia-01.jpg",
             "links": [
             ],
-            "description": "Akrasia: This was a personal project. Overall this is a site where you accept challenges and put money against yourself. Once you complete a challenge you receive awards but if you don’t you get charged the amount you wagered. Achievements: Allowing user to login using facebook Api. A friend system unique to the app. Credit card payment method using stripe. A window mechanic that will charge your account if you did not complete your challenge in time.",
-            "tags": ["React", "CSS", "Redux"],
+            "description": "Users accepts challenges to push themselves outside of their box to achieve goals.",
+            "tags": ["React", "CSS", "Redux", "Nodejs", "PostgreSQL"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Created a time window using 'Momentjs' for completing, validating and closing challenges.",
+                "Made detailed wireframe to keep group in alignment while in development.",
+                "Contributed in team discussions to help forsee any issues and create solutions."
             ]
         },
         {
@@ -77,13 +76,11 @@
             "links": [
                 {"title": "github", "link": "https://github.com/TalanCurtis/o-captain"}
             ],
-            "description": "OCaptain: This was a person project. An organizational site for teachers, allowing them to track students, assignments and grades. Achievements: Building a complex database with sql, and gaining a deeper understanding of relational databases.",
+            "description": "An organizational site for teachers allowing them to track student assignments and grades.",
             "tags": ["React", "CSS", "Redux"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Combined multiple tables in PostgreSQL to retrieve large amounts of data through foreign keys.",
+                "Created in depth database furthering my understanding of relations databases"
             ]
         },
         {
@@ -246,13 +243,13 @@
             "links": [
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_3#Expansion_packs"}
             ],
-            "description":"Sims 3: I take pride in working on a project that has more than ten million copies sold. I started as a 3d Artist and by the end of 3 years of continuous expansion packs I evolved into a technical artist. As I mentored under an amazing technical artist I expanded my skillset from Modeling and texturing to include Python Tool Creation, Pipeline Flow and Rigging for 3d animation. Here I made a Maya Modeling Toolset with custom tools, exporters. Sims was a well oiled machine. I learned project structures and naming conventions that can make any project run smooth.",
-            "tags": [ "Maya", "ZBrush", "Python", "C#"],
+            "description":"This is a life simulation game with character customization and house building.",
+            "tags": [ "Maya", "ZBrush", "Photoshop", "Python", "C#"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "I take pride in working on a game that has more then ten million copies sold.",
+                "Learned the power of project folder structure and naming conventions.",
+                "Created modular system for to work grid based custom home builder.",
+                "Presented to over 100 coworkers monthly, on teams achievements and progress."
             ]
         },
         {
@@ -271,13 +268,11 @@
                 {"title": "Site", "link": "https://www.ea.com/games/the-sims/the-sims-4"},
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_4"}
             ],
-            "description": "Sims 4: Working on Sims 3 it was only natural to move on to Sims 4. I continued on as a 3d and Technical Artist. Creating art asset and pipeline tools in python. I ended up getting flown out to EA Redwood Shores for 2 months to work on this project. I have no examples of my work on this project due to layoffs. I was not let go but our studio got cut off from the main server.",
-            "tags": [ "Maya", "ZBrush", "Python", "C#"],
+            "description": "This is a life simulation game with character customization and house building.",
+            "tags": [ "Maya", "ZBrush", "Photoshop", "Python", "C#"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Made custom maya toolbar to add with modeling, rigging and exports",
+                "Got flown out to EA Headquarters to work on project for 2 months."
             ]
         },
         {
@@ -295,13 +290,11 @@
             "links": [
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_Mobile#External_links"}
             ],
-            "description": "Sims Mobile: Sims Mobile was challenging to meet a visual quality with the restrictions of  being on mobile devices. Here I started exploring the Unity 3d Engine, really diving into the technical side of Development. Picking up C# and exploring  the inner workings of  game engine. Finding clever ways to develop textures and pushing visual quality while maintaining small footprints. Again due to sudden shifts from project to project I did not take snapshots of the assets I built. They were a variety of building , and assets. To name a few; Coffee Shop , Hospital and variety of furniture.",
-            "tags": ["Unity", "Maya", "Python", "C#"],
+            "description": "Sims game made for Mobile!",
+            "tags": ["Unity", "Maya", "Photoshop", "Python", "C#"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Challenged to meet a visual quality with the restrictions of being on mobile devices.",
+                "Developed deeper understanding of the Unity 3d engine."
             ]
         },
         {
@@ -334,13 +327,11 @@
             "links": [
                 {"title": "Wiki", "link": "https://en.wikipedia.org/wiki/The_Sims_FreePlay"}
             ],
-            "description": "Sims Freeplay: I flew out to Melbourne Australia for 2 Months to assist and learn how to develop games for mobile devices. Leaning the challenges and struggles that the Fire Monkeys Studio encounter. This was an amazing experience to work with such a talented studio is such a beautiful part of the world.",
-            "tags": ["Unity", "Maya", "Python", "C#"],
+            "description": "Sims Mobiles predecessor.",
+            "tags": ["Unity", "Maya", "Photoshop", "Python", "C#"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Flew out to Melbourne Australia for 2 Months to assist and learn how to develop games for mobile.",
+                "Challenged to meet a visual quality with the restrictions of being on mobile devices."
             ]
         },
         {
@@ -358,13 +349,13 @@
             "links": [
                 {"title": "HomePage", "link": "https://www.thevoid.com/"}
             ],
-            "description": "Secrets of the Empire: Working with Disney studios to build an amazing Virtual Reality experience that is feature at DisneyLand and Disney World resorts is quite a badge of honor. Unfortunately most art was provided by Disney but that didn’t stop my tools from aiding artist. I wrote python tools to speed up process the get assets completed quickly and efficiently.",
-            "tags": ["Unreal 4", "Maya", "Substance", "ZBrush", "Python", "C#"],
+            "description": "A virtual reality experience made for Disney!",
+            "tags": ["Unreal 4", "Maya", "Substance", "Photoshop", "ZBrush", "Python", "C#"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Built edge normalizer tool to achieve smooth bevels with minimal geometry.",
+                "Created Story board and animatic for whole experience.",
+                "Featured at DisneyLand and Disney World resorts is quite a badge of honor.",
+                "Getting to work with Disney and Star Wars!"
             ]
         },
         {
@@ -481,13 +472,13 @@
             "coverImage": "tropolis-cover.jpg",
             "links": [
             ],
-            "description": "Tropicana Tropolis: FWA Award winning site! I was hired for this project for my Art skills. Doing all the art and traditional frame by frame animation pushed this website over the top with lively interactable environments, and games with animated characters and vfx. On top of it all I ended up making around a 15 page coloring book for kids. This site was directed towards a new product that Tropicana was releasing. Unfortunately the product got discontinued and so did the site but still a site I am proud of.",
-            "tags": ["Flash"],
+            "description": "A flash site made for a new product that Tropicana was releasing.",
+            "tags": ["Flash", "Photoshop"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "FWA Award winning site!",
+                "Tradition 2d animated characters and environments.",
+                "Made over a dozen coloring book pages for downloadable content.",
+                "I was the only artist on the team."
             ]
         },
         {
@@ -640,13 +631,13 @@
             "links": [
                 {"title": "wiki", "link": "https://en.wikipedia.org/wiki/Minions_Paradise"}
             ],
-            "description": "Minions Paradise: This Project I was able to let all my talents shine! I created the project folder structure, naming conventions and modeling pipeline from scratch. After developing the process from the ground up I made Tools to help with the process. Animation Exports, Character Exports, LightBaking tools and my big win was the Asset Exporter. This tool made it so artist could make an asset, put in the design specs (cost, number of minions, resource, etc). It would then export that asset and make it a playable game asset. Updating all the code for the store, playability. This in turn saved hundreds of hours of manpower saving the company over $150,000 a year.",
+            "description": "A mobile resource gathering game made at EA teamed up with Illumination studios.",
             "tags": ["Unity", "Maya", "Photoshop", "ZBrush", "Python", "C#"],
             "achievements": [
-                "bull hamsters are awesome",
-                "bull cheese is great",
-                "bull yorgurt tastes good",
-                "bull rams are an animal"
+                "Invented a tool that saved company over $150,000 by reducing production time.",
+                "I created the project folder structure, naming conventions and modeling pipeline from scratch.",
+                "Made customMaya tools in Python  tools for Animation, Modeling, LightBaking and exports.",
+                "In charge of the design doc organization, keeping a team over 60 all on the same page."
             ]
         },
         {

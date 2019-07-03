@@ -70,7 +70,7 @@ class Gallery extends Component {
               <div className="container">
                 <div className="description">
                   <div className="title h3">{x.title}</div>
-                  <div className="note">{x.note}</div>
+                  <div className="note h4">{x.note}</div>
                 </div>
                 <div className="image-container">
                   <img src={`./images/projects/${this.props.modal.directory}/${x.content}`} alt={x}/>
@@ -84,7 +84,7 @@ class Gallery extends Component {
               <div className="container">
                 <div className="description">
                   <div className="title h3">{x.title}</div>
-                  <div className="note">{x.note}</div>
+                  <div className="note h4">{x.note}</div>
                 </div>
                 <div className="image-container">
                    <video className="loadedVideo" controls >
@@ -100,7 +100,7 @@ class Gallery extends Component {
               <div className="container">
                 <div className="description">
                   <div className="title h3">{x.title}</div>
-                  <div className="note">{x.note}</div>
+                  <div className="note h4">{x.note}</div>
                 </div>
                 <div className="image-container">
                   <div className="youtube-container">

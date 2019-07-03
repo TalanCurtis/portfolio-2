@@ -82,6 +82,7 @@ class Modal extends Component {
                 {this.props.modal.title}
               </div>
               <XSVG className="x" size={20} fill="white" onClick={this.handleCloseModal}/>
+              <div className="description">{this.props.modal.description}</div>
               {this.tags()}
             </div>
             <div className="achievements">
@@ -100,28 +101,6 @@ class Modal extends Component {
                   </div>
                 : null
             }
-            {/* <div className="header">
-              <div className="title h3">
-                {this.props.modal.title}
-              </div>
-              <XSVG className="x" size={20} onClick={this.handleCloseModal}/>
-            </div>
-            <div className="achievements">
-              <div className="container"> 
-                <div className="title h3">Achievements:</div>
-                <ol>{this.props.modal.achievements}</ol>
-              </div>
-            </div>
-            <div className="body" style={{width:"100%" , height:"100%"}}>
-              <Gallery />
-              {hasLinks? 
-                  <div className="link-container">
-                    <div className="title h4">Links:</div>
-                    {links}
-                  </div>
-                : null
-                }
-            </div> */}
           </div>
         </div>
     )
