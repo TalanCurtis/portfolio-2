@@ -26,9 +26,9 @@ class HeaderNav extends Component{
     this.state.sections.forEach(section => {
       let elem = document.getElementById(section);
       let offset = elem.offsetTop - 100 ;
-      if ( documentHeight === scrollPosition + windowHeight){
+      if ( documentHeight - 20 <= scrollPosition + windowHeight){
         // scroll has hit bottom
-        this.setState({activeButton: section});
+        this.setState({activeButton: "Contact"});
       } else if( scrollPosition > offset ){
         this.setState({activeButton: section});
       }
