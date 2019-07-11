@@ -52,8 +52,16 @@
       opacity: 0;
     }
     .button-container-mobile {
+      margin-right: -14px;
       display: flex;
       flex-direction: column;
+      padding: 0px;
+      div {
+        button {
+          width: 100%;
+          margin: 5px 0px;
+        }
+      }
     }
     .cover{
       background-color: $greyDark;
