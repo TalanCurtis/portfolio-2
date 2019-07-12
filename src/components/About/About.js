@@ -11,14 +11,11 @@ const About = () => {
       )
   })
 
-  // TODO: get svg icons for Engineer , artist, animator.
-  // TODO: Update Picture
-  // TODO: Fill in content.
   return (
     <div className = "About" id="About">
       <SectionHeader title="About"/>
         <div className="me">
-          <img src="./images/assets/Alan_01.jpg" alt="profile"/>
+          <img src="./images/assets/Alan_01.JPG" alt="profile"/>
           <div className="text">
             <div className="h2 title"> Hello, I am Alan. </div>
             <div className="h5 subtitle">Web Developer | Technical Artist</div>
