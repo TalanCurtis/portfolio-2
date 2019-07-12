@@ -21,7 +21,7 @@
                     "note": ""
                 }
             ],
-            "coverImage": "PaintYourPixture_cover.JPG",
+            "coverImage": "PaintYourPixture_cover.jpg",
             "links": [
             ],
             "description": "This was a site challenge to match the css style requirements from an image.",
@@ -72,7 +72,7 @@
                     "note": ""
                 }
             ],
-            "coverImage": "OCaptain.JPG",
+            "coverImage": "OCaptain.jpg",
             "links": [
                 {"title": "github", "link": "https://github.com/TalanCurtis/o-captain"}
             ],
@@ -734,7 +734,7 @@
             "directory":"fsgUltimateBuilder",
             "contentImages": [
                 {
-                    "content":"OCaptain.JPG",
+                    "content":"OCaptain.jpg",
                     "title": "",
                     "note": ""
                 }
