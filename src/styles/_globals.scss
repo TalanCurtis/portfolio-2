@@ -72,6 +72,12 @@ button {
     color: white;
     cursor: pointer;
   }
+  &.disabled {
+    background-color: rgb(141, 141, 141);
+    transform: scale(1);
+    color: rgb(83, 83, 83);
+    cursor: default;
+  }
 }
 
 .nav {
