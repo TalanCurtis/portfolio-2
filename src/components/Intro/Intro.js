@@ -16,7 +16,6 @@ class Intro extends Component {
   } 
 
   componentDidMount(){
-    // this.tl
     this.tl.from(this.iam, 1.5, { opacity: 0 , x: "-100%", ease: Power4.easeOut }, .8);
     this.tl.from(this.name, 1.5, {opacity: 0 , x: "+100%" , ease: Power4.easeOut}, 1.2);
     this.tl.from(this.sub, 0.5, {opacity: 0, y:"-50%", ease: Bounce.easeOut}, 2.7);
