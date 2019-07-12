@@ -22,7 +22,6 @@ app.use(bodyParser.json())
 
 app.post('/api/email', (req, res)=>{
   const {name, email, message} = req.body
-  console.log('iran', name, email, message,EMAIL, EMAIL_PASSWORD)
 
   const mailOptions = {
     from: EMAIL,
