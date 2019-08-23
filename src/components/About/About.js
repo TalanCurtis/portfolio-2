@@ -21,7 +21,7 @@ const About = () => {
             <div className="h5 subtitle">Web Developer | Technical Artist</div>
             <div className="separator"></div>
             <p className="h4 info">
-              I love board games, video games, hiking, playing sports, my family and life in general. I am an upbeat optimist that enjoys a good challenge. With being well organized I feel like a day of planning saves a week of coding. I approach all my jobs and tasks with clarity and a well thought out approach. With a strong ability to foresee issues before they arise, I build stable, versatile and tested code.
+              I love board games, video games, hiking, playing sports, my family and life in general. I am an upbeat optimist that enjoys a good challenge. With being well organized I feel like a day of planning saves a week of coding. I approach all my tasks with clarity and a well thought out approach. With a strong ability to foresee issues before they arise, I build stable, versatile and tested code.
             </p>
           </div>
         </div>
