@@ -2,6 +2,7 @@
     "projects":[
         {
             "id":0,
+            "priority": 11,
             "title": "Paint Your Pixture",
             "directory":"PaintYourPixture",
             "contentImages": [
@@ -35,6 +36,7 @@
         },
         {
             "id":1,
+            "priority": 16,
             "title": "Akrasia",
             "directory":"Akrasia",
             "contentImages": [
@@ -63,6 +65,7 @@
         },
         {
             "id":2,
+            "priority": 15,
             "title": "O Captain",
             "directory":"OCaptain",
             "contentImages": [
@@ -85,6 +88,7 @@
         },
         {
             "id":3,
+            "priority": 4,
             "title": "Sims 3 & Exp Packs",
             "directory":"Sims3",
             "contentImages": [
@@ -254,6 +258,7 @@
         },
         {
             "id":4,
+            "priority": 3,
             "title": "Sims 4",
             "directory":"Sims4",
             "contentImages": [
@@ -277,6 +282,7 @@
         },
         {
             "id":5,
+            "priority": 7,
             "title": "Sims Mobile",
             "directory":"SimsMobile",
             "contentImages": [
@@ -299,6 +305,7 @@
         },
         {
             "id":10,
+            "priority": 6,
             "title": "Sims Freeplay",
             "directory":"SimsFreeplay",
             "contentImages": [
@@ -336,6 +343,7 @@
         },
         {
             "id":6,
+            "priority": 1,
             "title": "Star Wars: SOTE",
             "directory":"StarWarsSecretsOfTheEmpire",
             "contentImages": [
@@ -360,6 +368,7 @@
         },
         {
             "id":7,
+            "priority": 10,
             "title": "Tropicana Tropolis",
             "directory":"TropicanaTropolis",
             "contentImages": [
@@ -483,6 +492,7 @@
         },
         {
             "id":8,
+            "priority": 5,
             "title": "Minions Paradise",
             "directory":"MinionsParadise",
             "contentImages": [
@@ -642,6 +652,7 @@
         },
         {
             "id":9,
+            "priority": 2,
             "title": "Ghost Busters",
             "directory":"GhostBusters",
             "contentImages": [
@@ -671,6 +682,7 @@
         },
         {
             "id":10,
+            "priority": 8,
             "title": "FSG Visualizer",
             "directory":"fsgVisualizer",
             "contentImages": [
@@ -730,6 +742,7 @@
         },
         {
             "id":11,
+            "priority": 9,
             "title": "FSG UltimateBuilder",
             "directory":"fsgUltimateBuilder",
             "contentImages": [
@@ -752,6 +765,7 @@
         },
         {
             "id":12,
+            "priority": 13,
             "title": "Nerf N-Strike",
             "directory":"nerf1",
             "contentImages": [
@@ -775,6 +789,7 @@
         },
         {
             "id":13,
+            "priority": 14,
             "title": "Nerf 2",
             "directory":"nerf2",
             "contentImages": [
@@ -798,6 +813,7 @@
         },
         {
             "id":14,
+            "priority": 11,
             "title": "Monopoly Streets",
             "directory":"monopolyStreets",
             "contentImages": [

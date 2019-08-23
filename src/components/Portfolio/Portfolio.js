@@ -10,7 +10,7 @@ class Portfolio extends Component {
   constructor(props){
     super(props);
     this.state = {
-      filteredProjects: _.cloneDeep(content.projects),
+      filteredProjects: _.sortBy(_.cloneDeep(content.projects), [(project)=>{return project.priority}]),
       filters:[]
     }
   }
@@ -39,6 +39,7 @@ class Portfolio extends Component {
     if(_.isEmpty(filters)){
       newFilteredProjects = content.projects;
     }
+    newFilteredProjects = _.sortBy( newFilteredProjects , [(project)=>{return project.priority}]);
     this.setState({filters, filteredProjects: newFilteredProjects});
     this.animateCardContainer();
   }
