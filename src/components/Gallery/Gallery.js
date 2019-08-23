@@ -114,6 +114,7 @@ class Gallery extends Component {
       }
     });
 
+    let showArrows = this.props.modal.contentImages.length > 1;
 
     return (
       <div className = "Gallery">
@@ -122,9 +123,9 @@ class Gallery extends Component {
             {images}
           </div>
         </div>
-        <ArrowLeftSVG className="left" fill="white" onClick={this.handleLeft} />
+        {showArrows ? <ArrowLeftSVG className="left" fill="white" onClick={this.handleLeft} /> :  null}
         <div className="tick-container" >  {`${this.state.index + 1} of ${this.props.modal.contentImages.length}`}</div>
-        <ArrowRightSVG className="right" fill="white" onClick={this.handleRight} />
+        {showArrows ? <ArrowRightSVG className="right" fill="white" onClick={this.handleRight} /> :  null}
       </div>
     )
   }
