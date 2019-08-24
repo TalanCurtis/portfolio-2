@@ -7,13 +7,6 @@
   grid-template-rows: 1fr 30px;
   justify-content: center;
   align-items: center;
-  svg{
-    transition: transform .5s, fill .5s ;
-    &:hover{
-      transform: scale(1.2);
-      fill: $success;
-    }
-  }
   .carousel {
     width: 100%;
     height: 100%;
@@ -105,6 +98,11 @@
     justify-self: center;
     align-self: center;
     z-index: 10000;
+    transition: transform .5s, fill .5s ;
+    &:hover{
+      transform: scale(-1.2);
+      fill: $success;
+    }
   }
   .right {
     grid-column: 3;
@@ -112,6 +110,11 @@
     justify-self: center;
     align-self: center;
     z-index: 10000;
+    transition: transform .5s, fill .5s ;
+    &:hover{
+      transform: scale(1.2);
+      fill: $success;
+    }
   }
   .tick-container {
     grid-column: 1 / -1;
