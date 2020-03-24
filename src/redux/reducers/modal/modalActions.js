@@ -13,6 +13,18 @@ export function showModal(bool, modalObj) {
     let tl = new TimelineLite();
     tl.to(".Modal", .25 , {opacity: 0})
     tl.to(".Modal", 0 , {display:'none'})
+    modalObj = {
+      showModal: false,
+      id:0,
+      title: "",
+      directory:"",
+      contentImages: [""],
+      coverImage: "",
+      links: [
+      ],
+      description: "",
+      tags: [""]
+    };
   }
 
   const payload = {showModal: bool, ...modalObj }
