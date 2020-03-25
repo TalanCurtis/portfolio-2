@@ -53,9 +53,10 @@ class HeaderNav extends Component{
 
   handleNavSelected=(e)=>{
     let section = e.target.value
-    this.setState({activeButton: section})
+    this.setState({activeButton: section, isOpen:false})
     let elem = document.getElementById(section);
     this.scrollToMyRef(elem);
+    this.handleMenu();
   }
 
   scrollToMyRef = (elem) => {
