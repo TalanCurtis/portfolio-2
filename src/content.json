@@ -779,6 +779,7 @@
             ],
             "coverImage": "fsgUltimateBuilder_01.jpg",
             "links": [ 
+                {"title": "LiveSite", "link": "https://www.foundersport.com/configure/?SKU=412000"}
             ],
             "description": "An athletic apparel customization tool.",
             "tags": ["React", "CSS", "Redux", "Adobe CS", "PostgreSQL", "Nodejs"],
