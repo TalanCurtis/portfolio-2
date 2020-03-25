@@ -1,10 +1,8 @@
 .App {
-  width: 100%;
-  background-color: $greyLight;
   .grid-container {
     margin-top: -2px;
     background-color: $white;
-    width: 100%; 
+    width: 100vw; 
     max-width: 1200px;
     display : grid;
   }

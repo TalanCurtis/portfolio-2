@@ -1,5 +1,5 @@
 .Contact {
-  width: 100%;
+  width: 100vw;
   margin-bottom: 100px;
   overflow: hidden;
   .container{
@@ -21,6 +21,7 @@
       grid-template-columns: 1fr 1fr;
       grid-gap: 5px;
       .name {
+        margin: 5px;
         grid-row: 1;
         label{
           margin: 10px;
@@ -28,14 +29,18 @@
       }
       .email {
         grid-row: 1;
+        margin: 5px;
+        padding: 5px;
         label{
           margin: 10px;
         }
       }
       .message {
+        margin: 10px;
         grid-column: 1 / -1;
         grid-row: 2;
         .message{
+          margin: 5px;
           width: 98%;
           resize: none;
         }

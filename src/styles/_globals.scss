@@ -14,13 +14,17 @@ html {
 body {
   font-size: 14px;
   font-family: $pt-sans;
+  width: 100vw;
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100px;
+  background-color: red;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  // width: 100px;
 }
 
 .separator{
