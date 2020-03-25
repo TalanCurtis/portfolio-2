@@ -745,14 +745,39 @@
             "priority": 9,
             "title": "FSG UltimateBuilder",
             "directory":"fsgUltimateBuilder",
-            "contentImages": [
+            "contentImages": [         
                 {
-                    "content":"wip.jpg",
-                    "title": "",
+                    "content":"https://www.youtube.com/embed/v_7VDm1LEqY",
+                    "title": "Video Walkthrough",
                     "note": ""
+                },
+                {
+                    "content":"fsgUltimateBuilder_01.jpg",
+                    "title": "Product Colors",
+                    "note": ""
+                },
+                {
+                    "content":"fsgUltimateBuilder_02.jpg",
+                    "title": "Add Text",
+                    "note": "Add Text, change fonts, sizes, styles, position, rotation."
+                },
+                {
+                    "content":"fsgUltimateBuilder_03.jpg",
+                    "title": "Upload your Art",
+                    "note": ""
+                },
+                {
+                    "content":"fsgUltimateBuilder_04.jpg",
+                    "title": "Roster",
+                    "note": ""
+                },
+                {
+                    "content":"fsgUltimateBuilder_05.jpg",
+                    "title": "Modal",
+                    "note": "this modal handles swap, replace, and save with previews of what is changing"
                 }
             ],
-            "coverImage": "wip.jpg",
+            "coverImage": "fsgUltimateBuilder_01.jpg",
             "links": [ 
             ],
             "description": "An athletic apparel customization tool.",
